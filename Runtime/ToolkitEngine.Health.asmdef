@@ -1,0 +1,16 @@
+{
+    "name": "ToolkitEngine.Health",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

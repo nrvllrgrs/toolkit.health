@@ -1,0 +1,20 @@
+{
+    "name": "ToolkitEditor.Health",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
+        "GUID:4f6675837be5f1d45a32fb1920bd0217",
+        "GUID:ae287669d5b133249a3598ed14cf995e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
