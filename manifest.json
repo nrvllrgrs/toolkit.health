@@ -1,0 +1,737 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nrvllrgrs.github.io/toolkit.health/"
+  },
+  "source_base_path": "/home/runner/work/toolkit.health/toolkit.health/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.ArmorCompositeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.ArmorCompositeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.ArmorGroupDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.ArmorGroupDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.ArmorGroupTreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.ArmorGroupTreeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.DamageDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.DamageDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.ExplosionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.ExplosionEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.HealthCompositeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.HealthCompositeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.HealthEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.HealthEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.HealthGroupTreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.HealthGroupTreeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.HealthLayersEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.HealthLayersEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.ImpactDamageDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.ImpactDamageDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.SplashDamageDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.SplashDamageDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.VulnerabilityDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.VulnerabilityDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AI.Tasks.HasTakenDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AI.Tasks.HasTakenDamage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AI.Tasks.HealthPercent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AI.Tasks.HealthPercent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AI.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AI.Tasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Armor.Vulnerability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Armor.Vulnerability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Armor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Armor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ArmorComposite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ArmorComposite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ArmorLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ArmorLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Damage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Damage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.DamageHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.DamageHit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.DamageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Explosion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Explosion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Health.DamageCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Health.DamageCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Health.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthComposite.GroupAssignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthComposite.GroupAssignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthComposite.HealthGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthComposite.HealthGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthComposite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthComposite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthLayers.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthLayers.Layer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IDamageReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IDamageReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IHealth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IHealthModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IHealthModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IHealthRegeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IHealthRegeneration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ImpactDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ImpactDamage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.SplashDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.SplashDamage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.EventHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

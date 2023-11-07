@@ -1,0 +1,332 @@
+{
+  "api/ToolkitEditor.Health.ArmorCompositeEditor.html": {
+    "href": "api/ToolkitEditor.Health.ArmorCompositeEditor.html",
+    "title": "Class ArmorCompositeEditor | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorCompositeEditor Namespace ToolkitEditor.Health public class ArmorCompositeEditor : Editor Inheritance object ArmorCompositeEditor Fields m_armorComposite protected ArmorComposite m_armorComposite Field Value ArmorComposite m_groupAssignments protected SerializedProperty m_groupAssignments Field Value SerializedProperty m_groups protected SerializedProperty m_groups Field Value SerializedProperty m_treeView protected ArmorGroupTreeView m_treeView Field Value ArmorGroupTreeView m_visualize protected SerializedProperty m_visualize Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Health.ArmorGroupDrawer.html": {
+    "href": "api/ToolkitEditor.Health.ArmorGroupDrawer.html",
+    "title": "Class ArmorGroupDrawer | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorGroupDrawer Namespace ToolkitEditor.Health public class ArmorGroupDrawer : PropertyDrawer Inheritance object ArmorGroupDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Health.ArmorGroupTreeView.html": {
+    "href": "api/ToolkitEditor.Health.ArmorGroupTreeView.html",
+    "title": "Class ArmorGroupTreeView | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorGroupTreeView Namespace ToolkitEditor.Health public class ArmorGroupTreeView : TreeView Inheritance object ArmorGroupTreeView Constructors ArmorGroupTreeView(TreeViewState, MultiColumnHeader, ArmorComposite) public ArmorGroupTreeView(TreeViewState state, MultiColumnHeader multiColumnHeader, ArmorComposite model) Parameters state TreeViewState multiColumnHeader MultiColumnHeader model ArmorComposite Methods BuildRoot() protected override TreeViewItem BuildRoot() Returns TreeViewItem RowGUI(RowGUIArgs) protected override void RowGUI(RowGUIArgs args) Parameters args RowGUIArgs TreeToList(TreeViewItem, IList<TreeViewItem>) public static void TreeToList(TreeViewItem root, IList<TreeViewItem> result) Parameters root TreeViewItem result IList<TreeViewItem> TryGetGameObject(TreeViewItem, out GameObject) public bool TryGetGameObject(TreeViewItem treeViewItem, out GameObject obj) Parameters treeViewItem TreeViewItem obj GameObject Returns bool"
+  },
+  "api/ToolkitEditor.Health.DamageDrawer.html": {
+    "href": "api/ToolkitEditor.Health.DamageDrawer.html",
+    "title": "Class DamageDrawer | Health Toolkit | 1.0.0",
+    "keywords": "Class DamageDrawer Namespace ToolkitEditor.Health public class DamageDrawer : PropertyDrawer Inheritance object DamageDrawer Derived ImpactDamageDrawer SplashDamageDrawer Methods DrawProperties(ref Rect, SerializedProperty) protected virtual void DrawProperties(ref Rect position, SerializedProperty property) Parameters position Rect property SerializedProperty GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Health.ExplosionEditor.html": {
+    "href": "api/ToolkitEditor.Health.ExplosionEditor.html",
+    "title": "Class ExplosionEditor | Health Toolkit | 1.0.0",
+    "keywords": "Class ExplosionEditor Namespace ToolkitEditor.Health public class ExplosionEditor : BaseToolkitEditor Inheritance object ExplosionEditor Fields m_damage protected SerializedProperty m_damage Field Value SerializedProperty m_onDetonated protected SerializedProperty m_onDetonated Field Value SerializedProperty m_spawner protected SerializedProperty m_spawner Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Health.HealthCompositeEditor.html": {
+    "href": "api/ToolkitEditor.Health.HealthCompositeEditor.html",
+    "title": "Class HealthCompositeEditor | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthCompositeEditor Namespace ToolkitEditor.Health public class HealthCompositeEditor : Editor Inheritance object HealthCompositeEditor Fields m_groupAssignments protected SerializedProperty m_groupAssignments Field Value SerializedProperty m_groups protected SerializedProperty m_groups Field Value SerializedProperty m_healthComposite protected HealthComposite m_healthComposite Field Value HealthComposite m_treeView protected HealthGroupTreeView m_treeView Field Value HealthGroupTreeView m_visualize protected SerializedProperty m_visualize Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Health.HealthEditor.html": {
+    "href": "api/ToolkitEditor.Health.HealthEditor.html",
+    "title": "Class HealthEditor | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthEditor Namespace ToolkitEditor.Health public class HealthEditor : Editor Inheritance object HealthEditor Fields m_canRegenerate protected SerializedProperty m_canRegenerate Field Value SerializedProperty m_canRegenerateDead protected SerializedProperty m_canRegenerateDead Field Value SerializedProperty m_degenerateDelay protected SerializedProperty m_degenerateDelay Field Value SerializedProperty m_health protected Health m_health Field Value Health m_invulnerabilityTime protected SerializedProperty m_invulnerabilityTime Field Value SerializedProperty m_maxValue protected SerializedProperty m_maxValue Field Value SerializedProperty m_onDamaged protected SerializedProperty m_onDamaged Field Value SerializedProperty m_onDied protected SerializedProperty m_onDied Field Value SerializedProperty m_onDying protected SerializedProperty m_onDying Field Value SerializedProperty m_onHealed protected SerializedProperty m_onHealed Field Value SerializedProperty m_onRegenerationChanged protected SerializedProperty m_onRegenerationChanged Field Value SerializedProperty m_onResurrected protected SerializedProperty m_onResurrected Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_onValueChanging protected SerializedProperty m_onValueChanging Field Value SerializedProperty m_rates protected SerializedProperty m_rates Field Value SerializedProperty m_regenerateDelay protected SerializedProperty m_regenerateDelay Field Value SerializedProperty m_startInvulnerable protected SerializedProperty m_startInvulnerable Field Value SerializedProperty m_value protected SerializedProperty m_value Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Health.HealthGroupTreeView.html": {
+    "href": "api/ToolkitEditor.Health.HealthGroupTreeView.html",
+    "title": "Class HealthGroupTreeView | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthGroupTreeView Namespace ToolkitEditor.Health public class HealthGroupTreeView : TreeView Inheritance object HealthGroupTreeView Constructors HealthGroupTreeView(TreeViewState, MultiColumnHeader, HealthComposite) public HealthGroupTreeView(TreeViewState state, MultiColumnHeader multiColumnHeader, HealthComposite model) Parameters state TreeViewState multiColumnHeader MultiColumnHeader model HealthComposite Methods BuildRoot() protected override TreeViewItem BuildRoot() Returns TreeViewItem RowGUI(RowGUIArgs) protected override void RowGUI(RowGUIArgs args) Parameters args RowGUIArgs TreeToList(TreeViewItem, IList<TreeViewItem>) public static void TreeToList(TreeViewItem root, IList<TreeViewItem> result) Parameters root TreeViewItem result IList<TreeViewItem> TryGetGameObject(TreeViewItem, out GameObject) public bool TryGetGameObject(TreeViewItem treeViewItem, out GameObject obj) Parameters treeViewItem TreeViewItem obj GameObject Returns bool"
+  },
+  "api/ToolkitEditor.Health.HealthLayersEditor.html": {
+    "href": "api/ToolkitEditor.Health.HealthLayersEditor.html",
+    "title": "Class HealthLayersEditor | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthLayersEditor Namespace ToolkitEditor.Health public class HealthLayersEditor : Editor Inheritance object HealthLayersEditor Fields m_layers protected SerializedProperty m_layers Field Value SerializedProperty m_onDamaged protected SerializedProperty m_onDamaged Field Value SerializedProperty m_onDied protected SerializedProperty m_onDied Field Value SerializedProperty m_onDying protected SerializedProperty m_onDying Field Value SerializedProperty m_onHealed protected SerializedProperty m_onHealed Field Value SerializedProperty m_onResurrected protected SerializedProperty m_onResurrected Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_onValueChanging protected SerializedProperty m_onValueChanging Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Health.ImpactDamageDrawer.html": {
+    "href": "api/ToolkitEditor.Health.ImpactDamageDrawer.html",
+    "title": "Class ImpactDamageDrawer | Health Toolkit | 1.0.0",
+    "keywords": "Class ImpactDamageDrawer Namespace ToolkitEditor.Health public class ImpactDamageDrawer : DamageDrawer Inheritance object DamageDrawer ImpactDamageDrawer Inherited Members DamageDrawer.OnGUI(Rect, SerializedProperty, GUIContent) Methods DrawProperties(ref Rect, SerializedProperty) protected override void DrawProperties(ref Rect position, SerializedProperty property) Parameters position Rect property SerializedProperty GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float"
+  },
+  "api/ToolkitEditor.Health.SplashDamageDrawer.html": {
+    "href": "api/ToolkitEditor.Health.SplashDamageDrawer.html",
+    "title": "Class SplashDamageDrawer | Health Toolkit | 1.0.0",
+    "keywords": "Class SplashDamageDrawer Namespace ToolkitEditor.Health public class SplashDamageDrawer : DamageDrawer Inheritance object DamageDrawer SplashDamageDrawer Inherited Members DamageDrawer.OnGUI(Rect, SerializedProperty, GUIContent) Methods DrawProperties(ref Rect, SerializedProperty) protected override void DrawProperties(ref Rect position, SerializedProperty property) Parameters position Rect property SerializedProperty GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float"
+  },
+  "api/ToolkitEditor.Health.VulnerabilityDrawer.html": {
+    "href": "api/ToolkitEditor.Health.VulnerabilityDrawer.html",
+    "title": "Class VulnerabilityDrawer | Health Toolkit | 1.0.0",
+    "keywords": "Class VulnerabilityDrawer Namespace ToolkitEditor.Health public class VulnerabilityDrawer : PropertyDrawer Inheritance object VulnerabilityDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Health.html": {
+    "href": "api/ToolkitEditor.Health.html",
+    "title": "Namespace ToolkitEditor.Health | Health Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.Health Classes ArmorCompositeEditor ArmorGroupDrawer ArmorGroupTreeView DamageDrawer ExplosionEditor HealthCompositeEditor HealthEditor HealthGroupTreeView HealthLayersEditor ImpactDamageDrawer SplashDamageDrawer VulnerabilityDrawer"
+  },
+  "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.html": {
+    "href": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.html",
+    "title": "Enum HasAccruedDamage.ValueType | Health Toolkit | 1.0.0",
+    "keywords": "Enum HasAccruedDamage.ValueType Namespace ToolkitEngine.AI.Tasks public enum HasAccruedDamage.ValueType Fields Constant = 0 Percent = 1"
+  },
+  "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.html": {
+    "href": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.html",
+    "title": "Class HasAccruedDamage | Health Toolkit | 1.0.0",
+    "keywords": "Class HasAccruedDamage Namespace ToolkitEngine.AI.Tasks public class HasAccruedDamage : ToolkitConditional<IHealth> Inheritance object HasAccruedDamage Methods OnAwake() public override void OnAwake() OnBehaviorComplete() public override void OnBehaviorComplete() OnUpdate() public override TaskStatus OnUpdate() Returns TaskStatus"
+  },
+  "api/ToolkitEngine.AI.Tasks.HasTakenDamage.html": {
+    "href": "api/ToolkitEngine.AI.Tasks.HasTakenDamage.html",
+    "title": "Class HasTakenDamage | Health Toolkit | 1.0.0",
+    "keywords": "Class HasTakenDamage Namespace ToolkitEngine.AI.Tasks public class HasTakenDamage : Conditional Inheritance object HasTakenDamage Fields operatorGameObject public SharedGameObject operatorGameObject Field Value SharedGameObject Methods OnAwake() public override void OnAwake() OnBehaviorComplete() public override void OnBehaviorComplete() OnEnd() public override void OnEnd() OnUpdate() public override TaskStatus OnUpdate() Returns TaskStatus"
+  },
+  "api/ToolkitEngine.AI.Tasks.HealthPercent.html": {
+    "href": "api/ToolkitEngine.AI.Tasks.HealthPercent.html",
+    "title": "Class HealthPercent | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthPercent Namespace ToolkitEngine.AI.Tasks public class HealthPercent : Consideration Inheritance object HealthPercent Methods TryGetUtility(IUtilityAction, GameObject, out float) public override bool TryGetUtility(IUtilityAction action, GameObject target, out float score) Parameters action IUtilityAction target GameObject score float Returns bool TryGetUtility(IUtilityAction, Vector3, Quaternion, out float) public override bool TryGetUtility(IUtilityAction action, Vector3 position, Quaternion rotation, out float score) Parameters action IUtilityAction position Vector3 rotation Quaternion score float Returns bool"
+  },
+  "api/ToolkitEngine.AI.Tasks.html": {
+    "href": "api/ToolkitEngine.AI.Tasks.html",
+    "title": "Namespace ToolkitEngine.AI.Tasks | Health Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.AI.Tasks Classes HasAccruedDamage HasTakenDamage HealthPercent Enums HasAccruedDamage.ValueType"
+  },
+  "api/ToolkitEngine.Health.Armor.Vulnerability.html": {
+    "href": "api/ToolkitEngine.Health.Armor.Vulnerability.html",
+    "title": "Class Armor.Vulnerability | Health Toolkit | 1.0.0",
+    "keywords": "Class Armor.Vulnerability Namespace ToolkitEngine.Health [Serializable] public class Armor.Vulnerability Inheritance object Armor.Vulnerability Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields damageType public DamageType damageType Field Value DamageType factor public float factor Field Value float"
+  },
+  "api/ToolkitEngine.Health.Armor.html": {
+    "href": "api/ToolkitEngine.Health.Armor.html",
+    "title": "Class Armor | Health Toolkit | 1.0.0",
+    "keywords": "Class Armor Namespace ToolkitEngine.Health public class Armor : MonoBehaviour, IHealthModifier Inheritance object Armor Implements IHealthModifier Properties factor public float factor { get; set; } Property Value float Methods TryGetFactor(DamageType, GameObject, out float) public bool TryGetFactor(DamageType damageType, GameObject target, out float value) Parameters damageType DamageType target GameObject value float Returns bool TryModifyFactor(DamageType, GameObject, float) public bool TryModifyFactor(DamageType damageType, GameObject target, float delta) Parameters damageType DamageType target GameObject delta float Returns bool TrySetFactor(DamageType, GameObject, float) public bool TrySetFactor(DamageType damageType, GameObject target, float value) Parameters damageType DamageType target GameObject value float Returns bool"
+  },
+  "api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.html": {
+    "href": "api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.html",
+    "title": "Class ArmorComposite.ArmorGroup | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorComposite.ArmorGroup Namespace ToolkitEngine.Health [Serializable] public class ArmorComposite.ArmorGroup Inheritance object ArmorComposite.ArmorGroup Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties factor public float factor { get; set; } Property Value float name public string name { get; } Property Value string onHit public UnityEvent<HealthEventArgs> onHit { get; } Property Value UnityEvent<HealthEventArgs> vulnerabilities public Armor.Vulnerability[] vulnerabilities { get; } Property Value Vulnerability[] Methods TryGetFactor(DamageType, out float) public bool TryGetFactor(DamageType damageType, out float value) Parameters damageType DamageType value float Returns bool TryModifyFactor(DamageType, float) public bool TryModifyFactor(DamageType damageType, float delta) Parameters damageType DamageType delta float Returns bool TrySetFactor(DamageType, float) public bool TrySetFactor(DamageType damageType, float value) Parameters damageType DamageType value float Returns bool"
+  },
+  "api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.html": {
+    "href": "api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.html",
+    "title": "Class ArmorComposite.GroupAssignment | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorComposite.GroupAssignment Namespace ToolkitEngine.Health [Serializable] public class ArmorComposite.GroupAssignment : SerializableDictionary<GameObject, string> Inheritance object ArmorComposite.GroupAssignment"
+  },
+  "api/ToolkitEngine.Health.ArmorComposite.html": {
+    "href": "api/ToolkitEngine.Health.ArmorComposite.html",
+    "title": "Class ArmorComposite | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorComposite Namespace ToolkitEngine.Health public class ArmorComposite : MonoBehaviour, IHealthModifier Inheritance object ArmorComposite Implements IHealthModifier Properties groups public ArmorComposite.ArmorGroup[] groups { get; } Property Value ArmorGroup[] map protected Dictionary<string, ArmorComposite.ArmorGroup> map { get; } Property Value Dictionary<string, ArmorComposite.ArmorGroup> names public string[] names { get; } Property Value string[] objects public GameObject[] objects { get; } Property Value GameObject[] Methods SetGroup(GameObject, string) public bool SetGroup(GameObject obj, string groupName) Parameters obj GameObject groupName string Returns bool TryGetFactor(DamageType, GameObject, out float) public bool TryGetFactor(DamageType damageType, GameObject target, out float value) Parameters damageType DamageType target GameObject value float Returns bool TryGetFactor(DamageType, GameObject, out ArmorGroup, out float) public bool TryGetFactor(DamageType damageType, GameObject target, out ArmorComposite.ArmorGroup group, out float value) Parameters damageType DamageType target GameObject group ArmorComposite.ArmorGroup value float Returns bool TryGetGroup(GameObject, out ArmorGroup) public bool TryGetGroup(GameObject obj, out ArmorComposite.ArmorGroup group) Parameters obj GameObject group ArmorComposite.ArmorGroup Returns bool TryGetGroup(string, out ArmorGroup) public bool TryGetGroup(string name, out ArmorComposite.ArmorGroup group) Parameters name string group ArmorComposite.ArmorGroup Returns bool TryGetGroupName(GameObject, out string) public bool TryGetGroupName(GameObject obj, out string groupName) Parameters obj GameObject groupName string Returns bool TryModifyFactor(DamageType, GameObject, float) public bool TryModifyFactor(DamageType damageType, GameObject target, float delta) Parameters damageType DamageType target GameObject delta float Returns bool TrySetFactor(DamageType, GameObject, float) public bool TrySetFactor(DamageType damageType, GameObject target, float value) Parameters damageType DamageType target GameObject value float Returns bool TrySetFactor(DamageType, GameObject, float, bool) public bool TrySetFactor(DamageType damageType, GameObject target, float value, bool setFallback) Parameters damageType DamageType target GameObject value float setFallback bool Returns bool UpdateGroups() public void UpdateGroups()"
+  },
+  "api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.html": {
+    "href": "api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.html",
+    "title": "Class ArmorLayers.ArmorLayer | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorLayers.ArmorLayer Namespace ToolkitEngine.Health [Serializable] public class ArmorLayers.ArmorLayer Inheritance object ArmorLayers.ArmorLayer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties factor public float factor { get; set; } Property Value float vulnerabilities public Armor.Vulnerability[] vulnerabilities { get; } Property Value Vulnerability[] Methods TryGetFactor(DamageType, out float) public bool TryGetFactor(DamageType damageType, out float value) Parameters damageType DamageType value float Returns bool TryModifyFactor(DamageType, float) public bool TryModifyFactor(DamageType damageType, float delta) Parameters damageType DamageType delta float Returns bool TrySetFactor(DamageType, float) public bool TrySetFactor(DamageType damageType, float value) Parameters damageType DamageType value float Returns bool"
+  },
+  "api/ToolkitEngine.Health.ArmorLayers.html": {
+    "href": "api/ToolkitEngine.Health.ArmorLayers.html",
+    "title": "Class ArmorLayers | Health Toolkit | 1.0.0",
+    "keywords": "Class ArmorLayers Namespace ToolkitEngine.Health public class ArmorLayers : MonoBehaviour, IHealthModifier Inheritance object ArmorLayers Implements IHealthModifier Properties groups public ArmorLayers.ArmorLayer[] groups { get; } Property Value ArmorLayer[] Methods TryGetFactor(DamageType, GameObject, out float) public bool TryGetFactor(DamageType damageType, GameObject target, out float value) Parameters damageType DamageType target GameObject value float Returns bool TryGetLayer(out ArmorLayer) public bool TryGetLayer(out ArmorLayers.ArmorLayer layer) Parameters layer ArmorLayers.ArmorLayer Returns bool TryModifyFactor(DamageType, GameObject, float) public bool TryModifyFactor(DamageType damageType, GameObject target, float delta) Parameters damageType DamageType target GameObject delta float Returns bool TrySetFactor(DamageType, GameObject, float) public bool TrySetFactor(DamageType damageType, GameObject target, float value) Parameters damageType DamageType target GameObject value float Returns bool TrySetFactor(DamageType, GameObject, float, bool) public bool TrySetFactor(DamageType damageType, GameObject target, float value, bool setFallback) Parameters damageType DamageType target GameObject value float setFallback bool Returns bool"
+  },
+  "api/ToolkitEngine.Health.Damage.html": {
+    "href": "api/ToolkitEngine.Health.Damage.html",
+    "title": "Class Damage | Health Toolkit | 1.0.0",
+    "keywords": "Class Damage Namespace ToolkitEngine.Health [Serializable] public class Damage Inheritance object Damage Derived ImpactDamage SplashDamage Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Damage() public Damage() Damage(float, DamageType) public Damage(float value, DamageType damageType) Parameters value float damageType DamageType Fields m_damageType protected DamageType m_damageType Field Value DamageType m_value protected float m_value Field Value float Properties damageType public DamageType damageType { get; set; } Property Value DamageType value public float value { get; set; } Property Value float"
+  },
+  "api/ToolkitEngine.Health.DamageHit.html": {
+    "href": "api/ToolkitEngine.Health.DamageHit.html",
+    "title": "Class DamageHit | Health Toolkit | 1.0.0",
+    "keywords": "Class DamageHit Namespace ToolkitEngine.Health public class DamageHit Inheritance object DamageHit Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DamageHit(float, DamageType) public DamageHit(float value, DamageType damageType) Parameters value float damageType DamageType DamageHit(float, DamageType, DamageHit) public DamageHit(float value, DamageType damageType, DamageHit other) Parameters value float damageType DamageType other DamageHit DamageHit(Damage) public DamageHit(Damage damage) Parameters damage Damage DamageHit(Damage, bool) public DamageHit(Damage damage, bool continuous) Parameters damage Damage continuous bool DamageHit(DamageHit) public DamageHit(DamageHit other) Parameters other DamageHit Properties collider Collider hit by damage public Collider collider { get; set; } Property Value Collider contact Position where damage contacted victim public Vector3 contact { get; set; } Property Value Vector3 damageType Type of damage dealt public DamageType damageType { get; set; } Property Value DamageType distance Distance between origin and point public float distance { get; set; } Property Value float normal public Vector3 normal { get; } Property Value Vector3 origin Position where damage originated from public Vector3 origin { get; set; } Property Value Vector3 source Source of damage public GameObject source { get; set; } Property Value GameObject value Amount of damage dealt public float value { get; set; } Property Value float victim Victim of damage public IDamageReceiver victim { get; set; } Property Value IDamageReceiver"
+  },
+  "api/ToolkitEngine.Health.DamageType.html": {
+    "href": "api/ToolkitEngine.Health.DamageType.html",
+    "title": "Class DamageType | Health Toolkit | 1.0.0",
+    "keywords": "Class DamageType Namespace ToolkitEngine.Health public class DamageType : ScriptableObject Inheritance object DamageType Properties ID public string ID { get; } Property Value string"
+  },
+  "api/ToolkitEngine.Health.Explosion.html": {
+    "href": "api/ToolkitEngine.Health.Explosion.html",
+    "title": "Class Explosion | Health Toolkit | 1.0.0",
+    "keywords": "Class Explosion Namespace ToolkitEngine.Health public class Explosion : MonoBehaviour Inheritance object Explosion Properties damage public SplashDamage damage { get; } Property Value SplashDamage onDetonated public UnityEvent<Explosion> onDetonated { get; } Property Value UnityEvent<Explosion> Methods Detonate() public void Detonate()"
+  },
+  "api/ToolkitEngine.Health.Health.DamageCollection.html": {
+    "href": "api/ToolkitEngine.Health.Health.DamageCollection.html",
+    "title": "Class Health.DamageCollection | Health Toolkit | 1.0.0",
+    "keywords": "Class Health.DamageCollection Namespace ToolkitEngine.Health [Serializable] public class Health.DamageCollection : SerializableDictionary<DamageType, float> Inheritance object Health.DamageCollection"
+  },
+  "api/ToolkitEngine.Health.Health.html": {
+    "href": "api/ToolkitEngine.Health.Health.html",
+    "title": "Class Health | Health Toolkit | 1.0.0",
+    "keywords": "Class Health Namespace ToolkitEngine.Health public class Health : MonoBehaviour, IHealth, IDamageReceiver, IKillable, IHealthRegeneration, IPoolItemRecyclable Inheritance object Health Implements IHealth IDamageReceiver IKillable IHealthRegeneration IPoolItemRecyclable Fields OnRegenerationChanged public UnityEvent OnRegenerationChanged Field Value UnityEvent Properties canRegenerate public bool canRegenerate { get; set; } Property Value bool isDead public bool isDead { get; } Property Value bool isInvulnerable public bool isInvulnerable { get; } Property Value bool maxValue public float maxValue { get; set; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onDamaged public UnityEvent<HealthEventArgs> onDamaged { get; } Property Value UnityEvent<HealthEventArgs> onDied public UnityEvent<HealthEventArgs> onDied { get; } Property Value UnityEvent<HealthEventArgs> onDying public UnityEvent<HealthEventArgs> onDying { get; } Property Value UnityEvent<HealthEventArgs> onHealed public UnityEvent<HealthEventArgs> onHealed { get; } Property Value UnityEvent<HealthEventArgs> onResurrected public UnityEvent<HealthEventArgs> onResurrected { get; } Property Value UnityEvent<HealthEventArgs> onValueChanged public UnityEvent<HealthEventArgs> onValueChanged { get; } Property Value UnityEvent<HealthEventArgs> onValueChanging public UnityEvent<HealthEventArgs> onValueChanging { get; } Property Value UnityEvent<HealthEventArgs> regenerationRate public float regenerationRate { get; set; } Property Value float value public float value { get; set; } Property Value float Methods Apply(DamageHit) public void Apply(DamageHit damageInfo) Parameters damageInfo DamageHit CancelRegeneration() public void CancelRegeneration() Damage(float, DamageType) public void Damage(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Heal(float, DamageType) public void Heal(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Kill() public void Kill() Recycle() public void Recycle() RestartRegeneration() public void RestartRegeneration() Resurrect() public void Resurrect() SetInvulerable(Component, bool) public void SetInvulerable(Component source, bool value) Parameters source Component value bool SetInvulerable(bool) public void SetInvulerable(bool value) Parameters value bool SetValue(DamageHit, bool) protected void SetValue(DamageHit hit, bool ignoreInvulnerability = false) Parameters hit DamageHit ignoreInvulnerability bool Start() public void Start() Events Killed public event EventHandler Killed Event Type EventHandler"
+  },
+  "api/ToolkitEngine.Health.HealthComposite.GroupAssignment.html": {
+    "href": "api/ToolkitEngine.Health.HealthComposite.GroupAssignment.html",
+    "title": "Class HealthComposite.GroupAssignment | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthComposite.GroupAssignment Namespace ToolkitEngine.Health [Serializable] public class HealthComposite.GroupAssignment : SerializableDictionary<GameObject, string> Inheritance object HealthComposite.GroupAssignment"
+  },
+  "api/ToolkitEngine.Health.HealthComposite.HealthGroup.html": {
+    "href": "api/ToolkitEngine.Health.HealthComposite.HealthGroup.html",
+    "title": "Class HealthComposite.HealthGroup | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthComposite.HealthGroup Namespace ToolkitEngine.Health [Serializable] public class HealthComposite.HealthGroup Inheritance object HealthComposite.HealthGroup Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties health public Health health { get; } Property Value Health name public string name { get; } Property Value string primary public bool primary { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.HealthComposite.html": {
+    "href": "api/ToolkitEngine.Health.HealthComposite.html",
+    "title": "Class HealthComposite | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthComposite Namespace ToolkitEngine.Health public class HealthComposite : MonoBehaviour, IHealth, IDamageReceiver, IKillable Inheritance object HealthComposite Implements IHealth IDamageReceiver IKillable Properties groups public HealthComposite.HealthGroup[] groups { get; } Property Value HealthGroup[] isDead public bool isDead { get; } Property Value bool maxValue public float maxValue { get; } Property Value float names public string[] names { get; } Property Value string[] normalizedValue public float normalizedValue { get; } Property Value float objects public GameObject[] objects { get; } Property Value GameObject[] onDamaged public UnityEvent<HealthEventArgs> onDamaged { get; } Property Value UnityEvent<HealthEventArgs> onDied public UnityEvent<HealthEventArgs> onDied { get; } Property Value UnityEvent<HealthEventArgs> onDying public UnityEvent<HealthEventArgs> onDying { get; } Property Value UnityEvent<HealthEventArgs> onHealed public UnityEvent<HealthEventArgs> onHealed { get; } Property Value UnityEvent<HealthEventArgs> onResurrected public UnityEvent<HealthEventArgs> onResurrected { get; } Property Value UnityEvent<HealthEventArgs> onValueChanged public UnityEvent<HealthEventArgs> onValueChanged { get; } Property Value UnityEvent<HealthEventArgs> onValueChanging public UnityEvent<HealthEventArgs> onValueChanging { get; } Property Value UnityEvent<HealthEventArgs> primaryCollider protected Collider primaryCollider { get; } Property Value Collider primaryGroup public HealthComposite.HealthGroup primaryGroup { get; } Property Value HealthComposite.HealthGroup value public float value { get; } Property Value float Methods Apply(DamageHit) public void Apply(DamageHit damageInfo) Parameters damageInfo DamageHit Damage(float, DamageType) public void Damage(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Heal(float, DamageType) public void Heal(float delta, DamageType damageType = null) Parameters delta float damageType DamageType SetGroup(GameObject, string) public bool SetGroup(GameObject obj, string groupName) Parameters obj GameObject groupName string Returns bool TryGetGroup(GameObject, out HealthGroup) public bool TryGetGroup(GameObject obj, out HealthComposite.HealthGroup group) Parameters obj GameObject group HealthComposite.HealthGroup Returns bool TryGetGroupName(GameObject, out string) public bool TryGetGroupName(GameObject obj, out string groupName) Parameters obj GameObject groupName string Returns bool UpdateGroups() public void UpdateGroups() Events Killed public event EventHandler Killed Event Type EventHandler"
+  },
+  "api/ToolkitEngine.Health.HealthEventArgs.html": {
+    "href": "api/ToolkitEngine.Health.HealthEventArgs.html",
+    "title": "Class HealthEventArgs | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthEventArgs Namespace ToolkitEngine.Health public class HealthEventArgs : EventArgs Inheritance object EventArgs HealthEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HealthEventArgs() public HealthEventArgs() HealthEventArgs(DamageHit) public HealthEventArgs(DamageHit hit) Parameters hit DamageHit HealthEventArgs(HealthEventArgs) public HealthEventArgs(HealthEventArgs copy) Parameters copy HealthEventArgs Properties delta Amount of health change public float delta { get; set; } Property Value float hit public DamageHit hit { get; } Property Value DamageHit normalizedValue Normalized value of health public float normalizedValue { get; set; } Property Value float postDamageFactor Factor applied after public float postDamageFactor { get; set; } Property Value float preDamageFactor Factor applied before public float preDamageFactor { get; set; } Property Value float value Value of health public float value { get; set; } Property Value float Methods GetDelta() public float GetDelta() Returns float"
+  },
+  "api/ToolkitEngine.Health.HealthLayers.Layer.html": {
+    "href": "api/ToolkitEngine.Health.HealthLayers.Layer.html",
+    "title": "Class HealthLayers.Layer | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthLayers.Layer Namespace ToolkitEngine.Health [Serializable] public class HealthLayers.Layer Inheritance object HealthLayers.Layer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields health public Health health Field Value Health overflowDamage public bool overflowDamage Field Value bool Properties name public string name { get; } Property Value string"
+  },
+  "api/ToolkitEngine.Health.HealthLayers.html": {
+    "href": "api/ToolkitEngine.Health.HealthLayers.html",
+    "title": "Class HealthLayers | Health Toolkit | 1.0.0",
+    "keywords": "Class HealthLayers Namespace ToolkitEngine.Health public class HealthLayers : MonoBehaviour, IHealth, IDamageReceiver, IKillable, IPoolItemRecyclable Inheritance object HealthLayers Implements IHealth IDamageReceiver IKillable IPoolItemRecyclable Properties index public int index { get; } Property Value int isDead public bool isDead { get; } Property Value bool layers public HealthLayers.Layer[] layers { get; } Property Value Layer[] maxValue public float maxValue { get; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onDamaged public UnityEvent<HealthEventArgs> onDamaged { get; } Property Value UnityEvent<HealthEventArgs> onDied public UnityEvent<HealthEventArgs> onDied { get; } Property Value UnityEvent<HealthEventArgs> onDying public UnityEvent<HealthEventArgs> onDying { get; } Property Value UnityEvent<HealthEventArgs> onHealed public UnityEvent<HealthEventArgs> onHealed { get; } Property Value UnityEvent<HealthEventArgs> onResurrected public UnityEvent<HealthEventArgs> onResurrected { get; } Property Value UnityEvent<HealthEventArgs> onValueChanged public UnityEvent<HealthEventArgs> onValueChanged { get; } Property Value UnityEvent<HealthEventArgs> onValueChanging public UnityEvent<HealthEventArgs> onValueChanging { get; } Property Value UnityEvent<HealthEventArgs> value public float value { get; } Property Value float Methods Apply(DamageHit) public void Apply(DamageHit hit) Parameters hit DamageHit Damage(float, string, DamageType) public void Damage(float delta, string layerName, DamageType damageType = null) Parameters delta float layerName string damageType DamageType Damage(float, DamageType) public void Damage(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Heal(float, string, DamageType) public void Heal(float delta, string layerName, DamageType damageType = null) Parameters delta float layerName string damageType DamageType Heal(float, DamageType) public void Heal(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Recycle() public void Recycle() TryGetActiveLayer(out Layer) public bool TryGetActiveLayer(out HealthLayers.Layer layer) Parameters layer HealthLayers.Layer Returns bool Events Killed public event EventHandler Killed Event Type EventHandler"
+  },
+  "api/ToolkitEngine.Health.IDamageReceiver.html": {
+    "href": "api/ToolkitEngine.Health.IDamageReceiver.html",
+    "title": "Interface IDamageReceiver | Health Toolkit | 1.0.0",
+    "keywords": "Interface IDamageReceiver Namespace ToolkitEngine.Health public interface IDamageReceiver Properties onDamaged UnityEvent<HealthEventArgs> onDamaged { get; } Property Value UnityEvent<HealthEventArgs> onHealed UnityEvent<HealthEventArgs> onHealed { get; } Property Value UnityEvent<HealthEventArgs> onValueChanged UnityEvent<HealthEventArgs> onValueChanged { get; } Property Value UnityEvent<HealthEventArgs> onValueChanging UnityEvent<HealthEventArgs> onValueChanging { get; } Property Value UnityEvent<HealthEventArgs> transform Transform transform { get; } Property Value Transform Methods Apply(DamageHit) void Apply(DamageHit damageInfo) Parameters damageInfo DamageHit Damage(float, DamageType) void Damage(float delta, DamageType damageType = null) Parameters delta float damageType DamageType Heal(float, DamageType) void Heal(float delta, DamageType damageType = null) Parameters delta float damageType DamageType"
+  },
+  "api/ToolkitEngine.Health.IHealth.html": {
+    "href": "api/ToolkitEngine.Health.IHealth.html",
+    "title": "Interface IHealth | Health Toolkit | 1.0.0",
+    "keywords": "Interface IHealth Namespace ToolkitEngine.Health public interface IHealth : IDamageReceiver, IKillable Inherited Members IDamageReceiver.transform IDamageReceiver.onValueChanging IDamageReceiver.onValueChanged IDamageReceiver.onDamaged IDamageReceiver.onHealed IDamageReceiver.Apply(DamageHit) IDamageReceiver.Damage(float, DamageType) IDamageReceiver.Heal(float, DamageType) Properties maxValue float maxValue { get; } Property Value float normalizedValue float normalizedValue { get; } Property Value float onDied UnityEvent<HealthEventArgs> onDied { get; } Property Value UnityEvent<HealthEventArgs> onDying UnityEvent<HealthEventArgs> onDying { get; } Property Value UnityEvent<HealthEventArgs> onResurrected UnityEvent<HealthEventArgs> onResurrected { get; } Property Value UnityEvent<HealthEventArgs> value float value { get; } Property Value float"
+  },
+  "api/ToolkitEngine.Health.IHealthModifier.html": {
+    "href": "api/ToolkitEngine.Health.IHealthModifier.html",
+    "title": "Interface IHealthModifier | Health Toolkit | 1.0.0",
+    "keywords": "Interface IHealthModifier Namespace ToolkitEngine.Health public interface IHealthModifier Fields RESISTANCE_FACTOR_HINT_TOOLTIP public const string RESISTANCE_FACTOR_HINT_TOOLTIP = \"\\n -1:\\tHealed (or Half Damaged)\\n 0:\\tImmune\\n 1:\\tNormal\\n 2:\\tDouble Damaged (or Half Healed)\" Field Value string RESISTANCE_FACTOR_TOOLTIP public const string RESISTANCE_FACTOR_TOOLTIP = \"Factor to multiple incoming healing / damage of specified DamageType.\\n -1:\\tHealed (or Half Damaged)\\n 0:\\tImmune\\n 1:\\tNormal\\n 2:\\tDouble Damaged (or Half Healed)\" Field Value string Methods GetDelta(float, float) public static float GetDelta(float delta, float factor) Parameters delta float factor float Returns float TryGetFactor(DamageType, GameObject, out float) bool TryGetFactor(DamageType damageType, GameObject target, out float value) Parameters damageType DamageType target GameObject value float Returns bool TryModifyFactor(DamageType, GameObject, float) bool TryModifyFactor(DamageType damageType, GameObject target, float delta) Parameters damageType DamageType target GameObject delta float Returns bool TrySetFactor(DamageType, GameObject, float) bool TrySetFactor(DamageType damageType, GameObject target, float value) Parameters damageType DamageType target GameObject value float Returns bool"
+  },
+  "api/ToolkitEngine.Health.IHealthRegeneration.html": {
+    "href": "api/ToolkitEngine.Health.IHealthRegeneration.html",
+    "title": "Interface IHealthRegeneration | Health Toolkit | 1.0.0",
+    "keywords": "Interface IHealthRegeneration Namespace ToolkitEngine.Health public interface IHealthRegeneration Properties regenerationRate float regenerationRate { get; set; } Property Value float transform Transform transform { get; } Property Value Transform"
+  },
+  "api/ToolkitEngine.Health.ImpactDamage.html": {
+    "href": "api/ToolkitEngine.Health.ImpactDamage.html",
+    "title": "Class ImpactDamage | Health Toolkit | 1.0.0",
+    "keywords": "Class ImpactDamage Namespace ToolkitEngine.Health [Serializable] public class ImpactDamage : Damage Inheritance object Damage ImpactDamage Inherited Members Damage.m_damageType Damage.m_value Damage.value Damage.damageType object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ImpactDamage() public ImpactDamage() ImpactDamage(ImpactDamage) public ImpactDamage(ImpactDamage other) Parameters other ImpactDamage Fields m_bonuses protected List<Damage> m_bonuses Field Value List<Damage> m_factor protected UnityFloat m_factor Field Value UnityFloat m_falloff protected AnimationCurve m_falloff Field Value AnimationCurve m_impulse protected float m_impulse Field Value float m_range protected float m_range Field Value float Properties factor public float factor { get; } Property Value float hasInfiniteRange public bool hasInfiniteRange { get; } Property Value bool impulse public float impulse { get; set; } Property Value float range public float range { get; set; } Property Value float visualRange public float visualRange { get; } Property Value float Methods Apply(DamageHit) public void Apply(DamageHit hit) Parameters hit DamageHit"
+  },
+  "api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.html": {
+    "href": "api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.html",
+    "title": "Enum ReflectedValue<T>.FetchMode | Health Toolkit | 1.0.0",
+    "keywords": "Enum ReflectedValue<T>.FetchMode Namespace ToolkitEngine.Health public enum ReflectedValue<T>.FetchMode Fields External = 1 Value = 0"
+  },
+  "api/ToolkitEngine.Health.ReflectedValue-1.html": {
+    "href": "api/ToolkitEngine.Health.ReflectedValue-1.html",
+    "title": "Class ReflectedValue<T> | Health Toolkit | 1.0.0",
+    "keywords": "Class ReflectedValue<T> Namespace ToolkitEngine.Health [Serializable] public class ReflectedValue<T> Type Parameters T Inheritance object ReflectedValue<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties value public T value { get; } Property Value T"
+  },
+  "api/ToolkitEngine.Health.SplashDamage.html": {
+    "href": "api/ToolkitEngine.Health.SplashDamage.html",
+    "title": "Class SplashDamage | Health Toolkit | 1.0.0",
+    "keywords": "Class SplashDamage Namespace ToolkitEngine.Health [Serializable] public class SplashDamage : Damage Inheritance object Damage SplashDamage Inherited Members Damage.m_damageType Damage.m_value Damage.value Damage.damageType object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SplashDamage() public SplashDamage() SplashDamage(SplashDamage) public SplashDamage(SplashDamage other) Parameters other SplashDamage Fields m_bonuses protected List<Damage> m_bonuses Field Value List<Damage> m_factor protected UnityFloat m_factor Field Value UnityFloat m_falloff protected AnimationCurve m_falloff Field Value AnimationCurve m_impulse protected float m_impulse Field Value float m_radius protected float m_radius Field Value float m_upwardModifier protected float m_upwardModifier Field Value float Properties radius public float radius { get; } Property Value float Methods Apply(Vector3, GameObject) public DamageHit[] Apply(Vector3 point, GameObject source) Parameters point Vector3 source GameObject Returns DamageHit[]"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html",
+    "title": "Class BaseHealthEventUnit | Health Toolkit | 1.0.0",
+    "keywords": "Class BaseHealthEventUnit Namespace ToolkitEngine.Health.VisualScripting public abstract class BaseHealthEventUnit : BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit Derived OnHealthDamaged OnHealthDied OnHealthHealed OnHealthResurrected OnHealthValueChanged Properties showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.EventHooks.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.EventHooks.html",
+    "title": "Class EventHooks | Health Toolkit | 1.0.0",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.Health.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnExplosionDetonated public const string OnExplosionDetonated = \"OnExplosionDetonated\" Field Value string OnHealthDamaged public const string OnHealthDamaged = \"OnHealthDamaged\" Field Value string OnHealthDied public const string OnHealthDied = \"OnHealthDied\" Field Value string OnHealthDying public const string OnHealthDying = \"OnHealthDying\" Field Value string OnHealthHealed public const string OnHealthHealed = \"OnHealthHealed\" Field Value string OnHealthResurrected public const string OnHealthResurrected = \"OnHealthResurrected\" Field Value string OnHealthValueChanged public const string OnHealthValueChanged = \"OnHealthValueChanged\" Field Value string"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html",
+    "title": "Class OnExplosionDetonated | Health Toolkit | 1.0.0",
+    "keywords": "Class OnExplosionDetonated Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonated : BaseEventUnit<Explosion> Inheritance object OnExplosionDetonated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html",
+    "title": "Class OnExplosionDetonatedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnExplosionDetonatedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonatedMessageListener : MessageListener Inheritance object OnExplosionDetonatedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html",
+    "title": "Class OnHealthDamaged | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthDamaged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamaged : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthDamaged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html",
+    "title": "Class OnHealthDamagedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthDamagedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamagedMessageListener : MessageListener Inheritance object OnHealthDamagedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html",
+    "title": "Class OnHealthDied | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthDied Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDied : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthDied Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html",
+    "title": "Class OnHealthDiedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthDiedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDiedMessageListener : MessageListener Inheritance object OnHealthDiedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html",
+    "title": "Class OnHealthHealed | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthHealed Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealed : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthHealed Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html",
+    "title": "Class OnHealthHealedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthHealedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealedMessageListener : MessageListener Inheritance object OnHealthHealedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html",
+    "title": "Class OnHealthResurrected | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthResurrected Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrected : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthResurrected Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html",
+    "title": "Class OnHealthResurrectedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthResurrectedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrectedMessageListener : MessageListener Inheritance object OnHealthResurrectedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html",
+    "title": "Class OnHealthValueChanged | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthValueChanged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChanged : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthValueChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html",
+    "title": "Class OnHealthValueChangedMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnHealthValueChangedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChangedMessageListener : MessageListener Inheritance object OnHealthValueChangedMessageListener"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.Health.VisualScripting | Health Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Health.VisualScripting Classes BaseHealthEventUnit EventHooks OnExplosionDetonated OnExplosionDetonatedMessageListener OnHealthDamaged OnHealthDamagedMessageListener OnHealthDied OnHealthDiedMessageListener OnHealthHealed OnHealthHealedMessageListener OnHealthResurrected OnHealthResurrectedMessageListener OnHealthValueChanged OnHealthValueChangedMessageListener"
+  },
+  "api/ToolkitEngine.Health.html": {
+    "href": "api/ToolkitEngine.Health.html",
+    "title": "Namespace ToolkitEngine.Health | Health Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Health Classes Armor Armor.Vulnerability ArmorComposite ArmorComposite.ArmorGroup ArmorComposite.GroupAssignment ArmorLayers ArmorLayers.ArmorLayer Damage DamageHit DamageType Explosion Health Health.DamageCollection HealthComposite HealthComposite.GroupAssignment HealthComposite.HealthGroup HealthEventArgs HealthLayers HealthLayers.Layer ImpactDamage ReflectedValue<T> SplashDamage Interfaces IDamageReceiver IHealth IHealthModifier IHealthRegeneration Enums ReflectedValue<T>.FetchMode"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| Health Toolkit | 1.0.0",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "| Health Toolkit | 1.0.0",
+    "keywords": ""
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Health Toolkit | 1.0.0",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| Health Toolkit | 1.0.0",
+    "keywords": "MIT License Copyright (c) 2023 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "toolkit.health | Health Toolkit | 1.0.0",
+    "keywords": "toolkit.health"
+  }
+}
