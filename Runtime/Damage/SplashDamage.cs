@@ -18,8 +18,8 @@ namespace ToolkitEngine.Health
 		[SerializeField]
 		protected float m_upwardModifier;
 
-		[SerializeField, Min(0f)]
-		protected float m_radius;
+		[SerializeField, MinMax(0f, float.PositiveInfinity, "Inner", "Outer")]
+		protected Vector2 m_radius;
 
 		[SerializeField]
 		protected AnimationCurve m_falloff = AnimationCurve.Linear(0f, 1f, 1f, 0f);
@@ -31,7 +31,8 @@ namespace ToolkitEngine.Health
 
 		#region Properties
 
-		public float radius => m_radius;
+		public float innerRadius => m_radius.x;
+		public float outerRadius => m_radius.y;
 
 		#endregion
 
@@ -58,7 +59,7 @@ namespace ToolkitEngine.Health
 		public DamageHit[] Apply(Vector3 point, GameObject source)
 		{
 			List<DamageHit> hits = new();
-			if (m_radius > 0f)
+			if (outerRadius > 0f)
 			{
 				// Cache factor because reflection may be involved
 				float factor = m_factor.value;
@@ -66,7 +67,7 @@ namespace ToolkitEngine.Health
 				HashSet<IDamageReceiver> victims = new();
 				HashSet<Rigidbody> rigidbodies = new();
 
-				foreach (var collider in Physics.OverlapSphere(point, radius)
+				foreach (var collider in Physics.OverlapSphere(point, outerRadius)
 					.OrderBy(x => (x.transform.position - point).sqrMagnitude))
 				{
 					// TODO: Block damage if damaged through all; will need blocking layers
@@ -98,7 +99,8 @@ namespace ToolkitEngine.Health
 						float falloffFactor = 1f;
 						if (value != 0f && factor != 0f)
 						{
-							falloffFactor = m_falloff.Evaluate(Vector3.Distance(point, collider.transform.position) / m_radius);
+							var sqrDistance = (point - collider.transform.position).sqrMagnitude;
+							falloffFactor = m_falloff.Evaluate(MathUtil.GetPercent(sqrDistance, innerRadius * innerRadius, outerRadius * outerRadius));
 						}
 
 						hit.value = -value * factor * falloffFactor;
@@ -116,7 +118,7 @@ namespace ToolkitEngine.Health
 						var rigidbody = collider.GetComponentInParent<Rigidbody>();
 						if (rigidbody != null && !rigidbodies.Contains(rigidbody))
 						{
-							rigidbody.AddExplosionForce(m_impulse, point, m_radius, m_upwardModifier, ForceMode.Impulse);
+							rigidbody.AddExplosionForce(m_impulse, point, outerRadius, m_upwardModifier, ForceMode.Impulse);
 							rigidbodies.Add(rigidbody);
 						}
 					}
