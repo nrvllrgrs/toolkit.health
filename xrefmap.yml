@@ -3483,6 +3483,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.SplashDamage.Apply
   nameWithType: SplashDamage.Apply
+- uid: ToolkitEngine.Health.SplashDamage.innerRadius
+  name: innerRadius
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_innerRadius
+  commentId: P:ToolkitEngine.Health.SplashDamage.innerRadius
+  fullName: ToolkitEngine.Health.SplashDamage.innerRadius
+  nameWithType: SplashDamage.innerRadius
+- uid: ToolkitEngine.Health.SplashDamage.innerRadius*
+  name: innerRadius
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_innerRadius_
+  commentId: Overload:ToolkitEngine.Health.SplashDamage.innerRadius
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.SplashDamage.innerRadius
+  nameWithType: SplashDamage.innerRadius
 - uid: ToolkitEngine.Health.SplashDamage.m_bonuses
   name: m_bonuses
   href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_m_bonuses
@@ -3519,19 +3532,19 @@ references:
   commentId: F:ToolkitEngine.Health.SplashDamage.m_upwardModifier
   fullName: ToolkitEngine.Health.SplashDamage.m_upwardModifier
   nameWithType: SplashDamage.m_upwardModifier
-- uid: ToolkitEngine.Health.SplashDamage.radius
-  name: radius
-  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_radius
-  commentId: P:ToolkitEngine.Health.SplashDamage.radius
-  fullName: ToolkitEngine.Health.SplashDamage.radius
-  nameWithType: SplashDamage.radius
-- uid: ToolkitEngine.Health.SplashDamage.radius*
-  name: radius
-  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_radius_
-  commentId: Overload:ToolkitEngine.Health.SplashDamage.radius
+- uid: ToolkitEngine.Health.SplashDamage.outerRadius
+  name: outerRadius
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_outerRadius
+  commentId: P:ToolkitEngine.Health.SplashDamage.outerRadius
+  fullName: ToolkitEngine.Health.SplashDamage.outerRadius
+  nameWithType: SplashDamage.outerRadius
+- uid: ToolkitEngine.Health.SplashDamage.outerRadius*
+  name: outerRadius
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_outerRadius_
+  commentId: Overload:ToolkitEngine.Health.SplashDamage.outerRadius
   isSpec: "True"
-  fullName: ToolkitEngine.Health.SplashDamage.radius
-  nameWithType: SplashDamage.radius
+  fullName: ToolkitEngine.Health.SplashDamage.outerRadius
+  nameWithType: SplashDamage.outerRadius
 - uid: ToolkitEngine.Health.VisualScripting
   name: ToolkitEngine.Health.VisualScripting
   href: api/ToolkitEngine.Health.VisualScripting.html
