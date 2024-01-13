@@ -50,7 +50,10 @@ namespace ToolkitEngine.Health
 
 		private void OnDrawGizmosSelected()
 		{
-			Gizmos.DrawWireSphere(transform.position, m_damage.radius);
+			Gizmos.DrawWireSphere(transform.position, m_damage.innerRadius);
+
+			Gizmos.color = Color.gray;
+			Gizmos.DrawWireSphere(transform.position, m_damage.outerRadius);
 		}
 
 #endif
