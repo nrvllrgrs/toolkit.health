@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
-using Sirenix.OdinInspector;
+using NaughtyAttributes;
 using static ToolkitEngine.Health.Armor;
 
 #if UNITY_EDITOR
