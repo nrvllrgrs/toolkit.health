@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Health_HealthEventArgs" data-uid="ToolkitEngine.Health.HealthEventArgs" class="text-break">
-Class HealthEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class HealthEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -160,7 +160,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs__ctor" data-uid="ToolkitEngine.Health.HealthEventArgs.#ctor">
   HealthEventArgs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -184,21 +184,23 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <a id="ToolkitEngine_Health_HealthEventArgs__ctor_" data-uid="ToolkitEngine.Health.HealthEventArgs.#ctor*"></a>
 
-  <h3 id="ToolkitEngine_Health_HealthEventArgs__ctor_ToolkitEngine_Health_DamageHit_" data-uid="ToolkitEngine.Health.HealthEventArgs.#ctor(ToolkitEngine.Health.DamageHit)">
-  HealthEventArgs(DamageHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_HealthEventArgs__ctor_ToolkitEngine_Health_DamageHit_GameObject_" data-uid="ToolkitEngine.Health.HealthEventArgs.#ctor(ToolkitEngine.Health.DamageHit,GameObject)">
+  HealthEventArgs(DamageHit, GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HealthEventArgs(DamageHit hit)</code></pre>
+    <pre><code class="lang-csharp hljs">public HealthEventArgs(DamageHit hit, GameObject source = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hit</code> <a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <span class="xref">GameObject</span></dt>
     <dd></dd>
   </dl>
 
@@ -217,7 +219,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs__ctor_ToolkitEngine_Health_HealthEventArgs_" data-uid="ToolkitEngine.Health.HealthEventArgs.#ctor(ToolkitEngine.Health.HealthEventArgs)">
   HealthEventArgs(HealthEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -252,7 +254,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_delta" data-uid="ToolkitEngine.Health.HealthEventArgs.delta">
   delta
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Amount of health change</p>
@@ -284,7 +286,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_hit" data-uid="ToolkitEngine.Health.HealthEventArgs.hit">
   hit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +317,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_normalizedValue" data-uid="ToolkitEngine.Health.HealthEventArgs.normalizedValue">
   normalizedValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Normalized value of health</p>
@@ -347,7 +349,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_postDamageFactor" data-uid="ToolkitEngine.Health.HealthEventArgs.postDamageFactor">
   postDamageFactor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Factor applied after</p>
@@ -379,7 +381,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_preDamageFactor" data-uid="ToolkitEngine.Health.HealthEventArgs.preDamageFactor">
   preDamageFactor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Factor applied before</p>
@@ -407,11 +409,42 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="ToolkitEngine_Health_HealthEventArgs_source_" data-uid="ToolkitEngine.Health.HealthEventArgs.source*"></a>
+
+  <h3 id="ToolkitEngine_Health_HealthEventArgs_source" data-uid="ToolkitEngine.Health.HealthEventArgs.source">
+  source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject source { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_HealthEventArgs_value_" data-uid="ToolkitEngine.Health.HealthEventArgs.value*"></a>
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_value" data-uid="ToolkitEngine.Health.HealthEventArgs.value">
   value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Value of health</p>
@@ -447,7 +480,7 @@ Class HealthEventArgs  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_Health_HealthEventArgs_GetDelta" data-uid="ToolkitEngine.Health.HealthEventArgs.GetDelta">
   GetDelta()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -120,37 +120,6 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="ToolkitEngine_Health_IHealthRegeneration_regenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerationRate*"></a>
-
-  <h3 id="ToolkitEngine_Health_IHealthRegeneration_regenerationRate" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerationRate">
-  regenerationRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float regenerationRate { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_Health_IHealthRegeneration_transform_" data-uid="ToolkitEngine.Health.IHealthRegeneration.transform*"></a>
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_transform" data-uid="ToolkitEngine.Health.IHealthRegeneration.transform">
@@ -174,6 +143,257 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
     <dt><span class="xref">Transform</span></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate">
+  GetRegenerationRate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetRegenerationRate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate_ToolkitEngine_Health_DamageType_" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate(ToolkitEngine.Health.DamageType)">
+  GetRegenerationRate(DamageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetRegenerationRate(DamageType damageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate(System.Single)">
+  ModifyRegenerationRate(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ModifyRegenerationRate(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
+  ModifyRegenerationRate(DamageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ModifyRegenerationRate(DamageType damageType, float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_PauseRegeneration_" data-uid="ToolkitEngine.Health.IHealthRegeneration.PauseRegeneration*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_PauseRegeneration" data-uid="ToolkitEngine.Health.IHealthRegeneration.PauseRegeneration">
+  PauseRegeneration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PauseRegeneration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate(System.Single)">
+  SetRegenerationRate(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRegenerationRate(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
+  SetRegenerationRate(DamageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRegenerationRate(DamageType damageType, float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_UnpauseRegeneration_" data-uid="ToolkitEngine.Health.IHealthRegeneration.UnpauseRegeneration*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_UnpauseRegeneration" data-uid="ToolkitEngine.Health.IHealthRegeneration.UnpauseRegeneration">
+  UnpauseRegeneration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UnpauseRegeneration()</code></pre>
+  </div>
+
+
+
+
+
 
 
 

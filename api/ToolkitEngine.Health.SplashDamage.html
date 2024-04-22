@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -102,7 +102,7 @@ Class SplashDamage  <a class="header-action link-secondary" title="View source" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class SplashDamage : Damage</code></pre>
+public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
   </div>
 
 
@@ -117,6 +117,12 @@ public class SplashDamage : Damage</code></pre>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Health.IBonusDamageContainer.html">IBonusDamageContainer</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -170,7 +176,7 @@ public class SplashDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_SplashDamage__ctor" data-uid="ToolkitEngine.Health.SplashDamage.#ctor">
   SplashDamage()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -196,7 +202,7 @@ public class SplashDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_SplashDamage__ctor_ToolkitEngine_Health_SplashDamage_" data-uid="ToolkitEngine.Health.SplashDamage.#ctor(ToolkitEngine.Health.SplashDamage)">
   SplashDamage(SplashDamage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -411,11 +417,104 @@ public class SplashDamage : Damage</code></pre>
 </h2>
 
 
+  <a id="ToolkitEngine_Health_SplashDamage_bonuses_" data-uid="ToolkitEngine.Health.SplashDamage.bonuses*"></a>
+
+  <h3 id="ToolkitEngine_Health_SplashDamage_bonuses" data-uid="ToolkitEngine.Health.SplashDamage.bonuses">
+  bonuses
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Damage&gt; bonuses { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ToolkitEngine.Health.Damage.html">Damage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_SplashDamage_factor_" data-uid="ToolkitEngine.Health.SplashDamage.factor*"></a>
+
+  <h3 id="ToolkitEngine_Health_SplashDamage_factor" data-uid="ToolkitEngine.Health.SplashDamage.factor">
+  factor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float factor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_SplashDamage_impulse_" data-uid="ToolkitEngine.Health.SplashDamage.impulse*"></a>
+
+  <h3 id="ToolkitEngine_Health_SplashDamage_impulse" data-uid="ToolkitEngine.Health.SplashDamage.impulse">
+  impulse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float impulse { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_SplashDamage_innerRadius_" data-uid="ToolkitEngine.Health.SplashDamage.innerRadius*"></a>
 
   <h3 id="ToolkitEngine_Health_SplashDamage_innerRadius" data-uid="ToolkitEngine.Health.SplashDamage.innerRadius">
   innerRadius
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -446,7 +545,7 @@ public class SplashDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_SplashDamage_outerRadius" data-uid="ToolkitEngine.Health.SplashDamage.outerRadius">
   outerRadius
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -479,16 +578,16 @@ public class SplashDamage : Damage</code></pre>
 
   <a id="ToolkitEngine_Health_SplashDamage_Apply_" data-uid="ToolkitEngine.Health.SplashDamage.Apply*"></a>
 
-  <h3 id="ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_" data-uid="ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject)">
-  Apply(Vector3, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_ToolkitEngine_Health_DamageHit____ToolkitEngine_Health_IDamageDealer_" data-uid="ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,ToolkitEngine.Health.IDamageDealer)">
+  Apply(Vector3, GameObject, out DamageHit[], IDamageDealer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DamageHit[] Apply(Vector3 point, GameObject source)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, IDamageDealer dealer = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -497,11 +596,15 @@ public class SplashDamage : Damage</code></pre>
     <dd></dd>
     <dt><code>source</code> <span class="xref">GameObject</span></dt>
     <dd></dd>
+    <dt><code>hits</code> <a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a>[]</dt>
+    <dd></dd>
+    <dt><code>dealer</code> <a class="xref" href="ToolkitEngine.Health.IDamageDealer.html">IDamageDealer</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 

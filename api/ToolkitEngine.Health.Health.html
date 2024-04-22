@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Health_Health" data-uid="ToolkitEngine.Health.Health" class="text-break">
-Class Health  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L78"><i class="bi bi-code-slash"></i></a>
+Class Health  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -140,7 +140,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_OnRegenerationChanged" data-uid="ToolkitEngine.Health.Health.OnRegenerationChanged">
   OnRegenerationChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -171,18 +171,49 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 </h2>
 
 
-  <a id="ToolkitEngine_Health_Health_canRegenerate_" data-uid="ToolkitEngine.Health.Health.canRegenerate*"></a>
+  <a id="ToolkitEngine_Health_Health_bonusValue_" data-uid="ToolkitEngine.Health.Health.bonusValue*"></a>
 
-  <h3 id="ToolkitEngine_Health_Health_canRegenerate" data-uid="ToolkitEngine.Health.Health.canRegenerate">
-  canRegenerate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_Health_bonusValue" data-uid="ToolkitEngine.Health.Health.bonusValue">
+  bonusValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool canRegenerate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float bonusValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_canRegenerate_" data-uid="ToolkitEngine.Health.Health.canRegenerate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_canRegenerate" data-uid="ToolkitEngine.Health.Health.canRegenerate">
+  canRegenerate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canRegenerate { get; }</code></pre>
   </div>
 
 
@@ -202,11 +233,42 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="ToolkitEngine_Health_Health_degenerateDelay_" data-uid="ToolkitEngine.Health.Health.degenerateDelay*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_degenerateDelay" data-uid="ToolkitEngine.Health.Health.degenerateDelay">
+  degenerateDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float degenerateDelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_Health_isDead_" data-uid="ToolkitEngine.Health.Health.isDead*"></a>
 
   <h3 id="ToolkitEngine_Health_Health_isDead" data-uid="ToolkitEngine.Health.Health.isDead">
   isDead
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -237,7 +299,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_isInvulnerable" data-uid="ToolkitEngine.Health.Health.isInvulnerable">
   isInvulnerable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -268,14 +330,14 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_maxValue" data-uid="ToolkitEngine.Health.Health.maxValue">
   maxValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float maxValue { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float maxValue { get; }</code></pre>
   </div>
 
 
@@ -299,7 +361,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_normalizedValue" data-uid="ToolkitEngine.Health.Health.normalizedValue">
   normalizedValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -330,7 +392,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onDamaged" data-uid="ToolkitEngine.Health.Health.onDamaged">
   onDamaged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -361,7 +423,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onDied" data-uid="ToolkitEngine.Health.Health.onDied">
   onDied
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L243"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -392,7 +454,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onDying" data-uid="ToolkitEngine.Health.Health.onDying">
   onDying
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L242"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -423,7 +485,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onHealed" data-uid="ToolkitEngine.Health.Health.onHealed">
   onHealed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -454,7 +516,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onResurrected" data-uid="ToolkitEngine.Health.Health.onResurrected">
   onResurrected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -485,7 +547,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onValueChanged" data-uid="ToolkitEngine.Health.Health.onValueChanged">
   onValueChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -516,7 +578,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_onValueChanging" data-uid="ToolkitEngine.Health.Health.onValueChanging">
   onValueChanging
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L238"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -543,18 +605,49 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <a id="ToolkitEngine_Health_Health_regenerationRate_" data-uid="ToolkitEngine.Health.Health.regenerationRate*"></a>
+  <a id="ToolkitEngine_Health_Health_regenerateDamageTypes_" data-uid="ToolkitEngine.Health.Health.regenerateDamageTypes*"></a>
 
-  <h3 id="ToolkitEngine_Health_Health_regenerationRate" data-uid="ToolkitEngine.Health.Health.regenerationRate">
-  regenerationRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_Health_regenerateDamageTypes" data-uid="ToolkitEngine.Health.Health.regenerateDamageTypes">
+  regenerateDamageTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float regenerationRate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DamageType[] regenerateDamageTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_regenerateDelay_" data-uid="ToolkitEngine.Health.Health.regenerateDelay*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_regenerateDelay" data-uid="ToolkitEngine.Health.Health.regenerateDelay">
+  regenerateDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float regenerateDelay { get; set; }</code></pre>
   </div>
 
 
@@ -578,7 +671,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_value" data-uid="ToolkitEngine.Health.Health.value">
   value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -613,7 +706,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_Apply_ToolkitEngine_Health_DamageHit_" data-uid="ToolkitEngine.Health.Health.Apply(ToolkitEngine.Health.DamageHit)">
   Apply(DamageHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L308"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L430"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -640,18 +733,18 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <a id="ToolkitEngine_Health_Health_CancelRegeneration_" data-uid="ToolkitEngine.Health.Health.CancelRegeneration*"></a>
+  <a id="ToolkitEngine_Health_Health_Awake_" data-uid="ToolkitEngine.Health.Health.Awake*"></a>
 
-  <h3 id="ToolkitEngine_Health_Health_CancelRegeneration" data-uid="ToolkitEngine.Health.Health.CancelRegeneration">
-  CancelRegeneration()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_Health_Awake" data-uid="ToolkitEngine.Health.Health.Awake">
+  Awake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CancelRegeneration()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
   </div>
 
 
@@ -670,7 +763,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_Damage_System_Single_ToolkitEngine_Health_DamageType_" data-uid="ToolkitEngine.Health.Health.Damage(System.Single,ToolkitEngine.Health.DamageType)">
   Damage(float, DamageType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L425"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -699,11 +792,78 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="ToolkitEngine_Health_Health_GetRegenerationRate_" data-uid="ToolkitEngine.Health.Health.GetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_GetRegenerationRate" data-uid="ToolkitEngine.Health.Health.GetRegenerationRate">
+  GetRegenerationRate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetRegenerationRate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_GetRegenerationRate_" data-uid="ToolkitEngine.Health.Health.GetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_GetRegenerationRate_ToolkitEngine_Health_DamageType_" data-uid="ToolkitEngine.Health.Health.GetRegenerationRate(ToolkitEngine.Health.DamageType)">
+  GetRegenerationRate(DamageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L482"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetRegenerationRate(DamageType damageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_Health_Heal_" data-uid="ToolkitEngine.Health.Health.Heal*"></a>
 
   <h3 id="ToolkitEngine_Health_Health_Heal_System_Single_ToolkitEngine_Health_DamageType_" data-uid="ToolkitEngine.Health.Health.Heal(System.Single,ToolkitEngine.Health.DamageType)">
   Heal(float, DamageType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -736,7 +896,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_Kill" data-uid="ToolkitEngine.Health.Health.Kill">
   Kill()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L298"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -758,11 +918,101 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="ToolkitEngine_Health_Health_ModifyRegenerationRate_" data-uid="ToolkitEngine.Health.Health.ModifyRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_ModifyRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.Health.ModifyRegenerationRate(System.Single)">
+  ModifyRegenerationRate(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L524"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyRegenerationRate(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_ModifyRegenerationRate_" data-uid="ToolkitEngine.Health.Health.ModifyRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_ModifyRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.Health.ModifyRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
+  ModifyRegenerationRate(DamageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyRegenerationRate(DamageType damageType, float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_PauseRegeneration_" data-uid="ToolkitEngine.Health.Health.PauseRegeneration*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_PauseRegeneration" data-uid="ToolkitEngine.Health.Health.PauseRegeneration">
+  PauseRegeneration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L627"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseRegeneration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_Health_Recycle_" data-uid="ToolkitEngine.Health.Health.Recycle*"></a>
 
   <h3 id="ToolkitEngine_Health_Health_Recycle" data-uid="ToolkitEngine.Health.Health.Recycle">
   Recycle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L250"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -784,37 +1034,11 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <a id="ToolkitEngine_Health_Health_RestartRegeneration_" data-uid="ToolkitEngine.Health.Health.RestartRegeneration*"></a>
-
-  <h3 id="ToolkitEngine_Health_Health_RestartRegeneration" data-uid="ToolkitEngine.Health.Health.RestartRegeneration">
-  RestartRegeneration()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L402"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RestartRegeneration()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_Health_Health_Resurrect_" data-uid="ToolkitEngine.Health.Health.Resurrect*"></a>
 
   <h3 id="ToolkitEngine_Health_Health_Resurrect" data-uid="ToolkitEngine.Health.Health.Resurrect">
   Resurrect()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L304"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -840,7 +1064,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_SetInvulerable_Component_System_Boolean_" data-uid="ToolkitEngine.Health.Health.SetInvulerable(Component,System.Boolean)">
   SetInvulerable(Component, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L444"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -873,7 +1097,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_SetInvulerable_System_Boolean_" data-uid="ToolkitEngine.Health.Health.SetInvulerable(System.Boolean)">
   SetInvulerable(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L462"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L439"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -900,25 +1124,89 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <a id="ToolkitEngine_Health_Health_SetValue_" data-uid="ToolkitEngine.Health.Health.SetValue*"></a>
+  <a id="ToolkitEngine_Health_Health_SetRegenerationRate_" data-uid="ToolkitEngine.Health.Health.SetRegenerationRate*"></a>
 
-  <h3 id="ToolkitEngine_Health_Health_SetValue_ToolkitEngine_Health_DamageHit_System_Boolean_" data-uid="ToolkitEngine.Health.Health.SetValue(ToolkitEngine.Health.DamageHit,System.Boolean)">
-  SetValue(DamageHit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_Health_SetRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.Health.SetRegenerationRate(System.Single)">
+  SetRegenerationRate(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L495"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetValue(DamageHit hit, bool ignoreInvulnerability = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetRegenerationRate(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_SetRegenerationRate_" data-uid="ToolkitEngine.Health.Health.SetRegenerationRate*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_SetRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.Health.SetRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
+  SetRegenerationRate(DamageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRegenerationRate(DamageType damageType, float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageType</code> <a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_Health_SetValue_" data-uid="ToolkitEngine.Health.Health.SetValue*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_SetValue_ToolkitEngine_Health_DamageHit_System_Boolean_" data-uid="ToolkitEngine.Health.Health.SetValue(ToolkitEngine.Health.DamageHit,System.Boolean)">
+  SetValue(DamageHit, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetValue(DamageHit hit, bool fromRegenerate = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hit</code> <a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a></dt>
     <dd></dd>
-    <dt><code>ignoreInvulnerability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>fromRegenerate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -937,7 +1225,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_Start" data-uid="ToolkitEngine.Health.Health.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L288"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -959,6 +1247,32 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="ToolkitEngine_Health_Health_UnpauseRegeneration_" data-uid="ToolkitEngine.Health.Health.UnpauseRegeneration*"></a>
+
+  <h3 id="ToolkitEngine_Health_Health_UnpauseRegeneration" data-uid="ToolkitEngine.Health.Health.UnpauseRegeneration">
+  UnpauseRegeneration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L632"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnpauseRegeneration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -966,7 +1280,7 @@ Class Health  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="ToolkitEngine_Health_Health_Killed" data-uid="ToolkitEngine.Health.Health.Killed">
   Killed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Health.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

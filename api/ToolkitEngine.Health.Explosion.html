@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -101,7 +101,7 @@ Class Explosion  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Explosion : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Explosion : MonoBehaviour, IDamageDealer</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class Explosion  <a class="header-action link-secondary" title="View source" hre
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Health.IDamageDealer.html">IDamageDealer</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -131,7 +137,7 @@ Class Explosion  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Health_Explosion_damage" data-uid="ToolkitEngine.Health.Explosion.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -158,11 +164,42 @@ Class Explosion  <a class="header-action link-secondary" title="View source" hre
 
 
 
+  <a id="ToolkitEngine_Health_Explosion_onDamageDealt_" data-uid="ToolkitEngine.Health.Explosion.onDamageDealt*"></a>
+
+  <h3 id="ToolkitEngine_Health_Explosion_onDamageDealt" data-uid="ToolkitEngine.Health.Explosion.onDamageDealt">
+  onDamageDealt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;HealthEventArgs&gt; onDamageDealt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="ToolkitEngine.Health.HealthEventArgs.html">HealthEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_Explosion_onDetonated_" data-uid="ToolkitEngine.Health.Explosion.onDetonated*"></a>
 
   <h3 id="ToolkitEngine_Health_Explosion_onDetonated" data-uid="ToolkitEngine.Health.Explosion.onDetonated">
   onDetonated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -197,7 +234,7 @@ Class Explosion  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Health_Explosion_Detonate" data-uid="ToolkitEngine.Health.Explosion.Detonate">
   Detonate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/Explosion.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

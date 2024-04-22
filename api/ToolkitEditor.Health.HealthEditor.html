@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -128,9 +128,39 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <h3 id="ToolkitEditor_Health_HealthEditor_m_bonusValue" data-uid="ToolkitEditor.Health.HealthEditor.m_bonusValue">
+  m_bonusValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_bonusValue</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="ToolkitEditor_Health_HealthEditor_m_canRegenerate" data-uid="ToolkitEditor.Health.HealthEditor.m_canRegenerate">
   m_canRegenerate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -158,39 +188,9 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
 
 
-  <h3 id="ToolkitEditor_Health_HealthEditor_m_canRegenerateDead" data-uid="ToolkitEditor.Health.HealthEditor.m_canRegenerateDead">
-  m_canRegenerateDead
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L24"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SerializedProperty m_canRegenerateDead</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
   <h3 id="ToolkitEditor_Health_HealthEditor_m_degenerateDelay" data-uid="ToolkitEditor.Health.HealthEditor.m_degenerateDelay">
   m_degenerateDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -250,7 +250,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_invulnerabilityTime" data-uid="ToolkitEditor.Health.HealthEditor.m_invulnerabilityTime">
   m_invulnerabilityTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -280,7 +280,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_maxValue" data-uid="ToolkitEditor.Health.HealthEditor.m_maxValue">
   m_maxValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -310,7 +310,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onDamaged" data-uid="ToolkitEditor.Health.HealthEditor.m_onDamaged">
   m_onDamaged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -340,7 +340,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onDied" data-uid="ToolkitEditor.Health.HealthEditor.m_onDied">
   m_onDied
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -370,7 +370,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onDying" data-uid="ToolkitEditor.Health.HealthEditor.m_onDying">
   m_onDying
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -400,7 +400,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onHealed" data-uid="ToolkitEditor.Health.HealthEditor.m_onHealed">
   m_onHealed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -430,7 +430,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onRegenerationChanged" data-uid="ToolkitEditor.Health.HealthEditor.m_onRegenerationChanged">
   m_onRegenerationChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -460,7 +460,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onResurrected" data-uid="ToolkitEditor.Health.HealthEditor.m_onResurrected">
   m_onResurrected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -490,7 +490,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onValueChanged" data-uid="ToolkitEditor.Health.HealthEditor.m_onValueChanged">
   m_onValueChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -520,7 +520,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_onValueChanging" data-uid="ToolkitEditor.Health.HealthEditor.m_onValueChanging">
   m_onValueChanging
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -550,7 +550,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_rates" data-uid="ToolkitEditor.Health.HealthEditor.m_rates">
   m_rates
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -580,7 +580,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_regenerateDelay" data-uid="ToolkitEditor.Health.HealthEditor.m_regenerateDelay">
   m_regenerateDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -610,7 +610,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_m_startInvulnerable" data-uid="ToolkitEditor.Health.HealthEditor.m_startInvulnerable">
   m_startInvulnerable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -618,6 +618,36 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected SerializedProperty m_startInvulnerable</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEditor_Health_HealthEditor_m_stopCondition" data-uid="ToolkitEditor.Health.HealthEditor.m_stopCondition">
+  m_stopCondition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_stopCondition</code></pre>
   </div>
 
 
@@ -675,7 +705,7 @@ Class HealthEditor  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="ToolkitEditor_Health_HealthEditor_OnInspectorGUI" data-uid="ToolkitEditor.Health.HealthEditor.OnInspectorGUI">
   OnInspectorGUI()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Editor/HealthEditor.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

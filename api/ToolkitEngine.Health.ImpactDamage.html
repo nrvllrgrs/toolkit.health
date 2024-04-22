@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -102,7 +102,7 @@ Class ImpactDamage  <a class="header-action link-secondary" title="View source" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class ImpactDamage : Damage</code></pre>
+public class ImpactDamage : Damage, IBonusDamageContainer</code></pre>
   </div>
 
 
@@ -117,6 +117,12 @@ public class ImpactDamage : Damage</code></pre>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Health.IBonusDamageContainer.html">IBonusDamageContainer</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -170,7 +176,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage__ctor" data-uid="ToolkitEngine.Health.ImpactDamage.#ctor">
   ImpactDamage()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -196,7 +202,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage__ctor_ToolkitEngine_Health_ImpactDamage_" data-uid="ToolkitEngine.Health.ImpactDamage.#ctor(ToolkitEngine.Health.ImpactDamage)">
   ImpactDamage(ImpactDamage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -381,18 +387,49 @@ public class ImpactDamage : Damage</code></pre>
 </h2>
 
 
-  <a id="ToolkitEngine_Health_ImpactDamage_factor_" data-uid="ToolkitEngine.Health.ImpactDamage.factor*"></a>
+  <a id="ToolkitEngine_Health_ImpactDamage_bonuses_" data-uid="ToolkitEngine.Health.ImpactDamage.bonuses*"></a>
 
-  <h3 id="ToolkitEngine_Health_ImpactDamage_factor" data-uid="ToolkitEngine.Health.ImpactDamage.factor">
-  factor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_ImpactDamage_bonuses" data-uid="ToolkitEngine.Health.ImpactDamage.bonuses">
+  bonuses
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float factor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Damage&gt; bonuses { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ToolkitEngine.Health.Damage.html">Damage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_ImpactDamage_factor_" data-uid="ToolkitEngine.Health.ImpactDamage.factor*"></a>
+
+  <h3 id="ToolkitEngine_Health_ImpactDamage_factor" data-uid="ToolkitEngine.Health.ImpactDamage.factor">
+  factor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float factor { get; set; }</code></pre>
   </div>
 
 
@@ -416,7 +453,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage_hasInfiniteRange" data-uid="ToolkitEngine.Health.ImpactDamage.hasInfiniteRange">
   hasInfiniteRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -447,7 +484,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage_impulse" data-uid="ToolkitEngine.Health.ImpactDamage.impulse">
   impulse
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -478,7 +515,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage_range" data-uid="ToolkitEngine.Health.ImpactDamage.range">
   range
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -509,7 +546,7 @@ public class ImpactDamage : Damage</code></pre>
 
   <h3 id="ToolkitEngine_Health_ImpactDamage_visualRange" data-uid="ToolkitEngine.Health.ImpactDamage.visualRange">
   visualRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -542,24 +579,31 @@ public class ImpactDamage : Damage</code></pre>
 
   <a id="ToolkitEngine_Health_ImpactDamage_Apply_" data-uid="ToolkitEngine.Health.ImpactDamage.Apply*"></a>
 
-  <h3 id="ToolkitEngine_Health_ImpactDamage_Apply_ToolkitEngine_Health_DamageHit_" data-uid="ToolkitEngine.Health.ImpactDamage.Apply(ToolkitEngine.Health.DamageHit)">
-  Apply(DamageHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Health_ImpactDamage_Apply_ToolkitEngine_Health_DamageHit_ToolkitEngine_Health_IDamageDealer_" data-uid="ToolkitEngine.Health.ImpactDamage.Apply(ToolkitEngine.Health.DamageHit,ToolkitEngine.Health.IDamageDealer)">
+  Apply(DamageHit, IDamageDealer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/ImpactDamage.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Apply(DamageHit hit)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Apply(DamageHit hit, IDamageDealer dealer = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hit</code> <a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a></dt>
     <dd></dd>
+    <dt><code>dealer</code> <a class="xref" href="ToolkitEngine.Health.IDamageDealer.html">IDamageDealer</a></dt>
+    <dd></dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

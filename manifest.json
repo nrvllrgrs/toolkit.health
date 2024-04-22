@@ -125,6 +125,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.VisualScripting.Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.VisualScripting.Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Health.VulnerabilityDrawer.yml",
       "output": {
         ".html": {
@@ -315,6 +335,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Health.RegenerateStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Health.RegenerateStop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Health.Health.yml",
       "output": {
         ".html": {
@@ -379,6 +409,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Health.HealthLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IBonusDamageContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IBonusDamageContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.IDamageDealer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.IDamageDealer.html"
         }
       },
       "version": ""
@@ -479,6 +529,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealtMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealtMessageListener.html"
         }
       },
       "version": ""
