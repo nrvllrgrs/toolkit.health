@@ -1,9 +1,13 @@
 {
-    "name": "ToolkitEngine.Health",
+    "name": "ToolkitEngine.Health.VisualScripting",
     "rootNamespace": "",
     "references": [
         "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
-        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+        "GUID:84a91b4eb9e5b934d8e2e55fcedeba20",
+        "GUID:ae287669d5b133249a3598ed14cf995e",
+        "GUID:21b0c8d1703a94250bfac916590cea4f",
+        "GUID:ea715009a4efd4c6cbc85be3ae097dd3",
+        "GUID:315d634a9ac6d460a9515f5a56be6311"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

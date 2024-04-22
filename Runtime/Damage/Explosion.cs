@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace ToolkitEngine.Health
 {
-	public class Explosion : MonoBehaviour
+	public class Explosion : MonoBehaviour, IDamageDealer
 	{
 		#region Fields
 
@@ -23,12 +23,16 @@ namespace ToolkitEngine.Health
 		[SerializeField]
 		private UnityEvent<Explosion> m_onDetonated;
 
+		[SerializeField]
+		private UnityEvent<HealthEventArgs> m_onDamageDealt;
+
 		#endregion
 
 		#region Properties
 
 		public SplashDamage damage => m_damage;
 		public UnityEvent<Explosion> onDetonated => m_onDetonated;
+		public UnityEvent<HealthEventArgs> onDamageDealt => m_onDamageDealt;
 
 		#endregion
 
@@ -37,7 +41,7 @@ namespace ToolkitEngine.Health
 		[ContextMenu("Detonate")]
 		public void Detonate()
 		{
-			m_damage.Apply(transform.position, !m_source.IsNull() ? m_source : null);
+			m_damage.Apply(transform.position, !m_source.IsNull() ? m_source : null, out var hits, this);
 			m_spawner.Instantiate(transform.position, Quaternion.identity);
 
 			m_onDetonated?.Invoke(this);

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ToolkitEngine.Health
 {
 	[System.Serializable]
-	public class SplashDamage : Damage
+	public class SplashDamage : Damage, IBonusDamageContainer
 	{
 		#region Fields
 
@@ -31,8 +31,18 @@ namespace ToolkitEngine.Health
 
 		#region Properties
 
+		public float factor
+		{
+			get => m_factor.value;
+			set => m_factor.value = value;
+		}
+
+		public float impulse { get => m_impulse; set => m_impulse = value; }
+
 		public float innerRadius => m_radius.x;
 		public float outerRadius => m_radius.y;
+
+		public List<Damage> bonuses => m_bonuses;
 
 		#endregion
 
@@ -56,9 +66,11 @@ namespace ToolkitEngine.Health
 
 		#region Methods
 
-		public DamageHit[] Apply(Vector3 point, GameObject source)
+		public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, IDamageDealer dealer = null)
 		{
-			List<DamageHit> hits = new();
+			bool anyApplied = false;
+
+			List<DamageHit> list = new();
 			if (outerRadius > 0f)
 			{
 				// Cache factor because reflection may be involved
@@ -94,7 +106,7 @@ namespace ToolkitEngine.Health
 							victim = victim,
 							collider = collider,
 						};
-						hits.Add(hit);
+						list.Add(hit);
 
 						float falloffFactor = 1f;
 						if (value != 0f && factor != 0f)
@@ -106,10 +118,15 @@ namespace ToolkitEngine.Health
 						hit.value = -value * factor * falloffFactor;
 						victim.Apply(hit);
 
+						InvokeDamageDealt(hit, dealer, ref anyApplied);
+
 						// Apply bonus splash damage
 						foreach (var bonus in m_bonuses)
 						{
-							victim.Apply(new DamageHit(-bonus.value * factor, damageType, hit));
+							var bonusHit = new DamageHit(-bonus.value * factor, damageType, hit);
+							victim.Apply(bonusHit);
+
+							InvokeDamageDealt(bonusHit, dealer, ref anyApplied);
 						}
 					}
 
@@ -125,7 +142,17 @@ namespace ToolkitEngine.Health
 				}
 			}
 
-			return hits.ToArray();
+			hits = list.ToArray();
+			return anyApplied;
+		}
+
+		private void InvokeDamageDealt(DamageHit hit, IDamageDealer dealer, ref bool anyApplied)
+		{
+			if (hit.value != 0f)
+			{
+				dealer?.onDamageDealt?.Invoke(new HealthEventArgs(hit, dealer?.transform.gameObject));
+				anyApplied = true;
+			}
 		}
 
 		#endregion

@@ -246,7 +246,7 @@ namespace ToolkitEngine.Health
             {
 				foreach (var previous in GetPreviousLayers())
 				{
-					previous.health.RestartRegeneration();
+					previous.health.UnpauseRegeneration();
 				}
 			}
 
@@ -281,7 +281,7 @@ namespace ToolkitEngine.Health
             {
                 foreach (var previous in GetPreviousLayers())
                 {
-                    previous.health.RestartRegeneration();
+                    previous.health.UnpauseRegeneration();
                 }
             }
         }

@@ -10,7 +10,7 @@ namespace ToolkitEngine.Health
 		[SerializeField]
 		protected DamageType m_damageType;
 
-		[SerializeField]
+		[SerializeField, Tooltip("Positive value damage target; negative values heal target.")]
 		protected float m_value;
 
 		#endregion
@@ -46,6 +46,17 @@ namespace ToolkitEngine.Health
 		#endregion
 
 		#region Properties
+
+		public float modifiedValue
+		{
+			get
+			{
+				if (!continuous)
+					return value;
+
+				return value * Time.deltaTime;
+			}
+		}
 
 		/// <summary>
 		/// Amount of damage dealt
@@ -110,14 +121,24 @@ namespace ToolkitEngine.Health
 			set => m_distance = value;
 		}
 
+		/// <summary>
+		/// Indicates whether value is per second
+		/// </summary>
+		public  bool continuous { get; private set; }
+
 		#endregion
 
 		#region Constructors
 
 		public DamageHit(float value, DamageType damageType)
+			: this(value, damageType, false)
+		{ }
+
+		public DamageHit(float value, DamageType damageType, bool continuous)
 		{
 			this.value = value;
 			this.damageType = damageType;
+			this.continuous = continuous;
 		}
 
 		public DamageHit(Damage damage)
@@ -125,18 +146,8 @@ namespace ToolkitEngine.Health
 		{ }
 
 		public DamageHit(Damage damage, bool continuous)
-		{
-			if (damage == null)
-				return;
-
-			value = -damage.value;
-			if (continuous)
-			{
-				value *= Time.deltaTime;
-			}
-
-			damageType = damage.damageType;
-		}
+			: this(damage?.value ?? 0f, damage?.damageType ?? null, continuous)
+		{ }
 
 		public DamageHit(float value, DamageType damageType, DamageHit other)
 			: this(value, damageType)

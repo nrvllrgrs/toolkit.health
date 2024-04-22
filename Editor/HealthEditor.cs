@@ -12,7 +12,8 @@ namespace ToolkitEditor.Health
         protected ToolkitEngine.Health.Health m_health;
 
         protected SerializedProperty m_value;
-        protected SerializedProperty m_maxValue;
+		protected SerializedProperty m_bonusValue;
+		protected SerializedProperty m_maxValue;
         protected SerializedProperty m_invulnerabilityTime;
         protected SerializedProperty m_startInvulnerable;
 
@@ -21,7 +22,7 @@ namespace ToolkitEditor.Health
         protected SerializedProperty m_regenerateDelay;
         protected SerializedProperty m_degenerateDelay;
 		protected SerializedProperty m_rates;
-        protected SerializedProperty m_canRegenerateDead;
+        protected SerializedProperty m_stopCondition;
 
         // Events
         protected SerializedProperty m_onValueChanging;
@@ -42,7 +43,8 @@ namespace ToolkitEditor.Health
             m_health = (ToolkitEngine.Health.Health)target;
 
             m_value = serializedObject.FindProperty(nameof(m_value));
-            m_maxValue = serializedObject.FindProperty(nameof(m_maxValue));
+			m_bonusValue = serializedObject.FindProperty(nameof(m_bonusValue));
+			m_maxValue = serializedObject.FindProperty(nameof(m_maxValue));
             m_invulnerabilityTime = serializedObject.FindProperty(nameof(m_invulnerabilityTime));
             m_startInvulnerable = serializedObject.FindProperty(nameof(m_startInvulnerable));
 
@@ -51,7 +53,7 @@ namespace ToolkitEditor.Health
             m_regenerateDelay = serializedObject.FindProperty(nameof(m_regenerateDelay));
             m_degenerateDelay = serializedObject.FindProperty(nameof(m_degenerateDelay));
 			m_rates = serializedObject.FindProperty(nameof(m_rates));
-			m_canRegenerateDead = serializedObject.FindProperty(nameof(m_canRegenerateDead));
+			m_stopCondition = serializedObject.FindProperty(nameof(m_stopCondition));
 
             // Events
             m_onValueChanging = serializedObject.FindProperty(nameof(m_onValueChanging));
@@ -77,23 +79,47 @@ namespace ToolkitEditor.Health
 			}
 
 			EditorGUILayout.PropertyField(m_maxValue);
-            m_value.floatValue = Mathf.Clamp(m_value.floatValue, 0f, m_maxValue.floatValue);
-            EditorGUILayout.Slider(m_value, 0, m_maxValue.floatValue);
+
+            EditorGUI.BeginDisabledGroup(true);
+			EditorGUILayout.PropertyField(m_bonusValue);
+			EditorGUI.EndDisabledGroup();
+
+            m_value.floatValue = Mathf.Clamp(m_value.floatValue, 0f, m_maxValue.floatValue + m_bonusValue.floatValue);
+            EditorGUILayout.Slider(m_value, 0, m_maxValue.floatValue + m_bonusValue.floatValue);
             EditorGUILayout.PropertyField(m_invulnerabilityTime);
             EditorGUILayout.PropertyField(m_startInvulnerable);
 
             EditorGUILayout.Separator();
 
-            EditorGUILayout.PropertyField(m_canRegenerate);
-            if (m_canRegenerate.boolValue)
+            EditorGUILayout.LabelField("Regeneration", EditorStyles.boldLabel);
+            if (EditorGUILayoutUtility.Foldout(m_regenerateDelay, "Delay"))
             {
-                ++EditorGUI.indentLevel;
-                EditorGUILayout.PropertyField(m_regenerateDelay);
-                EditorGUILayout.PropertyField(m_degenerateDelay);
+				++EditorGUI.indentLevel;
+				EditorGUILayout.PropertyField(m_regenerateDelay, new GUIContent("Regenerate"));
+				EditorGUILayout.PropertyField(m_degenerateDelay, new GUIContent("Degenerate"));
+				--EditorGUI.indentLevel;
+			}
+
+            if (!Application.isPlaying)
+            {
 				EditorGUILayout.PropertyField(m_rates);
-				EditorGUILayout.PropertyField(m_canRegenerateDead, new GUIContent("While Dead"));
-                --EditorGUI.indentLevel;
+			}
+            else
+            {
+                if (EditorGUILayoutUtility.Foldout(m_rates, m_rates.displayName))
+                {
+					++EditorGUI.indentLevel;
+					EditorGUI.BeginDisabledGroup(true);
+					foreach (var key in m_health.regenerateDamageTypes)
+                    {
+                        EditorGUILayout.FloatField(key?.name ?? "NONE", m_health.GetRegenerationRate(key));
+					}
+					EditorGUI.EndDisabledGroup();
+					--EditorGUI.indentLevel;
+				}
             }
+			
+            EditorGUILayout.PropertyField(m_stopCondition);
 
             EditorGUILayout.Separator();
 

@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ToolkitEngine.Health
 {
 	[System.Serializable]
-	public class ImpactDamage : Damage
+	public class ImpactDamage : Damage, IBonusDamageContainer
 	{
 		#region Fields
 
@@ -27,9 +27,13 @@ namespace ToolkitEngine.Health
 
 		#region Properties
 
-		public float impulse { get => m_impulse; set => m_impulse = value; }
+		public float factor
+		{
+			get => m_factor.value;
+			set => m_factor.value = value;
+		}
 
-		public float factor => m_factor.value;
+		public float impulse { get => m_impulse; set => m_impulse = value; }
 
 		public float range
 		{
@@ -59,6 +63,7 @@ namespace ToolkitEngine.Health
 
 		public bool hasInfiniteRange => range == float.PositiveInfinity;
 
+		public List<Damage> bonuses => m_bonuses;
 
 		#endregion
 
@@ -82,11 +87,12 @@ namespace ToolkitEngine.Health
 
 		#region Methods
 
-		public void Apply(DamageHit hit)
+		public bool Apply(DamageHit hit, IDamageDealer dealer = null)
 		{
 			if (hit == null)
-				return;
+				return false;
 
+			bool anyApplied = false;
 			if (hit.victim != null)
 			{
 				float factor = m_factor.value;
@@ -101,10 +107,15 @@ namespace ToolkitEngine.Health
 				hit.value *= factor;
 				hit.victim.Apply(hit);
 
+				InvokeDamageDealt(hit, dealer, ref anyApplied);
+
 				// Apply bonus impact damages
 				foreach (var bonus in m_bonuses)
 				{
-					hit.victim.Apply(new DamageHit(-bonus.value * factor, damageType, hit));
+					var bonusHit = new DamageHit(bonus.value * factor, damageType, hit);
+					hit.victim.Apply(bonusHit);
+
+					InvokeDamageDealt(bonusHit, dealer, ref anyApplied);
 				}
 			}
 
@@ -116,6 +127,17 @@ namespace ToolkitEngine.Health
 					var force = -hit.normal * m_impulse;
 					rigidbody.AddForceAtPosition(force, hit.contact, ForceMode.Impulse);
 				}
+			}
+
+			return anyApplied;
+		}
+
+		private void InvokeDamageDealt(DamageHit hit, IDamageDealer dealer, ref bool anyApplied)
+		{
+			if (hit.value != 0f)
+			{
+				dealer?.onDamageDealt?.Invoke(new HealthEventArgs(hit, dealer?.transform.gameObject));
+				anyApplied = true;
 			}
 		}
 

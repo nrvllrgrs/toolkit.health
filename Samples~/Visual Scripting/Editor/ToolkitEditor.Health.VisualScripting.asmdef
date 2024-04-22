@@ -1,0 +1,22 @@
+{
+    "name": "ToolkitEditor.Health.VisualScripting",
+    "rootNamespace": "",
+    "references": [
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f",
+        "GUID:23f3c6063e13e4fd9addce3606ff4e42",
+        "GUID:ae287669d5b133249a3598ed14cf995e",
+        "GUID:3c4dbdb3a73fedf48b1ccf83d493bcde",
+        "GUID:3f1f571dedb44f84b9692faef46a67d8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
