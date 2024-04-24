@@ -339,6 +339,8 @@ namespace ToolkitEngine.Health
 			if (!fromRegenerate && value < m_value && isInvulnerable)
 				return;
 
+			bool regenerate = false;
+
 			// Losing health...
 			if (value < m_value)
 			{
@@ -354,7 +356,7 @@ namespace ToolkitEngine.Health
 						}
 
 						// ...and restart timer
-						UnpauseRegeneration(hit.damageType == null);
+						regenerate = true;
 					}
 				}
 				// Going to be dead AND stop regeneration when dead
@@ -369,10 +371,7 @@ namespace ToolkitEngine.Health
 				// Not going to be at full health
 				if (value < maxValue)
 				{
-					if (!fromRegenerate)
-					{
-						UnpauseRegeneration(hit.damageType == null);
-					}
+					regenerate = !fromRegenerate;
 				}
 				// Going to be at full health AND stop regeneration when maxed
 				else if ((m_stopCondition & RegenerateStop.Maximum) != 0 && !m_regenerateRates.Any())
@@ -383,6 +382,13 @@ namespace ToolkitEngine.Health
 
 			bool wasDead = isDead;
 			m_value = value;
+
+			if (regenerate)
+			{
+				// Wait until after value change to unpause
+				// Otherwise, leaving from maxHealth does not restart thread
+				UnpauseRegeneration(hit.damageType == null);
+			}
 
 			// Update to new normalized value before invoking OnValueChanged
 			e.normalizedValue = normalizedValue;
@@ -599,7 +605,7 @@ namespace ToolkitEngine.Health
 			{
 				if (resetDelay)
 				{
-					m_remainingDelayTime = m_remainingDelayTime;
+					m_remainingDelayTime = m_regenerateDelay;
 				}
 
 				if (m_regenerateThread == null
