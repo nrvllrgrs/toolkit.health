@@ -132,11 +132,7 @@ namespace ToolkitEditor.Health
 				EditorGUILayout.PropertyField(m_onDying);
 				EditorGUILayout.PropertyField(m_onDied);
                 EditorGUILayout.PropertyField(m_onResurrected);
-
-                if (m_canRegenerate.boolValue)
-                {
-                    EditorGUILayout.PropertyField(m_onRegenerationChanged);
-                }
+                EditorGUILayout.PropertyField(m_onRegenerationChanged);
             }
 
             serializedObject.ApplyModifiedProperties();

@@ -318,7 +318,7 @@ namespace ToolkitEngine.Health
 			};
 
 			// Make sure victim is assigned if coming from Heal or Damage methods
-			e.hit.victim = e.hit.victim ?? this;
+			e.hit.victim ??= this;
 
 			onValueChanging.Invoke(e);
 

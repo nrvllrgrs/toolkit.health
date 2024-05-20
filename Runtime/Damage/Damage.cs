@@ -146,7 +146,7 @@ namespace ToolkitEngine.Health
 		{ }
 
 		public DamageHit(Damage damage, bool continuous)
-			: this(damage?.value ?? 0f, damage?.damageType ?? null, continuous)
+			: this(-(damage?.value ?? 0f), damage?.damageType ?? null, continuous)
 		{ }
 
 		public DamageHit(float value, DamageType damageType, DamageHit other)
