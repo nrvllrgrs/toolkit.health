@@ -50,7 +50,7 @@ namespace ToolkitEngine.Health
 		public HealthEventArgs(DamageHit hit, GameObject source = null)
 		{
 			this.hit = hit;
-			this.source = source;
+			this.source = source ?? hit.source;
 		}
 
 		public HealthEventArgs(HealthEventArgs copy)
