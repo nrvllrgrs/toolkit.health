@@ -1488,6 +1488,19 @@ references:
   fullName.vb: ToolkitEngine.Health.Damage.New
   nameWithType: Damage.Damage
   nameWithType.vb: Damage.New
+- uid: ToolkitEngine.Health.Damage.CopyTo(ToolkitEngine.Health.Damage)
+  name: CopyTo(Damage)
+  href: api/ToolkitEngine.Health.Damage.html#ToolkitEngine_Health_Damage_CopyTo_ToolkitEngine_Health_Damage_
+  commentId: M:ToolkitEngine.Health.Damage.CopyTo(ToolkitEngine.Health.Damage)
+  fullName: ToolkitEngine.Health.Damage.CopyTo(ToolkitEngine.Health.Damage)
+  nameWithType: Damage.CopyTo(Damage)
+- uid: ToolkitEngine.Health.Damage.CopyTo*
+  name: CopyTo
+  href: api/ToolkitEngine.Health.Damage.html#ToolkitEngine_Health_Damage_CopyTo_
+  commentId: Overload:ToolkitEngine.Health.Damage.CopyTo
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Damage.CopyTo
+  nameWithType: Damage.CopyTo
 - uid: ToolkitEngine.Health.Damage.damageType
   name: damageType
   href: api/ToolkitEngine.Health.Damage.html#ToolkitEngine_Health_Damage_damageType
@@ -1770,6 +1783,33 @@ references:
   commentId: M:ToolkitEngine.Health.Explosion.Detonate
   fullName: ToolkitEngine.Health.Explosion.Detonate()
   nameWithType: Explosion.Detonate()
+- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@)
+  name: Detonate(SplashDamage, Vector3, GameObject, out DamageHit[])
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_GameObject_ToolkitEngine_Health_DamageHit____
+  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@)
+  name.vb: Detonate(SplashDamage, Vector3, GameObject, DamageHit())
+  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, out ToolkitEngine.Health.DamageHit[])
+  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, ToolkitEngine.Health.DamageHit())
+  nameWithType: Explosion.Detonate(SplashDamage, Vector3, GameObject, out DamageHit[])
+  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, GameObject, DamageHit())
+- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,GameObject)
+  name: Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], GameObject)
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_GameObject_ToolkitEngine_Health_DamageHit____GameObject_
+  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,GameObject)
+  name.vb: Detonate(SplashDamage, Vector3, GameObject, DamageHit(), GameObject)
+  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, out ToolkitEngine.Health.DamageHit[], GameObject)
+  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, ToolkitEngine.Health.DamageHit(), GameObject)
+  nameWithType: Explosion.Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], GameObject)
+  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, GameObject, DamageHit(), GameObject)
+- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@)
+  name: Detonate(SplashDamage, Vector3, out DamageHit[])
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_ToolkitEngine_Health_DamageHit____
+  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@)
+  name.vb: Detonate(SplashDamage, Vector3, DamageHit())
+  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, out ToolkitEngine.Health.DamageHit[])
+  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, ToolkitEngine.Health.DamageHit())
+  nameWithType: Explosion.Detonate(SplashDamage, Vector3, out DamageHit[])
+  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, DamageHit())
 - uid: ToolkitEngine.Health.Explosion.Detonate*
   name: Detonate
   href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_
@@ -3326,6 +3366,19 @@ references:
   commentId: T:ToolkitEngine.Health.IHealth
   fullName: ToolkitEngine.Health.IHealth
   nameWithType: IHealth
+- uid: ToolkitEngine.Health.IHealth.isDead
+  name: isDead
+  href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_isDead
+  commentId: P:ToolkitEngine.Health.IHealth.isDead
+  fullName: ToolkitEngine.Health.IHealth.isDead
+  nameWithType: IHealth.isDead
+- uid: ToolkitEngine.Health.IHealth.isDead*
+  name: isDead
+  href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_isDead_
+  commentId: Overload:ToolkitEngine.Health.IHealth.isDead
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealth.isDead
+  nameWithType: IHealth.isDead
 - uid: ToolkitEngine.Health.IHealth.maxValue
   name: maxValue
   href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_maxValue
@@ -3615,6 +3668,15 @@ references:
   fullName.vb: ToolkitEngine.Health.ImpactDamage.New()
   nameWithType: ImpactDamage.ImpactDamage()
   nameWithType.vb: ImpactDamage.New()
+- uid: ToolkitEngine.Health.ImpactDamage.#ctor(System.Single,ToolkitEngine.Health.DamageType,System.Single,System.Single,AnimationCurve)
+  name: ImpactDamage(float, DamageType, float, float, AnimationCurve)
+  href: api/ToolkitEngine.Health.ImpactDamage.html#ToolkitEngine_Health_ImpactDamage__ctor_System_Single_ToolkitEngine_Health_DamageType_System_Single_System_Single_AnimationCurve_
+  commentId: M:ToolkitEngine.Health.ImpactDamage.#ctor(System.Single,ToolkitEngine.Health.DamageType,System.Single,System.Single,AnimationCurve)
+  name.vb: New(Single, DamageType, Single, Single, AnimationCurve)
+  fullName: ToolkitEngine.Health.ImpactDamage.ImpactDamage(float, ToolkitEngine.Health.DamageType, float, float, AnimationCurve)
+  fullName.vb: ToolkitEngine.Health.ImpactDamage.New(Single, ToolkitEngine.Health.DamageType, Single, Single, AnimationCurve)
+  nameWithType: ImpactDamage.ImpactDamage(float, DamageType, float, float, AnimationCurve)
+  nameWithType.vb: ImpactDamage.New(Single, DamageType, Single, Single, AnimationCurve)
 - uid: ToolkitEngine.Health.ImpactDamage.#ctor(ToolkitEngine.Health.ImpactDamage)
   name: ImpactDamage(ImpactDamage)
   href: api/ToolkitEngine.Health.ImpactDamage.html#ToolkitEngine_Health_ImpactDamage__ctor_ToolkitEngine_Health_ImpactDamage_
@@ -3647,6 +3709,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.ImpactDamage.Apply
   nameWithType: ImpactDamage.Apply
+- uid: ToolkitEngine.Health.ImpactDamage.CopyTo(ToolkitEngine.Health.Damage)
+  name: CopyTo(Damage)
+  href: api/ToolkitEngine.Health.ImpactDamage.html#ToolkitEngine_Health_ImpactDamage_CopyTo_ToolkitEngine_Health_Damage_
+  commentId: M:ToolkitEngine.Health.ImpactDamage.CopyTo(ToolkitEngine.Health.Damage)
+  fullName: ToolkitEngine.Health.ImpactDamage.CopyTo(ToolkitEngine.Health.Damage)
+  nameWithType: ImpactDamage.CopyTo(Damage)
+- uid: ToolkitEngine.Health.ImpactDamage.CopyTo*
+  name: CopyTo
+  href: api/ToolkitEngine.Health.ImpactDamage.html#ToolkitEngine_Health_ImpactDamage_CopyTo_
+  commentId: Overload:ToolkitEngine.Health.ImpactDamage.CopyTo
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.ImpactDamage.CopyTo
+  nameWithType: ImpactDamage.CopyTo
 - uid: ToolkitEngine.Health.ImpactDamage.bonuses
   name: bonuses
   href: api/ToolkitEngine.Health.ImpactDamage.html#ToolkitEngine_Health_ImpactDamage_bonuses
@@ -3821,6 +3896,15 @@ references:
   fullName.vb: ToolkitEngine.Health.SplashDamage.New()
   nameWithType: SplashDamage.SplashDamage()
   nameWithType.vb: SplashDamage.New()
+- uid: ToolkitEngine.Health.SplashDamage.#ctor(System.Single,ToolkitEngine.Health.DamageType,System.Single,System.Single,System.Single,System.Single,System.Single,AnimationCurve)
+  name: SplashDamage(float, DamageType, float, float, float, float, float, AnimationCurve)
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage__ctor_System_Single_ToolkitEngine_Health_DamageType_System_Single_System_Single_System_Single_System_Single_System_Single_AnimationCurve_
+  commentId: M:ToolkitEngine.Health.SplashDamage.#ctor(System.Single,ToolkitEngine.Health.DamageType,System.Single,System.Single,System.Single,System.Single,System.Single,AnimationCurve)
+  name.vb: New(Single, DamageType, Single, Single, Single, Single, Single, AnimationCurve)
+  fullName: ToolkitEngine.Health.SplashDamage.SplashDamage(float, ToolkitEngine.Health.DamageType, float, float, float, float, float, AnimationCurve)
+  fullName.vb: ToolkitEngine.Health.SplashDamage.New(Single, ToolkitEngine.Health.DamageType, Single, Single, Single, Single, Single, AnimationCurve)
+  nameWithType: SplashDamage.SplashDamage(float, DamageType, float, float, float, float, float, AnimationCurve)
+  nameWithType.vb: SplashDamage.New(Single, DamageType, Single, Single, Single, Single, Single, AnimationCurve)
 - uid: ToolkitEngine.Health.SplashDamage.#ctor(ToolkitEngine.Health.SplashDamage)
   name: SplashDamage(SplashDamage)
   href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage__ctor_ToolkitEngine_Health_SplashDamage_
@@ -3856,6 +3940,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.SplashDamage.Apply
   nameWithType: SplashDamage.Apply
+- uid: ToolkitEngine.Health.SplashDamage.CopyTo(ToolkitEngine.Health.Damage)
+  name: CopyTo(Damage)
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_CopyTo_ToolkitEngine_Health_Damage_
+  commentId: M:ToolkitEngine.Health.SplashDamage.CopyTo(ToolkitEngine.Health.Damage)
+  fullName: ToolkitEngine.Health.SplashDamage.CopyTo(ToolkitEngine.Health.Damage)
+  nameWithType: SplashDamage.CopyTo(Damage)
+- uid: ToolkitEngine.Health.SplashDamage.CopyTo*
+  name: CopyTo
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_CopyTo_
+  commentId: Overload:ToolkitEngine.Health.SplashDamage.CopyTo
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.SplashDamage.CopyTo
+  nameWithType: SplashDamage.CopyTo
 - uid: ToolkitEngine.Health.SplashDamage.bonuses
   name: bonuses
   href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_bonuses
@@ -3957,6 +4054,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.SplashDamage.outerRadius
   nameWithType: SplashDamage.outerRadius
+- uid: ToolkitEngine.Health.SplashDamage.upwardModifier
+  name: upwardModifier
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_upwardModifier
+  commentId: P:ToolkitEngine.Health.SplashDamage.upwardModifier
+  fullName: ToolkitEngine.Health.SplashDamage.upwardModifier
+  nameWithType: SplashDamage.upwardModifier
+- uid: ToolkitEngine.Health.SplashDamage.upwardModifier*
+  name: upwardModifier
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_upwardModifier_
+  commentId: Overload:ToolkitEngine.Health.SplashDamage.upwardModifier
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.SplashDamage.upwardModifier
+  nameWithType: SplashDamage.upwardModifier
 - uid: ToolkitEngine.Health.VisualScripting
   name: ToolkitEngine.Health.VisualScripting
   href: api/ToolkitEngine.Health.VisualScripting.html
