@@ -7,6 +7,7 @@ namespace ToolkitEngine.Health
         float value { get; }
         float maxValue { get; }
         float normalizedValue { get; }
+        bool isDead { get; }
 		UnityEvent<HealthEventArgs> onDying { get; }
 		UnityEvent<HealthEventArgs> onDied { get; }
         UnityEvent<HealthEventArgs> onResurrected { get; }

@@ -38,9 +38,10 @@ namespace ToolkitEngine.Health
 		}
 
 		public float impulse { get => m_impulse; set => m_impulse = value; }
+		public float upwardModifier { get => m_upwardModifier; set => m_upwardModifier = value; }
 
-		public float innerRadius => m_radius.x;
-		public float outerRadius => m_radius.y;
+		public float innerRadius { get => m_radius.x; set => m_radius.x = value; }
+		public float outerRadius { get => m_radius.y; set => m_radius.y = value; }
 
 		public List<Damage> bonuses => m_bonuses;
 
@@ -51,20 +52,42 @@ namespace ToolkitEngine.Health
 		public SplashDamage()
 		{ }
 
+		public SplashDamage(float value, DamageType damageType, float factor, float impulse, float upwardModifier, float innerRadius, float outerRadius, AnimationCurve falloff)
+			: base(value, damageType)
+		{
+			m_factor = new UnityFloat(factor);
+			m_impulse = impulse;
+			m_upwardModifier = upwardModifier;
+			m_radius = new Vector2(innerRadius, outerRadius);
+			m_falloff = falloff;
+			m_bonuses = new();
+		}
+
 		public SplashDamage(SplashDamage other)
 		{
-			m_value = other.value;
-			m_damageType = other.m_damageType;
-			m_factor = new UnityFloat(other.m_factor.value);
-			m_upwardModifier = other.m_upwardModifier;
-			m_radius = other.m_radius;
-			m_falloff = other.m_falloff;
-			m_bonuses = new List<Damage>(other.m_bonuses);
+			other.CopyTo(this);
 		}
 
 		#endregion
 
 		#region Methods
+
+		public override void CopyTo(Damage destination)
+		{
+			if (destination == null)
+				return;
+
+			if (destination is SplashDamage dstSplashDamage)
+			{
+				dstSplashDamage.m_value = value;
+				dstSplashDamage.m_damageType = m_damageType;
+				dstSplashDamage.m_factor = new UnityFloat(m_factor.value);
+				dstSplashDamage.m_upwardModifier = m_upwardModifier;
+				dstSplashDamage.m_radius = m_radius;
+				dstSplashDamage.m_falloff = m_falloff;
+				dstSplashDamage.m_bonuses = new List<Damage>(m_bonuses);
+			}
+		}
 
 		public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, IDamageDealer dealer = null)
 		{

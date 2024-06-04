@@ -47,6 +47,28 @@ namespace ToolkitEngine.Health
 			m_onDetonated?.Invoke(this);
 		}
 
+		public static void Detonate(SplashDamage damage, Vector3 position, out DamageHit[] hits)
+		{
+			Detonate(damage, position, null, out hits);
+		}
+
+		public static void Detonate(SplashDamage damage, Vector3 position, GameObject source, out DamageHit[] hits)
+		{
+			if (damage == null)
+			{
+				hits = null;
+				return;
+			}
+
+			damage.Apply(position, source, out hits);
+		}
+
+		public static void Detonate(SplashDamage damage, Vector3 position, GameObject source, out DamageHit[] hits, GameObject template)
+		{
+			Spawner.InstantiateTemplate(template, position, Quaternion.identity, null);
+			Detonate(damage, position, source, out hits);
+		}
+
 		#endregion
 
 		#region Editor-Only

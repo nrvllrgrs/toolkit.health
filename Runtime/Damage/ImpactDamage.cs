@@ -72,20 +72,39 @@ namespace ToolkitEngine.Health
 		public ImpactDamage()
 		{ }
 
+		public ImpactDamage(float value, DamageType damageType, float factor, float range, AnimationCurve falloff)
+			: base(value, damageType)
+		{
+			m_factor = new UnityFloat(factor);
+			m_range = range;
+			m_falloff = falloff;
+		}
+
 		public ImpactDamage(ImpactDamage other)
 		{
-			m_value = other.m_value;
-			m_damageType = other.m_damageType;
-			m_factor = new UnityFloat(other.m_factor.value);
-			m_impulse = other.m_impulse;
-			m_range = other.m_range;
-			m_falloff = other.m_falloff;
-			m_bonuses = new List<Damage>(other.m_bonuses);
+			other.CopyTo(this);
 		}
 
 		#endregion
 
 		#region Methods
+
+		public override void CopyTo(Damage destination)
+		{
+			if (destination == null)
+				return;
+
+			if (destination is ImpactDamage dstImpactDamage)
+			{
+				dstImpactDamage.m_value = m_value;
+				dstImpactDamage.m_damageType = m_damageType;
+				dstImpactDamage.m_factor = new UnityFloat(m_factor.value);
+				dstImpactDamage.m_impulse = m_impulse;
+				dstImpactDamage.m_range = m_range;
+				dstImpactDamage.m_falloff = m_falloff;
+				dstImpactDamage.m_bonuses = new List<Damage>(m_bonuses);
+			}
+		}
 
 		public bool Apply(DamageHit hit, IDamageDealer dealer = null)
 		{

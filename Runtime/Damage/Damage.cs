@@ -34,6 +34,16 @@ namespace ToolkitEngine.Health
 		}
 
 		#endregion
+
+		#region Methods
+
+		public virtual void CopyTo(Damage destination)
+		{
+			destination.m_value = m_value;
+			destination.m_damageType = m_damageType;
+		}
+
+		#endregion
 	}
 
 	public class DamageHit
