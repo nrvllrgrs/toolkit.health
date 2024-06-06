@@ -124,8 +124,9 @@ namespace ToolkitEngine.Health
 				}
 
 				hit.value *= factor;
-				hit.victim.Apply(hit);
 
+				InvokeDamageDealing(hit, dealer);
+				hit.victim.Apply(hit);
 				InvokeDamageDealt(hit, dealer, ref anyApplied);
 
 				// Apply bonus impact damages
@@ -149,6 +150,14 @@ namespace ToolkitEngine.Health
 			}
 
 			return anyApplied;
+		}
+
+		private void InvokeDamageDealing(DamageHit hit, IDamageDealer dealer)
+		{
+			if (hit.value != 0f)
+			{
+				dealer?.onDamageDealing?.Invoke(new HealthEventArgs(hit, dealer?.transform.gameObject));
+			}
 		}
 
 		private void InvokeDamageDealt(DamageHit hit, IDamageDealer dealer, ref bool anyApplied)

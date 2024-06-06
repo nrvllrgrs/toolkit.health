@@ -39,6 +39,7 @@ namespace ToolkitEngine.Health
 		public DamageHit hit { get; private set; }
 
 		public GameObject source { get; private set; }
+		public object userData { get; set; }
 
 		#endregion
 

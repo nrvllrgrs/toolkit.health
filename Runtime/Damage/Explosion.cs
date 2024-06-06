@@ -24,6 +24,9 @@ namespace ToolkitEngine.Health
 		private UnityEvent<Explosion> m_onDetonated;
 
 		[SerializeField]
+		private UnityEvent<HealthEventArgs> m_onDamageDealing;
+
+		[SerializeField]
 		private UnityEvent<HealthEventArgs> m_onDamageDealt;
 
 		#endregion
@@ -32,6 +35,7 @@ namespace ToolkitEngine.Health
 
 		public SplashDamage damage => m_damage;
 		public UnityEvent<Explosion> onDetonated => m_onDetonated;
+		public UnityEvent<HealthEventArgs> onDamageDealing => m_onDamageDealing;
 		public UnityEvent<HealthEventArgs> onDamageDealt => m_onDamageDealt;
 
 		#endregion

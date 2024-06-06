@@ -139,8 +139,9 @@ namespace ToolkitEngine.Health
 						}
 
 						hit.value = -value * factor * falloffFactor;
-						victim.Apply(hit);
 
+						InvokeDamageDealing(hit, dealer);
+						victim.Apply(hit);
 						InvokeDamageDealt(hit, dealer, ref anyApplied);
 
 						// Apply bonus splash damage
@@ -167,6 +168,14 @@ namespace ToolkitEngine.Health
 
 			hits = list.ToArray();
 			return anyApplied;
+		}
+
+		private void InvokeDamageDealing(DamageHit hit, IDamageDealer dealer)
+		{
+			if (hit.value != 0f)
+			{
+				dealer?.onDamageDealing?.Invoke(new HealthEventArgs(hit, dealer?.transform.gameObject));
+			}
 		}
 
 		private void InvokeDamageDealt(DamageHit hit, IDamageDealer dealer, ref bool anyApplied)
