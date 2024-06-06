@@ -257,6 +257,12 @@ references:
   commentId: F:ToolkitEditor.Health.ExplosionEditor.m_damage
   fullName: ToolkitEditor.Health.ExplosionEditor.m_damage
   nameWithType: ExplosionEditor.m_damage
+- uid: ToolkitEditor.Health.ExplosionEditor.m_onDamageDealing
+  name: m_onDamageDealing
+  href: api/ToolkitEditor.Health.ExplosionEditor.html#ToolkitEditor_Health_ExplosionEditor_m_onDamageDealing
+  commentId: F:ToolkitEditor.Health.ExplosionEditor.m_onDamageDealing
+  fullName: ToolkitEditor.Health.ExplosionEditor.m_onDamageDealing
+  nameWithType: ExplosionEditor.m_onDamageDealing
 - uid: ToolkitEditor.Health.ExplosionEditor.m_onDamageDealt
   name: m_onDamageDealt
   href: api/ToolkitEditor.Health.ExplosionEditor.html#ToolkitEditor_Health_ExplosionEditor_m_onDamageDealt
@@ -1830,6 +1836,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.Explosion.damage
   nameWithType: Explosion.damage
+- uid: ToolkitEngine.Health.Explosion.onDamageDealing
+  name: onDamageDealing
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_onDamageDealing
+  commentId: P:ToolkitEngine.Health.Explosion.onDamageDealing
+  fullName: ToolkitEngine.Health.Explosion.onDamageDealing
+  nameWithType: Explosion.onDamageDealing
+- uid: ToolkitEngine.Health.Explosion.onDamageDealing*
+  name: onDamageDealing
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_onDamageDealing_
+  commentId: Overload:ToolkitEngine.Health.Explosion.onDamageDealing
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Explosion.onDamageDealing
+  nameWithType: Explosion.onDamageDealing
 - uid: ToolkitEngine.Health.Explosion.onDamageDealt
   name: onDamageDealt
   href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_onDamageDealt
@@ -2876,6 +2895,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.HealthEventArgs.source
   nameWithType: HealthEventArgs.source
+- uid: ToolkitEngine.Health.HealthEventArgs.userData
+  name: userData
+  href: api/ToolkitEngine.Health.HealthEventArgs.html#ToolkitEngine_Health_HealthEventArgs_userData
+  commentId: P:ToolkitEngine.Health.HealthEventArgs.userData
+  fullName: ToolkitEngine.Health.HealthEventArgs.userData
+  nameWithType: HealthEventArgs.userData
+- uid: ToolkitEngine.Health.HealthEventArgs.userData*
+  name: userData
+  href: api/ToolkitEngine.Health.HealthEventArgs.html#ToolkitEngine_Health_HealthEventArgs_userData_
+  commentId: Overload:ToolkitEngine.Health.HealthEventArgs.userData
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthEventArgs.userData
+  nameWithType: HealthEventArgs.userData
 - uid: ToolkitEngine.Health.HealthEventArgs.value
   name: value
   href: api/ToolkitEngine.Health.HealthEventArgs.html#ToolkitEngine_Health_HealthEventArgs_value
@@ -3218,6 +3250,19 @@ references:
   commentId: T:ToolkitEngine.Health.IDamageDealer
   fullName: ToolkitEngine.Health.IDamageDealer
   nameWithType: IDamageDealer
+- uid: ToolkitEngine.Health.IDamageDealer.onDamageDealing
+  name: onDamageDealing
+  href: api/ToolkitEngine.Health.IDamageDealer.html#ToolkitEngine_Health_IDamageDealer_onDamageDealing
+  commentId: P:ToolkitEngine.Health.IDamageDealer.onDamageDealing
+  fullName: ToolkitEngine.Health.IDamageDealer.onDamageDealing
+  nameWithType: IDamageDealer.onDamageDealing
+- uid: ToolkitEngine.Health.IDamageDealer.onDamageDealing*
+  name: onDamageDealing
+  href: api/ToolkitEngine.Health.IDamageDealer.html#ToolkitEngine_Health_IDamageDealer_onDamageDealing_
+  commentId: Overload:ToolkitEngine.Health.IDamageDealer.onDamageDealing
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IDamageDealer.onDamageDealing
+  nameWithType: IDamageDealer.onDamageDealing
 - uid: ToolkitEngine.Health.IDamageDealer.onDamageDealt
   name: onDamageDealt
   href: api/ToolkitEngine.Health.IDamageDealer.html#ToolkitEngine_Health_IDamageDealer_onDamageDealt
