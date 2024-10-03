@@ -2,439 +2,445 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.ArmorCompositeEditor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.ArmorGroupDrawer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.ArmorGroupTreeView.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.DamageDrawer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.ExplosionEditor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.HealthCompositeEditor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.HealthEditor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.HealthGroupTreeView.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.HealthLayersEditor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.ImpactDamageDrawer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.SplashDamageDrawer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.VisualScripting.Setup.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.VisualScripting.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.VulnerabilityDrawer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEditor.Health.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.AI.Tasks.HasAccruedDamage.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.AI.Tasks.HasTakenDamage.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.AI.Tasks.HealthPercent.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.AI.Tasks.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Armor.Vulnerability.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Armor.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ArmorComposite.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ArmorLayers.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Damage.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.DamageHit.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.DamageTrigger.html</loc>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.DamageType.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Explosion.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Health.DamageCollection.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Health.RegenerateStop.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.Health.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthComposite.GroupAssignment.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthComposite.HealthGroup.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthComposite.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthEventArgs.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthLayers.Layer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.HealthLayers.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IBonusDamageContainer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IDamageDealer.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IDamageReceiver.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IHealth.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IHealthModifier.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.IHealthRegeneration.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ImpactDamage.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.ReflectedValue-1.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.SplashDamage.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.EventHooks.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnDamageDealtMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.VisualScripting.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/ToolkitEngine.Health.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/api/index.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/changelog/CHANGELOG.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/index.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/license/LICENSE.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.health/manual/index.html</loc>
-    <lastmod>2024-06-06T11:59:21+00:00</lastmod>
+    <lastmod>2024-10-03T01:55:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
