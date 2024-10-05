@@ -18,7 +18,7 @@ namespace ToolkitEngine.Health
         private bool m_isDead = false;
 
         private Dictionary<IHealth, int> m_indexMap = new();
-        private Dictionary<string, Layer> m_nameMap = new();
+        private Dictionary<string, int> m_nameToIndexMap = new();
 
         /// <summary>
         /// Indicates whether layer is dead when recycled
@@ -96,8 +96,8 @@ namespace ToolkitEngine.Health
             int index = 0;
             foreach (var layer in m_layers)
             {
-                m_indexMap.Add(layer.health, index++);
-                m_nameMap.Add(layer.name, layer);
+                m_indexMap.Add(layer.health, index);
+                m_nameToIndexMap.Add(layer.name, index++);
 
                 // Advance active layer if layer is dead
                 if (layer.health.isDead)
@@ -238,26 +238,26 @@ namespace ToolkitEngine.Health
 
         public void Apply(DamageHit hit)
         {
-			if (!TryGetActiveLayer(out Layer layer))
+			if (!TryGetHitLayer(hit.damageType, m_index, out Layer layer))
 				return;
 
-            // Taking damage and not dead...
-            if (hit.value < 0 && !isDead)
-            {
+			// Taking damage and not dead...
+			if (hit.value < 0 && !isDead)
+			{
 				foreach (var previous in GetPreviousLayers())
 				{
 					previous.health.UnpauseRegeneration();
 				}
 			}
 
-            // HealthLayer needs to be the victim so that its armor is applied
-            hit.victim = this;
-            layer.health.Apply(hit);
+			// HealthLayer needs to be the victim so that its armor is applied
+			hit.victim = this;
+			layer.health.Apply(hit);
 		}
 
         public void Damage(float delta, DamageType damageType = null)
         {
-            if (!TryGetActiveLayer(out Layer layer))
+            if (!TryGetHitLayer(damageType, m_index, out Layer layer))
                 return;
 
             Damage(delta, damageType, layer);
@@ -265,10 +265,13 @@ namespace ToolkitEngine.Health
 
         public void Damage(float delta, string layerName, DamageType damageType = null)
         {
-            if (!m_nameMap.TryGetValue(layerName, out Layer layer))
-                return;
+			if (!m_nameToIndexMap.TryGetValue(layerName, out int index))
+				return;
 
-            Damage(delta, damageType, layer);
+			if (!TryGetHitLayer(damageType, index, out var layer))
+				return;
+
+			Damage(delta, damageType, layer);
         }
 
         private void Damage(float delta, DamageType damageType, Layer layer)
@@ -288,7 +291,7 @@ namespace ToolkitEngine.Health
 
         public void Heal(float delta, DamageType damageType = null)
         {
-            if (!TryGetActiveLayer(out Layer layer))
+            if (!TryGetHitLayer(damageType, m_index, out Layer layer))
                 return;
 
             Heal(delta, damageType, layer);
@@ -296,7 +299,10 @@ namespace ToolkitEngine.Health
 
         public void Heal(float delta, string layerName, DamageType damageType = null)
         {
-            if (!m_nameMap.TryGetValue(layerName, out Layer layer))
+            if (!m_nameToIndexMap.TryGetValue(layerName, out int index))
+                return;
+
+            if (!TryGetHitLayer(damageType, index, out var layer))
                 return;
 
             Heal(delta, damageType, layer);
@@ -318,11 +324,30 @@ namespace ToolkitEngine.Health
 
         public bool TryGetActiveLayer(out Layer layer)
         {
-            layer = m_index.Between(0, m_layers.Length - 1)
-                ? m_layers[m_index]
-                : null;
-            return layer != null;
+            return TryGetLayer(m_index, out layer);
         }
+
+        private bool TryGetLayer(int index, out Layer layer)
+        {
+			layer = m_index.Between(0, m_layers.Length - 1)
+				? m_layers[index]
+				: null;
+			return layer != null;
+		}
+
+        private bool TryGetHitLayer(DamageType damageType, int index, out Layer layer)
+        {
+			if (!TryGetLayer(index, out layer))
+				return false;
+
+			// Advance to next layer, if damage type is ignored by this layer
+			if (damageType != null && layer.ignoredDamageTypes.Contains(damageType))
+			{
+				return TryGetHitLayer(damageType, index + 1, out layer);
+			}
+
+            return true;
+		}
 
 		#endregion
 
@@ -346,7 +371,7 @@ namespace ToolkitEngine.Health
 
 		#region Structures
 
-		[System.Serializable]
+		[Serializable]
         public class Layer
         {
             [SerializeField, Required]
@@ -354,10 +379,13 @@ namespace ToolkitEngine.Health
 
             public Health health;
 
-            [Tooltip("Indicates whether overkill value will damage the next layer.")]
+			[Tooltip("List of DamageTypes that are ignored by this layer (i.e. damage advances to next layer)")]
+			public DamageType[] ignoredDamageTypes;
+
+			[Tooltip("Indicates whether overkill value will damage the next layer.")]
             public bool overflowDamage;
 
-            public string name => m_name;
+			public string name => m_name;
         }
 
         #endregion
