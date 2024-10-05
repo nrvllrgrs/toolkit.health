@@ -194,8 +194,8 @@ namespace ToolkitEngine.Health
                         m_index = i;
                         if (current.overflowDamage)
                         {
-                            float overflowDamage = e.hit.value - e.delta;
-                            m_layers[i].health.Apply(new DamageHit(overflowDamage, e.hit.damageType, e.hit));
+                            // Will find which layer to hit with specified damage type in method
+                            Damage(e.hit.value - e.delta, e.hit.damageType);
                         }
                         break;
                     }
@@ -224,13 +224,6 @@ namespace ToolkitEngine.Health
             // Notify after index has been updated
 			m_onResurrected?.Invoke(e);
 		}
-
-        private HealthEventArgs GetHealthEventArgs(HealthEventArgs e)
-        {
-            var copy = new HealthEventArgs(e);
-            copy.hit.victim = this;
-            return copy;
-        }
 
         #endregion
 
@@ -341,7 +334,8 @@ namespace ToolkitEngine.Health
 				return false;
 
 			// Advance to next layer, if damage type is ignored by this layer
-			if (damageType != null && layer.ignoredDamageTypes.Contains(damageType))
+			if (layer.health.isDead
+                || (damageType != null && layer.ignoredDamageTypes.Contains(damageType)))
 			{
 				return TryGetHitLayer(damageType, index + 1, out layer);
 			}
