@@ -3078,6 +3078,12 @@ references:
   commentId: F:ToolkitEngine.Health.HealthLayers.Layer.health
   fullName: ToolkitEngine.Health.HealthLayers.Layer.health
   nameWithType: HealthLayers.Layer.health
+- uid: ToolkitEngine.Health.HealthLayers.Layer.ignoredDamageTypes
+  name: ignoredDamageTypes
+  href: api/ToolkitEngine.Health.HealthLayers.Layer.html#ToolkitEngine_Health_HealthLayers_Layer_ignoredDamageTypes
+  commentId: F:ToolkitEngine.Health.HealthLayers.Layer.ignoredDamageTypes
+  fullName: ToolkitEngine.Health.HealthLayers.Layer.ignoredDamageTypes
+  nameWithType: HealthLayers.Layer.ignoredDamageTypes
 - uid: ToolkitEngine.Health.HealthLayers.Layer.name
   name: name
   href: api/ToolkitEngine.Health.HealthLayers.Layer.html#ToolkitEngine_Health_HealthLayers_Layer_name

@@ -197,7 +197,7 @@
   "api/ToolkitEngine.Health.HealthLayers.Layer.html": {
     "href": "api/ToolkitEngine.Health.HealthLayers.Layer.html",
     "title": "Class HealthLayers.Layer | Health Toolkit | 1.0.0",
-    "keywords": "Class HealthLayers.Layer Namespace ToolkitEngine.Health [Serializable] public class HealthLayers.Layer Inheritance object HealthLayers.Layer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields health public Health health Field Value Health overflowDamage public bool overflowDamage Field Value bool Properties name public string name { get; } Property Value string"
+    "keywords": "Class HealthLayers.Layer Namespace ToolkitEngine.Health [Serializable] public class HealthLayers.Layer Inheritance object HealthLayers.Layer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields health public Health health Field Value Health ignoredDamageTypes public DamageType[] ignoredDamageTypes Field Value DamageType[] overflowDamage public bool overflowDamage Field Value bool Properties name public string name { get; } Property Value string"
   },
   "api/ToolkitEngine.Health.HealthLayers.html": {
     "href": "api/ToolkitEngine.Health.HealthLayers.html",
