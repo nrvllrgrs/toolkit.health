@@ -264,6 +264,16 @@
     "title": "Class EventHooks | Health Toolkit | 1.0.0",
     "keywords": "Class EventHooks Namespace ToolkitEngine.Health.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnExplosionDetonated public const string OnExplosionDetonated Field Value string OnExplosionDetonated public const string OnExplosionDetonated Field Value string OnHealthDamaged public const string OnHealthDamaged Field Value string OnHealthDamaged public const string OnHealthDamaged Field Value string OnHealthDied public const string OnHealthDied Field Value string OnHealthDied public const string OnHealthDied Field Value string OnHealthDying public const string OnHealthDying Field Value string OnHealthDying public const string OnHealthDying Field Value string OnHealthHealed public const string OnHealthHealed Field Value string OnHealthHealed public const string OnHealthHealed Field Value string OnHealthResurrected public const string OnHealthResurrected Field Value string OnHealthResurrected public const string OnHealthResurrected Field Value string OnHealthValueChanged public const string OnHealthValueChanged Field Value string OnHealthValueChanged public const string OnHealthValueChanged Field Value string"
   },
+  "api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html",
+    "title": "Class OnDamageDealing | Health Toolkit | 1.0.0",
+    "keywords": "Class OnDamageDealing Namespace ToolkitEngine.Health.VisualScripting public class OnDamageDealing : BaseEventUnit<HealthEventArgs> Inheritance object OnDamageDealing Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener.html": {
+    "href": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener.html",
+    "title": "Class OnDamageDealingMessageListener | Health Toolkit | 1.0.0",
+    "keywords": "Class OnDamageDealingMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnDamageDealingMessageListener : MessageListener Inheritance object OnDamageDealingMessageListener"
+  },
   "api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html",
     "title": "Class OnDamageDealt | Health Toolkit | 1.0.0",
@@ -337,7 +347,7 @@
   "api/ToolkitEngine.Health.VisualScripting.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.html",
     "title": "Namespace ToolkitEngine.Health.VisualScripting | Health Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.Health.VisualScripting Classes BaseHealthEventUnit EventHooks OnDamageDealt OnDamageDealtMessageListener OnExplosionDetonated OnExplosionDetonatedMessageListener OnHealthDamaged OnHealthDamagedMessageListener OnHealthDied OnHealthDiedMessageListener OnHealthHealed OnHealthHealedMessageListener OnHealthResurrected OnHealthResurrectedMessageListener OnHealthValueChanged OnHealthValueChangedMessageListener"
+    "keywords": "Namespace ToolkitEngine.Health.VisualScripting Classes BaseHealthEventUnit EventHooks OnDamageDealing OnDamageDealingMessageListener OnDamageDealt OnDamageDealtMessageListener OnExplosionDetonated OnExplosionDetonatedMessageListener OnHealthDamaged OnHealthDamagedMessageListener OnHealthDied OnHealthDiedMessageListener OnHealthHealed OnHealthHealedMessageListener OnHealthResurrected OnHealthResurrectedMessageListener OnHealthValueChanged OnHealthValueChangedMessageListener"
   },
   "api/ToolkitEngine.Health.html": {
     "href": "api/ToolkitEngine.Health.html",

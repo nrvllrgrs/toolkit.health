@@ -4261,6 +4261,31 @@ references:
   commentId: F:ToolkitEngine.Health.VisualScripting.EventHooks.OnHealthValueChanged
   fullName: ToolkitEngine.Health.VisualScripting.EventHooks.OnHealthValueChanged
   nameWithType: EventHooks.OnHealthValueChanged
+- uid: ToolkitEngine.Health.VisualScripting.OnDamageDealing
+  name: OnDamageDealing
+  href: api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html
+  commentId: T:ToolkitEngine.Health.VisualScripting.OnDamageDealing
+  fullName: ToolkitEngine.Health.VisualScripting.OnDamageDealing
+  nameWithType: OnDamageDealing
+- uid: ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html#ToolkitEngine_Health_VisualScripting_OnDamageDealing_MessageListenerType
+  commentId: P:ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType
+  fullName: ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType
+  nameWithType: OnDamageDealing.MessageListenerType
+- uid: ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html#ToolkitEngine_Health_VisualScripting_OnDamageDealing_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.VisualScripting.OnDamageDealing.MessageListenerType
+  nameWithType: OnDamageDealing.MessageListenerType
+- uid: ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener
+  name: OnDamageDealingMessageListener
+  href: api/ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener.html
+  commentId: T:ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener
+  fullName: ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener
+  nameWithType: OnDamageDealingMessageListener
 - uid: ToolkitEngine.Health.VisualScripting.OnDamageDealt
   name: OnDamageDealt
   href: api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html
