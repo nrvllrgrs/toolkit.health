@@ -257,12 +257,12 @@
   "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html",
     "title": "Class BaseHealthEventUnit | Health Toolkit | 1.0.0",
-    "keywords": "Class BaseHealthEventUnit Namespace ToolkitEngine.Health.VisualScripting public abstract class BaseHealthEventUnit : BaseEventUnit<HealthEventArgs>, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit Implements BaseEventUnit<HealthEventArgs> Derived OnHealthDamaged OnHealthDied OnHealthHealed OnHealthResurrected OnHealthValueChanged Properties showEventArgs protected override bool showEventArgs { get; } Property Value bool showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+    "keywords": "Class BaseHealthEventUnit Namespace ToolkitEngine.Health.VisualScripting public abstract class BaseHealthEventUnit : BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit Derived OnHealthDamaged OnHealthDied OnHealthHealed OnHealthResurrected OnHealthValueChanged Properties showEventArgs protected override bool showEventArgs { get; } Property Value bool"
   },
   "api/ToolkitEngine.Health.VisualScripting.EventHooks.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.EventHooks.html",
     "title": "Class EventHooks | Health Toolkit | 1.0.0",
-    "keywords": "Class EventHooks Namespace ToolkitEngine.Health.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnExplosionDetonated public const string OnExplosionDetonated Field Value string OnExplosionDetonated public const string OnExplosionDetonated Field Value string OnHealthDamaged public const string OnHealthDamaged Field Value string OnHealthDamaged public const string OnHealthDamaged Field Value string OnHealthDied public const string OnHealthDied Field Value string OnHealthDied public const string OnHealthDied Field Value string OnHealthDying public const string OnHealthDying Field Value string OnHealthDying public const string OnHealthDying Field Value string OnHealthHealed public const string OnHealthHealed Field Value string OnHealthHealed public const string OnHealthHealed Field Value string OnHealthResurrected public const string OnHealthResurrected Field Value string OnHealthResurrected public const string OnHealthResurrected Field Value string OnHealthValueChanged public const string OnHealthValueChanged Field Value string OnHealthValueChanged public const string OnHealthValueChanged Field Value string"
+    "keywords": "Class EventHooks Namespace ToolkitEngine.Health.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnExplosionDetonated public const string OnExplosionDetonated = \"OnExplosionDetonated\" Field Value string OnHealthDamaged public const string OnHealthDamaged = \"OnHealthDamaged\" Field Value string OnHealthDied public const string OnHealthDied = \"OnHealthDied\" Field Value string OnHealthDying public const string OnHealthDying = \"OnHealthDying\" Field Value string OnHealthHealed public const string OnHealthHealed = \"OnHealthHealed\" Field Value string OnHealthResurrected public const string OnHealthResurrected = \"OnHealthResurrected\" Field Value string OnHealthValueChanged public const string OnHealthValueChanged = \"OnHealthValueChanged\" Field Value string"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html",
@@ -287,62 +287,62 @@
   "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html",
     "title": "Class OnExplosionDetonated | Health Toolkit | 1.0.0",
-    "keywords": "Class OnExplosionDetonated Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonated : BaseEventUnit<Explosion>, BaseEventUnit<Explosion> Inheritance object OnExplosionDetonated Implements BaseEventUnit<Explosion> Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+    "keywords": "Class OnExplosionDetonated Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonated : BaseEventUnit<Explosion> Inheritance object OnExplosionDetonated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html",
     "title": "Class OnExplosionDetonatedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnExplosionDetonatedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonatedMessageListener : MessageListener, MessageListener Inheritance object OnExplosionDetonatedMessageListener Implements MessageListener"
+    "keywords": "Class OnExplosionDetonatedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnExplosionDetonatedMessageListener : MessageListener Inheritance object OnExplosionDetonatedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html",
     "title": "Class OnHealthDamaged | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthDamaged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamaged : BaseHealthEventUnit, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit OnHealthDamaged Implements BaseEventUnit<HealthEventArgs> Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+    "keywords": "Class OnHealthDamaged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamaged : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthDamaged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html",
     "title": "Class OnHealthDamagedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthDamagedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamagedMessageListener : MessageListener, MessageListener Inheritance object OnHealthDamagedMessageListener Implements MessageListener"
+    "keywords": "Class OnHealthDamagedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDamagedMessageListener : MessageListener Inheritance object OnHealthDamagedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html",
     "title": "Class OnHealthDied | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthDied Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDied : BaseHealthEventUnit, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit OnHealthDied Implements BaseEventUnit<HealthEventArgs> Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+    "keywords": "Class OnHealthDied Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDied : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthDied Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html",
     "title": "Class OnHealthDiedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthDiedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDiedMessageListener : MessageListener, MessageListener Inheritance object OnHealthDiedMessageListener Implements MessageListener"
+    "keywords": "Class OnHealthDiedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthDiedMessageListener : MessageListener Inheritance object OnHealthDiedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html",
     "title": "Class OnHealthHealed | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthHealed Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealed : BaseHealthEventUnit, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit OnHealthHealed Implements BaseEventUnit<HealthEventArgs> Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+    "keywords": "Class OnHealthHealed Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealed : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthHealed Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html",
     "title": "Class OnHealthHealedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthHealedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealedMessageListener : MessageListener, MessageListener Inheritance object OnHealthHealedMessageListener Implements MessageListener"
+    "keywords": "Class OnHealthHealedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthHealedMessageListener : MessageListener Inheritance object OnHealthHealedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html",
     "title": "Class OnHealthResurrected | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthResurrected Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrected : BaseHealthEventUnit, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit OnHealthResurrected Implements BaseEventUnit<HealthEventArgs> Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+    "keywords": "Class OnHealthResurrected Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrected : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthResurrected Inherited Members BaseHealthEventUnit.showEventArgs Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html",
     "title": "Class OnHealthResurrectedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthResurrectedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrectedMessageListener : MessageListener, MessageListener Inheritance object OnHealthResurrectedMessageListener Implements MessageListener"
+    "keywords": "Class OnHealthResurrectedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthResurrectedMessageListener : MessageListener Inheritance object OnHealthResurrectedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html",
     "title": "Class OnHealthValueChanged | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthValueChanged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChanged : BaseHealthEventUnit, BaseEventUnit<HealthEventArgs> Inheritance object BaseHealthEventUnit OnHealthValueChanged Implements BaseEventUnit<HealthEventArgs> Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+    "keywords": "Class OnHealthValueChanged Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChanged : BaseHealthEventUnit Inheritance object BaseHealthEventUnit OnHealthValueChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type showEventArgs protected override bool showEventArgs { get; } Property Value bool"
   },
   "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html",
     "title": "Class OnHealthValueChangedMessageListener | Health Toolkit | 1.0.0",
-    "keywords": "Class OnHealthValueChangedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChangedMessageListener : MessageListener, MessageListener Inheritance object OnHealthValueChangedMessageListener Implements MessageListener"
+    "keywords": "Class OnHealthValueChangedMessageListener Namespace ToolkitEngine.Health.VisualScripting public class OnHealthValueChangedMessageListener : MessageListener Inheritance object OnHealthValueChangedMessageListener"
   },
   "api/ToolkitEngine.Health.VisualScripting.html": {
     "href": "api/ToolkitEngine.Health.VisualScripting.html",
