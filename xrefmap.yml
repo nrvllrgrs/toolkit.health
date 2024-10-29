@@ -3481,6 +3481,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.IDamageReceiver.transform
   nameWithType: IDamageReceiver.transform
+- uid: ToolkitEngine.Health.IExplosive
+  name: IExplosive
+  href: api/ToolkitEngine.Health.IExplosive.html
+  commentId: T:ToolkitEngine.Health.IExplosive
+  fullName: ToolkitEngine.Health.IExplosive
+  nameWithType: IExplosive
+- uid: ToolkitEngine.Health.IExplosive.Detonate
+  name: Detonate()
+  href: api/ToolkitEngine.Health.IExplosive.html#ToolkitEngine_Health_IExplosive_Detonate
+  commentId: M:ToolkitEngine.Health.IExplosive.Detonate
+  fullName: ToolkitEngine.Health.IExplosive.Detonate()
+  nameWithType: IExplosive.Detonate()
+- uid: ToolkitEngine.Health.IExplosive.Detonate*
+  name: Detonate
+  href: api/ToolkitEngine.Health.IExplosive.html#ToolkitEngine_Health_IExplosive_Detonate_
+  commentId: Overload:ToolkitEngine.Health.IExplosive.Detonate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IExplosive.Detonate
+  nameWithType: IExplosive.Detonate
 - uid: ToolkitEngine.Health.IHealth
   name: IHealth
   href: api/ToolkitEngine.Health.IHealth.html
