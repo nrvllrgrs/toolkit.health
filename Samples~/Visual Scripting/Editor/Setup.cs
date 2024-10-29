@@ -31,6 +31,7 @@ namespace ToolkitEditor.Health.VisualScripting
 				typeof(SplashDamage),
 				typeof(DamageHit),
 				typeof(Explosion),
+				typeof(IExplosive),
 
 				// Misc
 				typeof(HealthEventArgs),
