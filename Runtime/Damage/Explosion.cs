@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace ToolkitEngine.Health
 {
-	public class Explosion : MonoBehaviour, IDamageDealer
+	public class Explosion : MonoBehaviour, IDamageDealer, IExplosive
 	{
 		#region Fields
 
