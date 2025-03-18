@@ -160,7 +160,9 @@ namespace ToolkitEngine.Health
 		[SerializeField]
 		private UnityEvent<HealthEventArgs> m_onResurrected = new UnityEvent<HealthEventArgs>();
 
-		public UnityEvent OnRegenerationChanged = new UnityEvent();
+		[SerializeField]
+		private UnityEvent m_onRegenerationChanged = new UnityEvent();
+
 		public event EventHandler Killed;
 
 		#endregion
@@ -243,6 +245,7 @@ namespace ToolkitEngine.Health
 		public UnityEvent<HealthEventArgs> onDying => m_onDying;
 		public UnityEvent<HealthEventArgs> onDied => m_onDied;
 		public UnityEvent<HealthEventArgs> onResurrected => m_onResurrected;
+		public UnityEvent onRegenerationChanged => m_onRegenerationChanged;
 
 		#endregion
 
@@ -524,7 +527,7 @@ namespace ToolkitEngine.Health
 				m_regenerateRates.Add(damageType, new DamageHit(value, damageType, true));
 			}
 
-			OnRegenerationChanged.Invoke();
+			onRegenerationChanged.Invoke();
 			UpdateRegeneration(resetDelay);
 		}
 
@@ -557,7 +560,7 @@ namespace ToolkitEngine.Health
 				m_regenerateRates.Add(damageType, new DamageHit(value, damageType, true));
 			}
 
-			OnRegenerationChanged.Invoke();
+			onRegenerationChanged.Invoke();
 			UpdateRegeneration(resetDelay);
 		}
 

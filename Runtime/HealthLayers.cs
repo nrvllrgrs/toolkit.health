@@ -58,7 +58,17 @@ namespace ToolkitEngine.Health
 
         public bool isDead => m_isDead;
 
-        public float value => TryGetActiveLayer(out Layer layer) ? layer.health.value : 0f;
+        public float value
+        {
+            get => TryGetActiveLayer(out Layer layer) ? layer.health.value : 0f;
+            set
+            {
+                if (TryGetActiveLayer(out Layer layer) && layer?.health != null)
+                {
+                    layer.health.value = value;
+                }
+            }
+        }
         public float maxValue => TryGetActiveLayer(out Layer layer) ? layer.health.maxValue : 0f;
         public float normalizedValue => TryGetActiveLayer(out Layer layer) ? layer.health.normalizedValue : 0f;
 

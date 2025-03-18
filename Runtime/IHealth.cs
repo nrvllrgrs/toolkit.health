@@ -4,10 +4,9 @@ namespace ToolkitEngine.Health
 {
     public interface IHealth : IDamageReceiver, IKillable
     {
-        float value { get; }
+        float value { get; set; }
         float maxValue { get; }
         float normalizedValue { get; }
-        bool isDead { get; }
 		UnityEvent<HealthEventArgs> onDying { get; }
 		UnityEvent<HealthEventArgs> onDied { get; }
         UnityEvent<HealthEventArgs> onResurrected { get; }

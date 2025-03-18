@@ -99,7 +99,18 @@ namespace ToolkitEngine.Health
 			}
 		}
 
-		public float value => primaryGroup?.health.value ?? 0f;
+		public float value
+		{
+			get => primaryGroup?.health.value ?? 0f;
+			set
+			{
+				if (primaryGroup?.health != null)
+				{
+					primaryGroup.health.value = value;
+				}
+			}
+		}
+
 		public float maxValue => primaryGroup?.health.maxValue ?? 0f;
 
 		public float normalizedValue => primaryGroup?.health.normalizedValue ?? 0f;
