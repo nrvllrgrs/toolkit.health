@@ -5,7 +5,8 @@ using UnityEngine.Events;
 
 namespace ToolkitEngine.Health
 {
-    public class HealthProxy : MonoBehaviour, IHealth, IHealthRegeneration
+	[AddComponentMenu("Health/Health Proxy")]
+	public class HealthProxy : MonoBehaviour, IHealth, IHealthRegeneration
     {
 		#region Fields
 

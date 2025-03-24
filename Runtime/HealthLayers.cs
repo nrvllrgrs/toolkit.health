@@ -7,7 +7,8 @@ using NaughtyAttributes;
 
 namespace ToolkitEngine.Health
 {
-    public class HealthLayers : MonoBehaviour, IHealth, IPoolItemRecyclable
+	[AddComponentMenu("Health/Health Layers")]
+	public class HealthLayers : MonoBehaviour, IHealth, IPoolItemRecyclable
     {
         #region Fields
 

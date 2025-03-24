@@ -81,6 +81,7 @@ namespace ToolkitEngine.Health
 		#endregion
 	}
 
+	[AddComponentMenu("Health/Health")]
 	public class Health : MonoBehaviour, IHealth, IHealthRegeneration, IPoolItemRecyclable
 	{
 		#region Enumerators
@@ -210,8 +211,8 @@ namespace ToolkitEngine.Health
 			}
 		}
 
+		public float rawMaxValue => m_maxValue;
 		public float maxValue => m_maxValue + m_bonusValue;
-
 		public float normalizedValue => m_value / maxValue;
 
 		public bool canRegenerate => m_nullRegenerateRate != null || m_regenerateRates.Count > 0;

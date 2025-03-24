@@ -7,6 +7,7 @@ using UnityEngine.Events;
 
 namespace ToolkitEngine.Health
 {
+	[AddComponentMenu("Health/Health Composite")]
 	public class HealthComposite : MonoBehaviour, IHealth
 	{
 		#region Fields
@@ -154,6 +155,11 @@ namespace ToolkitEngine.Health
 				group.health.onDying.AddListener(Health_Dying);
 				group.health.onDied.AddListener(Health_Died);
 				group.health.onResurrected.AddListener(Health_Resurrected);
+
+				if (group.primary)
+				{
+					group.health.Killed += Health_Killed;
+				}
 			}
 		}
 
@@ -171,6 +177,11 @@ namespace ToolkitEngine.Health
 				group.health.onDying.RemoveListener(Health_Dying);
 				group.health.onDied.RemoveListener(Health_Died);
 				group.health.onResurrected.RemoveListener(Health_Resurrected);
+
+				if (group.primary)
+				{
+					group.health.Killed -= Health_Killed;
+				}
 			}
 		}
 
@@ -228,6 +239,8 @@ namespace ToolkitEngine.Health
 		private void Health_Died(HealthEventArgs e) => m_onDied?.Invoke(e);
 
 		private void Health_Resurrected(HealthEventArgs e) => m_onResurrected?.Invoke(e);
+
+		private void Health_Killed(object sender, EventArgs e) => Killed?.Invoke(sender, e);
 
 		#endregion
 

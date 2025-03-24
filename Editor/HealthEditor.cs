@@ -63,7 +63,7 @@ namespace ToolkitEditor.Health
 			m_onDying = serializedObject.FindProperty(nameof(m_onDying));
 			m_onDied = serializedObject.FindProperty(nameof(m_onDied));
             m_onResurrected = serializedObject.FindProperty(nameof(m_onResurrected));
-            m_onRegenerationChanged = serializedObject.FindProperty("OnRegenerationChanged");
+            m_onRegenerationChanged = serializedObject.FindProperty(nameof(m_onRegenerationChanged));
         }
 
         public override void OnInspectorGUI()
