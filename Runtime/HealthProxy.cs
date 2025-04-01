@@ -13,6 +13,9 @@ namespace ToolkitEngine.Health
 		[SerializeField]
 		private Health m_health;
 
+		[SerializeField]
+		private bool m_readOnly = false;
+
 		#endregion
 
 		#region Events
@@ -44,6 +47,22 @@ namespace ToolkitEngine.Health
 		#endregion
 
 		#region Properties
+
+		public Health health
+		{
+			get => m_health;
+			set
+			{
+				// No change, skip
+				if (m_health == value)
+					return;
+
+				Unregister();
+				m_health = value;
+				Register();
+			}
+		}
+
 
 		public float value
 		{
@@ -117,29 +136,31 @@ namespace ToolkitEngine.Health
 			Register();
 		}
 
-		public void SetHealth(Health health)
-		{
-			Unregister();
-			m_health = health;
-			Register();
-		}
-
 		#endregion
 
 		#region IHealth Methods
 
 		public void Apply(DamageHit damageInfo)
 		{
+			if (m_readOnly)
+				return;
+
 			m_health.Apply(damageInfo);
 		}
 
 		public void Damage(float delta, DamageType damageType = null)
 		{
+			if (m_readOnly)
+				return;
+
 			m_health?.Damage(delta, damageType);
 		}
 
 		public void Heal(float delta, DamageType damageType = null)
 		{
+			if (m_readOnly)
+				return;
+
 			m_health?.Heal(delta, damageType);
 		}
 
@@ -205,6 +226,13 @@ namespace ToolkitEngine.Health
 			m_health.onResurrected.AddListener(Health_Resurrected);
 			m_health.onRegenerationChanged.AddListener(Health_RegenerationChanged);
 			m_health.Killed += Health_Killed;
+
+			Health_ValueChanged(new HealthEventArgs()
+			{
+				value = m_health.value,
+				normalizedValue = m_health.normalizedValue,
+				delta = 0f,
+			});
 		}
 
 		private void Unregister()

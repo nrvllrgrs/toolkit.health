@@ -8,6 +8,9 @@ namespace ToolkitEngine.Health
 		#region Fields
 
 		[SerializeField]
+		private LayerMask m_layerMask = ~0;
+
+		[SerializeField]
 		private SplashDamage m_damage;
 
 		[SerializeField]
@@ -45,7 +48,7 @@ namespace ToolkitEngine.Health
 		[ContextMenu("Detonate")]
 		public void Detonate()
 		{
-			m_damage.Apply(transform.position, !m_source.IsNull() ? m_source : null, out var hits, this);
+			m_damage.Apply(transform.position, !m_source.IsNull() ? m_source : null, out var hits, m_layerMask, this);
 			if (m_spawner.isDefined)
 			{
 				m_spawner.Instantiate(transform.position, Quaternion.identity);
@@ -54,12 +57,12 @@ namespace ToolkitEngine.Health
 			m_onDetonated?.Invoke(this);
 		}
 
-		public static void Detonate(SplashDamage damage, Vector3 position, out DamageHit[] hits)
+		public static void Detonate(SplashDamage damage, Vector3 position, out DamageHit[] hits, int layerMask = ~0)
 		{
-			Detonate(damage, position, null, out hits);
+			Detonate(damage, position, null, out hits, layerMask);
 		}
 
-		public static void Detonate(SplashDamage damage, Vector3 position, GameObject source, out DamageHit[] hits)
+		public static void Detonate(SplashDamage damage, Vector3 position, GameObject source, out DamageHit[] hits, int layerMask = ~0, GameObject template = null)
 		{
 			if (damage == null)
 			{
@@ -67,16 +70,12 @@ namespace ToolkitEngine.Health
 				return;
 			}
 
-			damage.Apply(position, source, out hits);
-		}
-
-		public static void Detonate(SplashDamage damage, Vector3 position, GameObject source, out DamageHit[] hits, GameObject template)
-		{
-            if (template != null)
-            {
+			if (template != null)
+			{
 				Spawner.InstantiateTemplate(template, position, Quaternion.identity, null);
 			}
-			Detonate(damage, position, source, out hits);
+
+			damage.Apply(position, source, out hits, layerMask);
 		}
 
 		#endregion

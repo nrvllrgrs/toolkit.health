@@ -89,7 +89,7 @@ namespace ToolkitEngine.Health
 			}
 		}
 
-		public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, IDamageDealer dealer = null)
+		public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, int layerMask = ~0, IDamageDealer dealer = null)
 		{
 			bool anyApplied = false;
 
@@ -109,6 +109,10 @@ namespace ToolkitEngine.Health
 					//// Collider in range, but blocked by object
 					//if (!Physics.RaycastAll(point, direction, out RaycastHit hit, m_radius, ~0, QueryTriggerInteraction.Ignore))
 					//	continue;
+
+					// Collider is not on valid layer, skip
+					if ((layerMask & 1 << collider.gameObject.layer) == 0)
+						continue;
 
 					var victim = collider.GetComponentInParent<IDamageReceiver>();
 					if (victim != null)
@@ -141,6 +145,7 @@ namespace ToolkitEngine.Health
 						hit.value = -value * factor * falloffFactor;
 
 						InvokeDamageDealing(hit, dealer);
+						Debug.Log($"Damaging {victim.transform.name}; Value = {hit.value}");
 						victim.Apply(hit);
 						InvokeDamageDealt(hit, dealer, ref anyApplied);
 
