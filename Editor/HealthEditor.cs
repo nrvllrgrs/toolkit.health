@@ -40,6 +40,9 @@ namespace ToolkitEditor.Health
 
         private void OnEnable()
         {
+            if (target == null)
+                return;
+
             m_health = (ToolkitEngine.Health.Health)target;
 
             m_value = serializedObject.FindProperty(nameof(m_value));

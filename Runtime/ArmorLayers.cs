@@ -49,7 +49,7 @@ namespace ToolkitEngine.Health
 
 		public bool TryGetLayer(out ArmorLayer layer)
 		{
-			if (m_healthLayers.index.Between(0, m_layers.Length - 1))
+			if (m_healthLayers.index.Between(0, m_layers.Length))
 			{
 				layer = m_layers[m_healthLayers.index];
 				return true;

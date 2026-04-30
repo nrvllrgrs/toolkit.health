@@ -333,7 +333,7 @@ namespace ToolkitEngine.Health
 
         private bool TryGetLayer(int index, out Layer layer)
         {
-			layer = m_index.Between(0, m_layers.Length - 1)
+			layer = m_index.Between(0, m_layers.Length)
 				? m_layers[index]
 				: null;
 			return layer != null;

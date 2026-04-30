@@ -312,6 +312,19 @@ namespace ToolkitEngine.Health
 			Heal(maxValue);
 		}
 
+		public void SetValues(float value)
+		{
+			var eventArgs = new HealthEventArgs()
+			{
+				value = m_value,
+				normalizedValue = m_value / maxValue,
+				delta = value - m_value,
+			};
+
+			this.value = m_maxValue = value;
+			onValueChanged.Invoke(eventArgs);
+		}
+
 		protected void SetValue(DamageHit hit, bool fromRegenerate = false)
 		{
 			var value = Mathf.Clamp(this.value + hit.modifiedValue, 0f, maxValue);

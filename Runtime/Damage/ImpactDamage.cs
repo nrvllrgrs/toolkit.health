@@ -9,7 +9,7 @@ namespace ToolkitEngine.Health
 		#region Fields
 
 		[SerializeField]
-		protected UnityFloat m_factor = new UnityFloat(1f);
+		protected ReflectedFloat m_factor = new ReflectedFloat(1f);
 
 		[SerializeField]
 		protected float m_impulse;
@@ -75,7 +75,7 @@ namespace ToolkitEngine.Health
 		public ImpactDamage(float value, DamageType damageType, float factor, float range, AnimationCurve falloff)
 			: base(value, damageType)
 		{
-			m_factor = new UnityFloat(factor);
+			m_factor = new ReflectedFloat(factor);
 			m_range = range;
 			m_falloff = falloff;
 		}
@@ -98,7 +98,7 @@ namespace ToolkitEngine.Health
 			{
 				dstImpactDamage.m_value = m_value;
 				dstImpactDamage.m_damageType = m_damageType;
-				dstImpactDamage.m_factor = new UnityFloat(m_factor.value);
+				dstImpactDamage.m_factor = new ReflectedFloat(m_factor.value);
 				dstImpactDamage.m_impulse = m_impulse;
 				dstImpactDamage.m_range = m_range;
 				dstImpactDamage.m_falloff = m_falloff;

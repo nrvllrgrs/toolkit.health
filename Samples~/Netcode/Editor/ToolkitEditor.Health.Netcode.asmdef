@@ -1,0 +1,24 @@
+{
+    "name": "ToolkitEditor.Health.Netcode",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4f6675837be5f1d45a32fb1920bd0217",
+        "GUID:96c9de92c3b7b9b45b8f25719d84d836",
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
+        "GUID:ae287669d5b133249a3598ed14cf995e",
+        "GUID:1602f5eb40340d141a387e8e14c52722",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:9f4f5bf029cebb64f983b7bdc29f62a1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

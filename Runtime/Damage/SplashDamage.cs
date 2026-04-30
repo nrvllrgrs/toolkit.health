@@ -10,7 +10,7 @@ namespace ToolkitEngine.Health
 		#region Fields
 
 		[SerializeField]
-		protected UnityFloat m_factor = new UnityFloat(1f);
+		protected ReflectedFloat m_factor = new ReflectedFloat(1f);
 
 		[SerializeField]
 		protected float m_impulse;
@@ -55,7 +55,7 @@ namespace ToolkitEngine.Health
 		public SplashDamage(float value, DamageType damageType, float factor, float impulse, float upwardModifier, float innerRadius, float outerRadius, AnimationCurve falloff)
 			: base(value, damageType)
 		{
-			m_factor = new UnityFloat(factor);
+			m_factor = new ReflectedFloat(factor);
 			m_impulse = impulse;
 			m_upwardModifier = upwardModifier;
 			m_radius = new Vector2(innerRadius, outerRadius);
@@ -81,7 +81,7 @@ namespace ToolkitEngine.Health
 			{
 				dstSplashDamage.m_value = value;
 				dstSplashDamage.m_damageType = m_damageType;
-				dstSplashDamage.m_factor = new UnityFloat(m_factor.value);
+				dstSplashDamage.m_factor = new ReflectedFloat(m_factor.value);
 				dstSplashDamage.m_upwardModifier = m_upwardModifier;
 				dstSplashDamage.m_radius = m_radius;
 				dstSplashDamage.m_falloff = m_falloff;
