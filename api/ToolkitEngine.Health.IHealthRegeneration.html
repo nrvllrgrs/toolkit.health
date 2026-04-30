@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Health_IHealthRegeneration" data-uid="ToolkitEngine.Health.IHealthRegeneration" class="text-break">
-Interface IHealthRegeneration  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Interface IHealthRegeneration  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,11 +120,166 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
+  <a id="ToolkitEngine_Health_IHealthRegeneration_canRegenerate_" data-uid="ToolkitEngine.Health.IHealthRegeneration.canRegenerate*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_canRegenerate" data-uid="ToolkitEngine.Health.IHealthRegeneration.canRegenerate">
+  canRegenerate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool canRegenerate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_degenerateDelay_" data-uid="ToolkitEngine.Health.IHealthRegeneration.degenerateDelay*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_degenerateDelay" data-uid="ToolkitEngine.Health.IHealthRegeneration.degenerateDelay">
+  degenerateDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float degenerateDelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_onRegenerationChanged_" data-uid="ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_onRegenerationChanged" data-uid="ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged">
+  onRegenerationChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UnityEvent onRegenerationChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_regenerateDamageTypes_" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_regenerateDamageTypes" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes">
+  regenerateDamageTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DamageType[] regenerateDamageTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Health.DamageType.html">DamageType</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Health_IHealthRegeneration_regenerateDelay_" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerateDelay*"></a>
+
+  <h3 id="ToolkitEngine_Health_IHealthRegeneration_regenerateDelay" data-uid="ToolkitEngine.Health.IHealthRegeneration.regenerateDelay">
+  regenerateDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float regenerateDelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Health_IHealthRegeneration_transform_" data-uid="ToolkitEngine.Health.IHealthRegeneration.transform*"></a>
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_transform" data-uid="ToolkitEngine.Health.IHealthRegeneration.transform">
   transform
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -159,7 +314,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate">
   GetRegenerationRate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -190,7 +345,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_GetRegenerationRate_ToolkitEngine_Health_DamageType_" data-uid="ToolkitEngine.Health.IHealthRegeneration.GetRegenerationRate(ToolkitEngine.Health.DamageType)">
   GetRegenerationRate(DamageType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -226,7 +381,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate(System.Single)">
   ModifyRegenerationRate(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -257,7 +412,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_ModifyRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.ModifyRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
   ModifyRegenerationRate(DamageType, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -290,7 +445,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_PauseRegeneration" data-uid="ToolkitEngine.Health.IHealthRegeneration.PauseRegeneration">
   PauseRegeneration()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -316,7 +471,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate(System.Single)">
   SetRegenerationRate(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -347,7 +502,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_SetRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_" data-uid="ToolkitEngine.Health.IHealthRegeneration.SetRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)">
   SetRegenerationRate(DamageType, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -380,7 +535,7 @@ Interface IHealthRegeneration  <a class="header-action link-secondary" title="Vi
 
   <h3 id="ToolkitEngine_Health_IHealthRegeneration_UnpauseRegeneration" data-uid="ToolkitEngine.Health.IHealthRegeneration.UnpauseRegeneration">
   UnpauseRegeneration()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/IHealthRegeneration.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

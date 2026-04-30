@@ -21,7 +21,11 @@
           "relative_path": "api/ToolkitEditor.Health.ArmorCompositeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.ArmorCompositeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/ToolkitEditor.Health.ArmorGroupDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.ArmorGroupDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/ToolkitEditor.Health.ArmorGroupTreeView.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.ArmorGroupTreeView",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/ToolkitEditor.Health.DamageDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.DamageDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/ToolkitEditor.Health.ExplosionEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.ExplosionEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/ToolkitEditor.Health.HealthCompositeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.HealthCompositeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/ToolkitEditor.Health.HealthEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.HealthEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/ToolkitEditor.Health.HealthGroupTreeView.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.HealthGroupTreeView",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/ToolkitEditor.Health.HealthLayersEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.HealthLayersEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,39 @@
           "relative_path": "api/ToolkitEditor.Health.ImpactDamageDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.ImpactDamageDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.Netcode.NetworkHealthEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Health.Netcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Health.Netcode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.Netcode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +189,11 @@
           "relative_path": "api/ToolkitEditor.Health.SplashDamageDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.SplashDamageDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +203,11 @@
           "relative_path": "api/ToolkitEditor.Health.VisualScripting.Setup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.VisualScripting.Setup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +217,11 @@
           "relative_path": "api/ToolkitEditor.Health.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +231,11 @@
           "relative_path": "api/ToolkitEditor.Health.VulnerabilityDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health.VulnerabilityDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +245,11 @@
           "relative_path": "api/ToolkitEditor.Health.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Health",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +259,11 @@
           "relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AI.Tasks.HasAccruedDamage.ValueType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +273,11 @@
           "relative_path": "api/ToolkitEngine.AI.Tasks.HasAccruedDamage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AI.Tasks.HasAccruedDamage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +287,11 @@
           "relative_path": "api/ToolkitEngine.AI.Tasks.HasTakenDamage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AI.Tasks.HasTakenDamage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +301,11 @@
           "relative_path": "api/ToolkitEngine.AI.Tasks.HealthPercent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AI.Tasks.HealthPercent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -211,7 +315,11 @@
           "relative_path": "api/ToolkitEngine.AI.Tasks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AI.Tasks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +329,11 @@
           "relative_path": "api/ToolkitEngine.Health.Armor.Vulnerability.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Armor.Vulnerability",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +343,11 @@
           "relative_path": "api/ToolkitEngine.Health.Armor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Armor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +357,11 @@
           "relative_path": "api/ToolkitEngine.Health.ArmorComposite.ArmorGroup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ArmorComposite.ArmorGroup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +371,11 @@
           "relative_path": "api/ToolkitEngine.Health.ArmorComposite.GroupAssignment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ArmorComposite.GroupAssignment",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +385,11 @@
           "relative_path": "api/ToolkitEngine.Health.ArmorComposite.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ArmorComposite",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -271,7 +399,11 @@
           "relative_path": "api/ToolkitEngine.Health.ArmorLayers.ArmorLayer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ArmorLayers.ArmorLayer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -281,7 +413,11 @@
           "relative_path": "api/ToolkitEngine.Health.ArmorLayers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ArmorLayers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -291,7 +427,11 @@
           "relative_path": "api/ToolkitEngine.Health.Damage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Damage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +441,11 @@
           "relative_path": "api/ToolkitEngine.Health.DamageHit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.DamageHit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +455,11 @@
           "relative_path": "api/ToolkitEngine.Health.DamageTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.DamageTrigger",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +469,11 @@
           "relative_path": "api/ToolkitEngine.Health.DamageType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.DamageType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +483,11 @@
           "relative_path": "api/ToolkitEngine.Health.Explosion.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Explosion",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -341,7 +497,11 @@
           "relative_path": "api/ToolkitEngine.Health.Health.DamageCollection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Health.DamageCollection",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,7 +511,11 @@
           "relative_path": "api/ToolkitEngine.Health.Health.RegenerateStop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Health.RegenerateStop",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -361,7 +525,11 @@
           "relative_path": "api/ToolkitEngine.Health.Health.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Health",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +539,11 @@
           "relative_path": "api/ToolkitEngine.Health.HealthComposite.GroupAssignment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthComposite.GroupAssignment",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +553,11 @@
           "relative_path": "api/ToolkitEngine.Health.HealthComposite.HealthGroup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthComposite.HealthGroup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +567,11 @@
           "relative_path": "api/ToolkitEngine.Health.HealthComposite.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthComposite",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -401,7 +581,11 @@
           "relative_path": "api/ToolkitEngine.Health.HealthEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -411,7 +595,11 @@
           "relative_path": "api/ToolkitEngine.Health.HealthLayers.Layer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthLayers.Layer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -421,7 +609,25 @@
           "relative_path": "api/ToolkitEngine.Health.HealthLayers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthLayers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.HealthProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.HealthProxy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.HealthProxy",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -431,7 +637,11 @@
           "relative_path": "api/ToolkitEngine.Health.IBonusDamageContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IBonusDamageContainer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -441,7 +651,11 @@
           "relative_path": "api/ToolkitEngine.Health.IDamageDealer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IDamageDealer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -451,7 +665,11 @@
           "relative_path": "api/ToolkitEngine.Health.IDamageReceiver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IDamageReceiver",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -461,7 +679,11 @@
           "relative_path": "api/ToolkitEngine.Health.IExplosive.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IExplosive",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -471,7 +693,11 @@
           "relative_path": "api/ToolkitEngine.Health.IHealth.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IHealth",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -481,7 +707,11 @@
           "relative_path": "api/ToolkitEngine.Health.IHealthModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IHealthModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -491,7 +721,11 @@
           "relative_path": "api/ToolkitEngine.Health.IHealthRegeneration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.IHealthRegeneration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -501,7 +735,39 @@
           "relative_path": "api/ToolkitEngine.Health.ImpactDamage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ImpactDamage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Netcode.NetworkHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Netcode.NetworkHealth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Netcode.NetworkHealth",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Health.Netcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Health.Netcode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.Netcode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -511,7 +777,11 @@
           "relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.FetchMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ReflectedValue<T>.FetchMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -521,7 +791,11 @@
           "relative_path": "api/ToolkitEngine.Health.ReflectedValue-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.ReflectedValue<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -531,7 +805,11 @@
           "relative_path": "api/ToolkitEngine.Health.SplashDamage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.SplashDamage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -541,7 +819,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.BaseHealthEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -551,7 +833,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.EventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.EventHooks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -561,7 +847,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnDamageDealing",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -571,7 +861,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnDamageDealingMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -581,7 +875,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnDamageDealt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -591,7 +889,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnDamageDealtMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnDamageDealtMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -601,7 +903,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonated.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnExplosionDetonated",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -611,7 +917,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnExplosionDetonatedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -621,7 +931,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamaged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthDamaged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -631,7 +945,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthDamagedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -641,7 +959,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDied.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthDied",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -651,7 +973,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthDiedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -661,7 +987,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthHealed",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -671,7 +1001,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthHealedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -681,7 +1015,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrected.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthResurrected",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -691,7 +1029,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthResurrectedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -701,7 +1043,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthValueChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -711,7 +1057,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting.OnHealthValueChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -721,7 +1071,11 @@
           "relative_path": "api/ToolkitEngine.Health.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -731,7 +1085,11 @@
           "relative_path": "api/ToolkitEngine.Health.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Health",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -747,11 +1105,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -770,11 +1128,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -803,11 +1161,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -826,11 +1184,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

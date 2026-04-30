@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -318,7 +318,7 @@ public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityFloat m_factor</code></pre>
+    <pre><code class="lang-csharp hljs">protected ReflectedFloat m_factor</code></pre>
   </div>
 
 
@@ -326,7 +326,7 @@ public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityFloat</span></dt>
+    <dt><span class="xref">ReflectedFloat</span></dt>
     <dd></dd>
   </dl>
 
@@ -654,8 +654,8 @@ public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
 
   <a id="ToolkitEngine_Health_SplashDamage_Apply_" data-uid="ToolkitEngine.Health.SplashDamage.Apply*"></a>
 
-  <h3 id="ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_ToolkitEngine_Health_DamageHit____ToolkitEngine_Health_IDamageDealer_" data-uid="ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,ToolkitEngine.Health.IDamageDealer)">
-  Apply(Vector3, GameObject, out DamageHit[], IDamageDealer)
+  <h3 id="ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_ToolkitEngine_Health_DamageHit____System_Int32_ToolkitEngine_Health_IDamageDealer_" data-uid="ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,System.Int32,ToolkitEngine.Health.IDamageDealer)">
+  Apply(Vector3, GameObject, out DamageHit[], int, IDamageDealer)
   <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.health/blob/master/Runtime/Damage/SplashDamage.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -663,7 +663,7 @@ public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, IDamageDealer dealer = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Apply(Vector3 point, GameObject source, out DamageHit[] hits, int layerMask = -1, IDamageDealer dealer = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -673,6 +673,8 @@ public class SplashDamage : Damage, IBonusDamageContainer</code></pre>
     <dt><code>source</code> <span class="xref">GameObject</span></dt>
     <dd></dd>
     <dt><code>hits</code> <a class="xref" href="ToolkitEngine.Health.DamageHit.html">DamageHit</a>[]</dt>
+    <dd></dd>
+    <dt><code>layerMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>dealer</code> <a class="xref" href="ToolkitEngine.Health.IDamageDealer.html">IDamageDealer</a></dt>
     <dd></dd>

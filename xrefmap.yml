@@ -648,6 +648,99 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.Health.ImpactDamageDrawer.GetPropertyHeight
   nameWithType: ImpactDamageDrawer.GetPropertyHeight
+- uid: ToolkitEditor.Health.Netcode
+  name: ToolkitEditor.Health.Netcode
+  href: api/ToolkitEditor.Health.Netcode.html
+  commentId: N:ToolkitEditor.Health.Netcode
+  fullName: ToolkitEditor.Health.Netcode
+  nameWithType: ToolkitEditor.Health.Netcode
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor
+  name: NetworkHealthEditor
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html
+  commentId: T:ToolkitEditor.Health.Netcode.NetworkHealthEditor
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor
+  nameWithType: NetworkHealthEditor
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents
+  name: DrawEvents()
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_DrawEvents
+  commentId: M:ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents()
+  nameWithType: NetworkHealthEditor.DrawEvents()
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents*
+  name: DrawEvents
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_DrawEvents_
+  commentId: Overload:ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents
+  isSpec: "True"
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawEvents
+  nameWithType: NetworkHealthEditor.DrawEvents
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_DrawProperties
+  commentId: M:ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties()
+  nameWithType: NetworkHealthEditor.DrawProperties()
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.DrawProperties
+  nameWithType: NetworkHealthEditor.DrawProperties
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_OnEnable
+  commentId: M:ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable()
+  nameWithType: NetworkHealthEditor.OnEnable()
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.OnEnable
+  nameWithType: NetworkHealthEditor.OnEnable
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_health
+  name: m_health
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_health
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_health
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_health
+  nameWithType: NetworkHealthEditor.m_health
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDamaged
+  name: m_onDamaged
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onDamaged
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDamaged
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDamaged
+  nameWithType: NetworkHealthEditor.m_onDamaged
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDied
+  name: m_onDied
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onDied
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDied
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDied
+  nameWithType: NetworkHealthEditor.m_onDied
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDying
+  name: m_onDying
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onDying
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDying
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onDying
+  nameWithType: NetworkHealthEditor.m_onDying
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onHealed
+  name: m_onHealed
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onHealed
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onHealed
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onHealed
+  nameWithType: NetworkHealthEditor.m_onHealed
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onResurrected
+  name: m_onResurrected
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onResurrected
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onResurrected
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onResurrected
+  nameWithType: NetworkHealthEditor.m_onResurrected
+- uid: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onValueChanged
+  name: m_onValueChanged
+  href: api/ToolkitEditor.Health.Netcode.NetworkHealthEditor.html#ToolkitEditor_Health_Netcode_NetworkHealthEditor_m_onValueChanged
+  commentId: F:ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onValueChanged
+  fullName: ToolkitEditor.Health.Netcode.NetworkHealthEditor.m_onValueChanged
+  nameWithType: NetworkHealthEditor.m_onValueChanged
 - uid: ToolkitEditor.Health.SplashDamageDrawer
   name: SplashDamageDrawer
   href: api/ToolkitEditor.Health.SplashDamageDrawer.html
@@ -1764,6 +1857,32 @@ references:
   commentId: T:ToolkitEngine.Health.DamageTrigger
   fullName: ToolkitEngine.Health.DamageTrigger
   nameWithType: DamageTrigger
+- uid: ToolkitEngine.Health.DamageTrigger.OnDisable
+  name: OnDisable()
+  href: api/ToolkitEngine.Health.DamageTrigger.html#ToolkitEngine_Health_DamageTrigger_OnDisable
+  commentId: M:ToolkitEngine.Health.DamageTrigger.OnDisable
+  fullName: ToolkitEngine.Health.DamageTrigger.OnDisable()
+  nameWithType: DamageTrigger.OnDisable()
+- uid: ToolkitEngine.Health.DamageTrigger.OnDisable*
+  name: OnDisable
+  href: api/ToolkitEngine.Health.DamageTrigger.html#ToolkitEngine_Health_DamageTrigger_OnDisable_
+  commentId: Overload:ToolkitEngine.Health.DamageTrigger.OnDisable
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.DamageTrigger.OnDisable
+  nameWithType: DamageTrigger.OnDisable
+- uid: ToolkitEngine.Health.DamageTrigger.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEngine.Health.DamageTrigger.html#ToolkitEngine_Health_DamageTrigger_OnEnable
+  commentId: M:ToolkitEngine.Health.DamageTrigger.OnEnable
+  fullName: ToolkitEngine.Health.DamageTrigger.OnEnable()
+  nameWithType: DamageTrigger.OnEnable()
+- uid: ToolkitEngine.Health.DamageTrigger.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEngine.Health.DamageTrigger.html#ToolkitEngine_Health_DamageTrigger_OnEnable_
+  commentId: Overload:ToolkitEngine.Health.DamageTrigger.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.DamageTrigger.OnEnable
+  nameWithType: DamageTrigger.OnEnable
 - uid: ToolkitEngine.Health.DamageTrigger.OnTriggerEnter(Collider)
   name: OnTriggerEnter(Collider)
   href: api/ToolkitEngine.Health.DamageTrigger.html#ToolkitEngine_Health_DamageTrigger_OnTriggerEnter_Collider_
@@ -1859,33 +1978,24 @@ references:
   commentId: M:ToolkitEngine.Health.Explosion.Detonate
   fullName: ToolkitEngine.Health.Explosion.Detonate()
   nameWithType: Explosion.Detonate()
-- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@)
-  name: Detonate(SplashDamage, Vector3, GameObject, out DamageHit[])
-  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_GameObject_ToolkitEngine_Health_DamageHit____
-  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@)
-  name.vb: Detonate(SplashDamage, Vector3, GameObject, DamageHit())
-  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, out ToolkitEngine.Health.DamageHit[])
-  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, ToolkitEngine.Health.DamageHit())
-  nameWithType: Explosion.Detonate(SplashDamage, Vector3, GameObject, out DamageHit[])
-  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, GameObject, DamageHit())
-- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,GameObject)
-  name: Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], GameObject)
-  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_GameObject_ToolkitEngine_Health_DamageHit____GameObject_
-  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,GameObject)
-  name.vb: Detonate(SplashDamage, Vector3, GameObject, DamageHit(), GameObject)
-  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, out ToolkitEngine.Health.DamageHit[], GameObject)
-  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, ToolkitEngine.Health.DamageHit(), GameObject)
-  nameWithType: Explosion.Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], GameObject)
-  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, GameObject, DamageHit(), GameObject)
-- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@)
-  name: Detonate(SplashDamage, Vector3, out DamageHit[])
-  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_ToolkitEngine_Health_DamageHit____
-  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@)
-  name.vb: Detonate(SplashDamage, Vector3, DamageHit())
-  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, out ToolkitEngine.Health.DamageHit[])
-  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, ToolkitEngine.Health.DamageHit())
-  nameWithType: Explosion.Detonate(SplashDamage, Vector3, out DamageHit[])
-  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, DamageHit())
+- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,System.Int32,GameObject)
+  name: Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], int, GameObject)
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_GameObject_ToolkitEngine_Health_DamageHit____System_Int32_GameObject_
+  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,System.Int32,GameObject)
+  name.vb: Detonate(SplashDamage, Vector3, GameObject, DamageHit(), Integer, GameObject)
+  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, out ToolkitEngine.Health.DamageHit[], int, GameObject)
+  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, GameObject, ToolkitEngine.Health.DamageHit(), Integer, GameObject)
+  nameWithType: Explosion.Detonate(SplashDamage, Vector3, GameObject, out DamageHit[], int, GameObject)
+  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, GameObject, DamageHit(), Integer, GameObject)
+- uid: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@,System.Int32)
+  name: Detonate(SplashDamage, Vector3, out DamageHit[], int)
+  href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_ToolkitEngine_Health_SplashDamage_Vector3_ToolkitEngine_Health_DamageHit____System_Int32_
+  commentId: M:ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage,Vector3,ToolkitEngine.Health.DamageHit[]@,System.Int32)
+  name.vb: Detonate(SplashDamage, Vector3, DamageHit(), Integer)
+  fullName: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, out ToolkitEngine.Health.DamageHit[], int)
+  fullName.vb: ToolkitEngine.Health.Explosion.Detonate(ToolkitEngine.Health.SplashDamage, Vector3, ToolkitEngine.Health.DamageHit(), Integer)
+  nameWithType: Explosion.Detonate(SplashDamage, Vector3, out DamageHit[], int)
+  nameWithType.vb: Explosion.Detonate(SplashDamage, Vector3, DamageHit(), Integer)
 - uid: ToolkitEngine.Health.Explosion.Detonate*
   name: Detonate
   href: api/ToolkitEngine.Health.Explosion.html#ToolkitEngine_Health_Explosion_Detonate_
@@ -2078,12 +2188,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.Health.ModifyRegenerationRate
   nameWithType: Health.ModifyRegenerationRate
-- uid: ToolkitEngine.Health.Health.OnRegenerationChanged
-  name: OnRegenerationChanged
-  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_OnRegenerationChanged
-  commentId: F:ToolkitEngine.Health.Health.OnRegenerationChanged
-  fullName: ToolkitEngine.Health.Health.OnRegenerationChanged
-  nameWithType: Health.OnRegenerationChanged
 - uid: ToolkitEngine.Health.Health.PauseRegeneration
   name: PauseRegeneration()
   href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_PauseRegeneration
@@ -2207,6 +2311,22 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.Health.SetValue
   nameWithType: Health.SetValue
+- uid: ToolkitEngine.Health.Health.SetValues(System.Single)
+  name: SetValues(float)
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_SetValues_System_Single_
+  commentId: M:ToolkitEngine.Health.Health.SetValues(System.Single)
+  name.vb: SetValues(Single)
+  fullName: ToolkitEngine.Health.Health.SetValues(float)
+  fullName.vb: ToolkitEngine.Health.Health.SetValues(Single)
+  nameWithType: Health.SetValues(float)
+  nameWithType.vb: Health.SetValues(Single)
+- uid: ToolkitEngine.Health.Health.SetValues*
+  name: SetValues
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_SetValues_
+  commentId: Overload:ToolkitEngine.Health.Health.SetValues
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Health.SetValues
+  nameWithType: Health.SetValues
 - uid: ToolkitEngine.Health.Health.Start
   name: Start()
   href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_Start
@@ -2376,6 +2496,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.Health.onHealed
   nameWithType: Health.onHealed
+- uid: ToolkitEngine.Health.Health.onRegenerationChanged
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_onRegenerationChanged
+  commentId: P:ToolkitEngine.Health.Health.onRegenerationChanged
+  fullName: ToolkitEngine.Health.Health.onRegenerationChanged
+  nameWithType: Health.onRegenerationChanged
+- uid: ToolkitEngine.Health.Health.onRegenerationChanged*
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_onRegenerationChanged_
+  commentId: Overload:ToolkitEngine.Health.Health.onRegenerationChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Health.onRegenerationChanged
+  nameWithType: Health.onRegenerationChanged
 - uid: ToolkitEngine.Health.Health.onResurrected
   name: onResurrected
   href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_onResurrected
@@ -2415,6 +2548,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.Health.onValueChanging
   nameWithType: Health.onValueChanging
+- uid: ToolkitEngine.Health.Health.rawMaxValue
+  name: rawMaxValue
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_rawMaxValue
+  commentId: P:ToolkitEngine.Health.Health.rawMaxValue
+  fullName: ToolkitEngine.Health.Health.rawMaxValue
+  nameWithType: Health.rawMaxValue
+- uid: ToolkitEngine.Health.Health.rawMaxValue*
+  name: rawMaxValue
+  href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_rawMaxValue_
+  commentId: Overload:ToolkitEngine.Health.Health.rawMaxValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Health.rawMaxValue
+  nameWithType: Health.rawMaxValue
 - uid: ToolkitEngine.Health.Health.regenerateDamageTypes
   name: regenerateDamageTypes
   href: api/ToolkitEngine.Health.Health.html#ToolkitEngine_Health_Health_regenerateDamageTypes
@@ -3301,6 +3447,379 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.HealthLayers.value
   nameWithType: HealthLayers.value
+- uid: ToolkitEngine.Health.HealthProxy
+  name: HealthProxy
+  href: api/ToolkitEngine.Health.HealthProxy.html
+  commentId: T:ToolkitEngine.Health.HealthProxy
+  fullName: ToolkitEngine.Health.HealthProxy
+  nameWithType: HealthProxy
+- uid: ToolkitEngine.Health.HealthProxy.Apply(ToolkitEngine.Health.DamageHit)
+  name: Apply(DamageHit)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Apply_ToolkitEngine_Health_DamageHit_
+  commentId: M:ToolkitEngine.Health.HealthProxy.Apply(ToolkitEngine.Health.DamageHit)
+  fullName: ToolkitEngine.Health.HealthProxy.Apply(ToolkitEngine.Health.DamageHit)
+  nameWithType: HealthProxy.Apply(DamageHit)
+- uid: ToolkitEngine.Health.HealthProxy.Apply*
+  name: Apply
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Apply_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.Apply
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.Apply
+  nameWithType: HealthProxy.Apply
+- uid: ToolkitEngine.Health.HealthProxy.Damage(System.Single,ToolkitEngine.Health.DamageType)
+  name: Damage(float, DamageType)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Damage_System_Single_ToolkitEngine_Health_DamageType_
+  commentId: M:ToolkitEngine.Health.HealthProxy.Damage(System.Single,ToolkitEngine.Health.DamageType)
+  name.vb: Damage(Single, DamageType)
+  fullName: ToolkitEngine.Health.HealthProxy.Damage(float, ToolkitEngine.Health.DamageType)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.Damage(Single, ToolkitEngine.Health.DamageType)
+  nameWithType: HealthProxy.Damage(float, DamageType)
+  nameWithType.vb: HealthProxy.Damage(Single, DamageType)
+- uid: ToolkitEngine.Health.HealthProxy.Damage*
+  name: Damage
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Damage_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.Damage
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.Damage
+  nameWithType: HealthProxy.Damage
+- uid: ToolkitEngine.Health.HealthProxy.GetRegenerationRate
+  name: GetRegenerationRate()
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_GetRegenerationRate
+  commentId: M:ToolkitEngine.Health.HealthProxy.GetRegenerationRate
+  fullName: ToolkitEngine.Health.HealthProxy.GetRegenerationRate()
+  nameWithType: HealthProxy.GetRegenerationRate()
+- uid: ToolkitEngine.Health.HealthProxy.GetRegenerationRate(ToolkitEngine.Health.DamageType)
+  name: GetRegenerationRate(DamageType)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_GetRegenerationRate_ToolkitEngine_Health_DamageType_
+  commentId: M:ToolkitEngine.Health.HealthProxy.GetRegenerationRate(ToolkitEngine.Health.DamageType)
+  fullName: ToolkitEngine.Health.HealthProxy.GetRegenerationRate(ToolkitEngine.Health.DamageType)
+  nameWithType: HealthProxy.GetRegenerationRate(DamageType)
+- uid: ToolkitEngine.Health.HealthProxy.GetRegenerationRate*
+  name: GetRegenerationRate
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_GetRegenerationRate_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.GetRegenerationRate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.GetRegenerationRate
+  nameWithType: HealthProxy.GetRegenerationRate
+- uid: ToolkitEngine.Health.HealthProxy.Heal(System.Single,ToolkitEngine.Health.DamageType)
+  name: Heal(float, DamageType)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Heal_System_Single_ToolkitEngine_Health_DamageType_
+  commentId: M:ToolkitEngine.Health.HealthProxy.Heal(System.Single,ToolkitEngine.Health.DamageType)
+  name.vb: Heal(Single, DamageType)
+  fullName: ToolkitEngine.Health.HealthProxy.Heal(float, ToolkitEngine.Health.DamageType)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.Heal(Single, ToolkitEngine.Health.DamageType)
+  nameWithType: HealthProxy.Heal(float, DamageType)
+  nameWithType.vb: HealthProxy.Heal(Single, DamageType)
+- uid: ToolkitEngine.Health.HealthProxy.Heal*
+  name: Heal
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Heal_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.Heal
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.Heal
+  nameWithType: HealthProxy.Heal
+- uid: ToolkitEngine.Health.HealthProxy.Killed
+  name: Killed
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_Killed
+  commentId: E:ToolkitEngine.Health.HealthProxy.Killed
+  fullName: ToolkitEngine.Health.HealthProxy.Killed
+  nameWithType: HealthProxy.Killed
+- uid: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(System.Single)
+  name: ModifyRegenerationRate(float)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_ModifyRegenerationRate_System_Single_
+  commentId: M:ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(System.Single)
+  name.vb: ModifyRegenerationRate(Single)
+  fullName: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(float)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(Single)
+  nameWithType: HealthProxy.ModifyRegenerationRate(float)
+  nameWithType.vb: HealthProxy.ModifyRegenerationRate(Single)
+- uid: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)
+  name: ModifyRegenerationRate(DamageType, float)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_ModifyRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_
+  commentId: M:ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)
+  name.vb: ModifyRegenerationRate(DamageType, Single)
+  fullName: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(ToolkitEngine.Health.DamageType, float)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate(ToolkitEngine.Health.DamageType, Single)
+  nameWithType: HealthProxy.ModifyRegenerationRate(DamageType, float)
+  nameWithType.vb: HealthProxy.ModifyRegenerationRate(DamageType, Single)
+- uid: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate*
+  name: ModifyRegenerationRate
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_ModifyRegenerationRate_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.ModifyRegenerationRate
+  nameWithType: HealthProxy.ModifyRegenerationRate
+- uid: ToolkitEngine.Health.HealthProxy.PauseRegeneration
+  name: PauseRegeneration()
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_PauseRegeneration
+  commentId: M:ToolkitEngine.Health.HealthProxy.PauseRegeneration
+  fullName: ToolkitEngine.Health.HealthProxy.PauseRegeneration()
+  nameWithType: HealthProxy.PauseRegeneration()
+- uid: ToolkitEngine.Health.HealthProxy.PauseRegeneration*
+  name: PauseRegeneration
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_PauseRegeneration_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.PauseRegeneration
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.PauseRegeneration
+  nameWithType: HealthProxy.PauseRegeneration
+- uid: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(System.Single)
+  name: SetRegenerationRate(float)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_SetRegenerationRate_System_Single_
+  commentId: M:ToolkitEngine.Health.HealthProxy.SetRegenerationRate(System.Single)
+  name.vb: SetRegenerationRate(Single)
+  fullName: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(float)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(Single)
+  nameWithType: HealthProxy.SetRegenerationRate(float)
+  nameWithType.vb: HealthProxy.SetRegenerationRate(Single)
+- uid: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)
+  name: SetRegenerationRate(DamageType, float)
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_SetRegenerationRate_ToolkitEngine_Health_DamageType_System_Single_
+  commentId: M:ToolkitEngine.Health.HealthProxy.SetRegenerationRate(ToolkitEngine.Health.DamageType,System.Single)
+  name.vb: SetRegenerationRate(DamageType, Single)
+  fullName: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(ToolkitEngine.Health.DamageType, float)
+  fullName.vb: ToolkitEngine.Health.HealthProxy.SetRegenerationRate(ToolkitEngine.Health.DamageType, Single)
+  nameWithType: HealthProxy.SetRegenerationRate(DamageType, float)
+  nameWithType.vb: HealthProxy.SetRegenerationRate(DamageType, Single)
+- uid: ToolkitEngine.Health.HealthProxy.SetRegenerationRate*
+  name: SetRegenerationRate
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_SetRegenerationRate_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.SetRegenerationRate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.SetRegenerationRate
+  nameWithType: HealthProxy.SetRegenerationRate
+- uid: ToolkitEngine.Health.HealthProxy.UnpauseRegeneration
+  name: UnpauseRegeneration()
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_UnpauseRegeneration
+  commentId: M:ToolkitEngine.Health.HealthProxy.UnpauseRegeneration
+  fullName: ToolkitEngine.Health.HealthProxy.UnpauseRegeneration()
+  nameWithType: HealthProxy.UnpauseRegeneration()
+- uid: ToolkitEngine.Health.HealthProxy.UnpauseRegeneration*
+  name: UnpauseRegeneration
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_UnpauseRegeneration_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.UnpauseRegeneration
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.UnpauseRegeneration
+  nameWithType: HealthProxy.UnpauseRegeneration
+- uid: ToolkitEngine.Health.HealthProxy.canRegenerate
+  name: canRegenerate
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_canRegenerate
+  commentId: P:ToolkitEngine.Health.HealthProxy.canRegenerate
+  fullName: ToolkitEngine.Health.HealthProxy.canRegenerate
+  nameWithType: HealthProxy.canRegenerate
+- uid: ToolkitEngine.Health.HealthProxy.canRegenerate*
+  name: canRegenerate
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_canRegenerate_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.canRegenerate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.canRegenerate
+  nameWithType: HealthProxy.canRegenerate
+- uid: ToolkitEngine.Health.HealthProxy.degenerateDelay
+  name: degenerateDelay
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_degenerateDelay
+  commentId: P:ToolkitEngine.Health.HealthProxy.degenerateDelay
+  fullName: ToolkitEngine.Health.HealthProxy.degenerateDelay
+  nameWithType: HealthProxy.degenerateDelay
+- uid: ToolkitEngine.Health.HealthProxy.degenerateDelay*
+  name: degenerateDelay
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_degenerateDelay_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.degenerateDelay
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.degenerateDelay
+  nameWithType: HealthProxy.degenerateDelay
+- uid: ToolkitEngine.Health.HealthProxy.health
+  name: health
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_health
+  commentId: P:ToolkitEngine.Health.HealthProxy.health
+  fullName: ToolkitEngine.Health.HealthProxy.health
+  nameWithType: HealthProxy.health
+- uid: ToolkitEngine.Health.HealthProxy.health*
+  name: health
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_health_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.health
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.health
+  nameWithType: HealthProxy.health
+- uid: ToolkitEngine.Health.HealthProxy.isDead
+  name: isDead
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_isDead
+  commentId: P:ToolkitEngine.Health.HealthProxy.isDead
+  fullName: ToolkitEngine.Health.HealthProxy.isDead
+  nameWithType: HealthProxy.isDead
+- uid: ToolkitEngine.Health.HealthProxy.isDead*
+  name: isDead
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_isDead_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.isDead
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.isDead
+  nameWithType: HealthProxy.isDead
+- uid: ToolkitEngine.Health.HealthProxy.maxValue
+  name: maxValue
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_maxValue
+  commentId: P:ToolkitEngine.Health.HealthProxy.maxValue
+  fullName: ToolkitEngine.Health.HealthProxy.maxValue
+  nameWithType: HealthProxy.maxValue
+- uid: ToolkitEngine.Health.HealthProxy.maxValue*
+  name: maxValue
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_maxValue_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.maxValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.maxValue
+  nameWithType: HealthProxy.maxValue
+- uid: ToolkitEngine.Health.HealthProxy.normalizedValue
+  name: normalizedValue
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_normalizedValue
+  commentId: P:ToolkitEngine.Health.HealthProxy.normalizedValue
+  fullName: ToolkitEngine.Health.HealthProxy.normalizedValue
+  nameWithType: HealthProxy.normalizedValue
+- uid: ToolkitEngine.Health.HealthProxy.normalizedValue*
+  name: normalizedValue
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_normalizedValue_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.normalizedValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.normalizedValue
+  nameWithType: HealthProxy.normalizedValue
+- uid: ToolkitEngine.Health.HealthProxy.onDamaged
+  name: onDamaged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDamaged
+  commentId: P:ToolkitEngine.Health.HealthProxy.onDamaged
+  fullName: ToolkitEngine.Health.HealthProxy.onDamaged
+  nameWithType: HealthProxy.onDamaged
+- uid: ToolkitEngine.Health.HealthProxy.onDamaged*
+  name: onDamaged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDamaged_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onDamaged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onDamaged
+  nameWithType: HealthProxy.onDamaged
+- uid: ToolkitEngine.Health.HealthProxy.onDied
+  name: onDied
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDied
+  commentId: P:ToolkitEngine.Health.HealthProxy.onDied
+  fullName: ToolkitEngine.Health.HealthProxy.onDied
+  nameWithType: HealthProxy.onDied
+- uid: ToolkitEngine.Health.HealthProxy.onDied*
+  name: onDied
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDied_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onDied
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onDied
+  nameWithType: HealthProxy.onDied
+- uid: ToolkitEngine.Health.HealthProxy.onDying
+  name: onDying
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDying
+  commentId: P:ToolkitEngine.Health.HealthProxy.onDying
+  fullName: ToolkitEngine.Health.HealthProxy.onDying
+  nameWithType: HealthProxy.onDying
+- uid: ToolkitEngine.Health.HealthProxy.onDying*
+  name: onDying
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onDying_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onDying
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onDying
+  nameWithType: HealthProxy.onDying
+- uid: ToolkitEngine.Health.HealthProxy.onHealed
+  name: onHealed
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onHealed
+  commentId: P:ToolkitEngine.Health.HealthProxy.onHealed
+  fullName: ToolkitEngine.Health.HealthProxy.onHealed
+  nameWithType: HealthProxy.onHealed
+- uid: ToolkitEngine.Health.HealthProxy.onHealed*
+  name: onHealed
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onHealed_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onHealed
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onHealed
+  nameWithType: HealthProxy.onHealed
+- uid: ToolkitEngine.Health.HealthProxy.onRegenerationChanged
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onRegenerationChanged
+  commentId: P:ToolkitEngine.Health.HealthProxy.onRegenerationChanged
+  fullName: ToolkitEngine.Health.HealthProxy.onRegenerationChanged
+  nameWithType: HealthProxy.onRegenerationChanged
+- uid: ToolkitEngine.Health.HealthProxy.onRegenerationChanged*
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onRegenerationChanged_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onRegenerationChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onRegenerationChanged
+  nameWithType: HealthProxy.onRegenerationChanged
+- uid: ToolkitEngine.Health.HealthProxy.onResurrected
+  name: onResurrected
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onResurrected
+  commentId: P:ToolkitEngine.Health.HealthProxy.onResurrected
+  fullName: ToolkitEngine.Health.HealthProxy.onResurrected
+  nameWithType: HealthProxy.onResurrected
+- uid: ToolkitEngine.Health.HealthProxy.onResurrected*
+  name: onResurrected
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onResurrected_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onResurrected
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onResurrected
+  nameWithType: HealthProxy.onResurrected
+- uid: ToolkitEngine.Health.HealthProxy.onValueChanged
+  name: onValueChanged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onValueChanged
+  commentId: P:ToolkitEngine.Health.HealthProxy.onValueChanged
+  fullName: ToolkitEngine.Health.HealthProxy.onValueChanged
+  nameWithType: HealthProxy.onValueChanged
+- uid: ToolkitEngine.Health.HealthProxy.onValueChanged*
+  name: onValueChanged
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onValueChanged_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onValueChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onValueChanged
+  nameWithType: HealthProxy.onValueChanged
+- uid: ToolkitEngine.Health.HealthProxy.onValueChanging
+  name: onValueChanging
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onValueChanging
+  commentId: P:ToolkitEngine.Health.HealthProxy.onValueChanging
+  fullName: ToolkitEngine.Health.HealthProxy.onValueChanging
+  nameWithType: HealthProxy.onValueChanging
+- uid: ToolkitEngine.Health.HealthProxy.onValueChanging*
+  name: onValueChanging
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_onValueChanging_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.onValueChanging
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.onValueChanging
+  nameWithType: HealthProxy.onValueChanging
+- uid: ToolkitEngine.Health.HealthProxy.regenerateDamageTypes
+  name: regenerateDamageTypes
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_regenerateDamageTypes
+  commentId: P:ToolkitEngine.Health.HealthProxy.regenerateDamageTypes
+  fullName: ToolkitEngine.Health.HealthProxy.regenerateDamageTypes
+  nameWithType: HealthProxy.regenerateDamageTypes
+- uid: ToolkitEngine.Health.HealthProxy.regenerateDamageTypes*
+  name: regenerateDamageTypes
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_regenerateDamageTypes_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.regenerateDamageTypes
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.regenerateDamageTypes
+  nameWithType: HealthProxy.regenerateDamageTypes
+- uid: ToolkitEngine.Health.HealthProxy.regenerateDelay
+  name: regenerateDelay
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_regenerateDelay
+  commentId: P:ToolkitEngine.Health.HealthProxy.regenerateDelay
+  fullName: ToolkitEngine.Health.HealthProxy.regenerateDelay
+  nameWithType: HealthProxy.regenerateDelay
+- uid: ToolkitEngine.Health.HealthProxy.regenerateDelay*
+  name: regenerateDelay
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_regenerateDelay_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.regenerateDelay
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.regenerateDelay
+  nameWithType: HealthProxy.regenerateDelay
+- uid: ToolkitEngine.Health.HealthProxy.value
+  name: value
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_value
+  commentId: P:ToolkitEngine.Health.HealthProxy.value
+  fullName: ToolkitEngine.Health.HealthProxy.value
+  nameWithType: HealthProxy.value
+- uid: ToolkitEngine.Health.HealthProxy.value*
+  name: value
+  href: api/ToolkitEngine.Health.HealthProxy.html#ToolkitEngine_Health_HealthProxy_value_
+  commentId: Overload:ToolkitEngine.Health.HealthProxy.value
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.HealthProxy.value
+  nameWithType: HealthProxy.value
 - uid: ToolkitEngine.Health.IBonusDamageContainer
   name: IBonusDamageContainer
   href: api/ToolkitEngine.Health.IBonusDamageContainer.html
@@ -3506,19 +4025,6 @@ references:
   commentId: T:ToolkitEngine.Health.IHealth
   fullName: ToolkitEngine.Health.IHealth
   nameWithType: IHealth
-- uid: ToolkitEngine.Health.IHealth.isDead
-  name: isDead
-  href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_isDead
-  commentId: P:ToolkitEngine.Health.IHealth.isDead
-  fullName: ToolkitEngine.Health.IHealth.isDead
-  nameWithType: IHealth.isDead
-- uid: ToolkitEngine.Health.IHealth.isDead*
-  name: isDead
-  href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_isDead_
-  commentId: Overload:ToolkitEngine.Health.IHealth.isDead
-  isSpec: "True"
-  fullName: ToolkitEngine.Health.IHealth.isDead
-  nameWithType: IHealth.isDead
 - uid: ToolkitEngine.Health.IHealth.maxValue
   name: maxValue
   href: api/ToolkitEngine.Health.IHealth.html#ToolkitEngine_Health_IHealth_maxValue
@@ -3780,6 +4286,71 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.IHealthRegeneration.UnpauseRegeneration
   nameWithType: IHealthRegeneration.UnpauseRegeneration
+- uid: ToolkitEngine.Health.IHealthRegeneration.canRegenerate
+  name: canRegenerate
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_canRegenerate
+  commentId: P:ToolkitEngine.Health.IHealthRegeneration.canRegenerate
+  fullName: ToolkitEngine.Health.IHealthRegeneration.canRegenerate
+  nameWithType: IHealthRegeneration.canRegenerate
+- uid: ToolkitEngine.Health.IHealthRegeneration.canRegenerate*
+  name: canRegenerate
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_canRegenerate_
+  commentId: Overload:ToolkitEngine.Health.IHealthRegeneration.canRegenerate
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealthRegeneration.canRegenerate
+  nameWithType: IHealthRegeneration.canRegenerate
+- uid: ToolkitEngine.Health.IHealthRegeneration.degenerateDelay
+  name: degenerateDelay
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_degenerateDelay
+  commentId: P:ToolkitEngine.Health.IHealthRegeneration.degenerateDelay
+  fullName: ToolkitEngine.Health.IHealthRegeneration.degenerateDelay
+  nameWithType: IHealthRegeneration.degenerateDelay
+- uid: ToolkitEngine.Health.IHealthRegeneration.degenerateDelay*
+  name: degenerateDelay
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_degenerateDelay_
+  commentId: Overload:ToolkitEngine.Health.IHealthRegeneration.degenerateDelay
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealthRegeneration.degenerateDelay
+  nameWithType: IHealthRegeneration.degenerateDelay
+- uid: ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_onRegenerationChanged
+  commentId: P:ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged
+  fullName: ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged
+  nameWithType: IHealthRegeneration.onRegenerationChanged
+- uid: ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged*
+  name: onRegenerationChanged
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_onRegenerationChanged_
+  commentId: Overload:ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealthRegeneration.onRegenerationChanged
+  nameWithType: IHealthRegeneration.onRegenerationChanged
+- uid: ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes
+  name: regenerateDamageTypes
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_regenerateDamageTypes
+  commentId: P:ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes
+  fullName: ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes
+  nameWithType: IHealthRegeneration.regenerateDamageTypes
+- uid: ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes*
+  name: regenerateDamageTypes
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_regenerateDamageTypes_
+  commentId: Overload:ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealthRegeneration.regenerateDamageTypes
+  nameWithType: IHealthRegeneration.regenerateDamageTypes
+- uid: ToolkitEngine.Health.IHealthRegeneration.regenerateDelay
+  name: regenerateDelay
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_regenerateDelay
+  commentId: P:ToolkitEngine.Health.IHealthRegeneration.regenerateDelay
+  fullName: ToolkitEngine.Health.IHealthRegeneration.regenerateDelay
+  nameWithType: IHealthRegeneration.regenerateDelay
+- uid: ToolkitEngine.Health.IHealthRegeneration.regenerateDelay*
+  name: regenerateDelay
+  href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_regenerateDelay_
+  commentId: Overload:ToolkitEngine.Health.IHealthRegeneration.regenerateDelay
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.IHealthRegeneration.regenerateDelay
+  nameWithType: IHealthRegeneration.regenerateDelay
 - uid: ToolkitEngine.Health.IHealthRegeneration.transform
   name: transform
   href: api/ToolkitEngine.Health.IHealthRegeneration.html#ToolkitEngine_Health_IHealthRegeneration_transform
@@ -3970,6 +4541,303 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Health.ImpactDamage.visualRange
   nameWithType: ImpactDamage.visualRange
+- uid: ToolkitEngine.Health.Netcode
+  name: ToolkitEngine.Health.Netcode
+  href: api/ToolkitEngine.Health.Netcode.html
+  commentId: N:ToolkitEngine.Health.Netcode
+  fullName: ToolkitEngine.Health.Netcode
+  nameWithType: ToolkitEngine.Health.Netcode
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth
+  name: NetworkHealth
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html
+  commentId: T:ToolkitEngine.Health.Netcode.NetworkHealth
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth
+  nameWithType: NetworkHealth
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Apply(ToolkitEngine.Health.DamageHit)
+  name: Apply(DamageHit)
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Apply_ToolkitEngine_Health_DamageHit_
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.Apply(ToolkitEngine.Health.DamageHit)
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Apply(ToolkitEngine.Health.DamageHit)
+  nameWithType: NetworkHealth.Apply(DamageHit)
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Apply*
+  name: Apply
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Apply_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.Apply
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Apply
+  nameWithType: NetworkHealth.Apply
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Damage(System.Single,ToolkitEngine.Health.DamageType)
+  name: Damage(float, DamageType)
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Damage_System_Single_ToolkitEngine_Health_DamageType_
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.Damage(System.Single,ToolkitEngine.Health.DamageType)
+  name.vb: Damage(Single, DamageType)
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Damage(float, ToolkitEngine.Health.DamageType)
+  fullName.vb: ToolkitEngine.Health.Netcode.NetworkHealth.Damage(Single, ToolkitEngine.Health.DamageType)
+  nameWithType: NetworkHealth.Damage(float, DamageType)
+  nameWithType.vb: NetworkHealth.Damage(Single, DamageType)
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Damage*
+  name: Damage
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Damage_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.Damage
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Damage
+  nameWithType: NetworkHealth.Damage
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Heal(System.Single,ToolkitEngine.Health.DamageType)
+  name: Heal(float, DamageType)
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Heal_System_Single_ToolkitEngine_Health_DamageType_
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.Heal(System.Single,ToolkitEngine.Health.DamageType)
+  name.vb: Heal(Single, DamageType)
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Heal(float, ToolkitEngine.Health.DamageType)
+  fullName.vb: ToolkitEngine.Health.Netcode.NetworkHealth.Heal(Single, ToolkitEngine.Health.DamageType)
+  nameWithType: NetworkHealth.Heal(float, DamageType)
+  nameWithType.vb: NetworkHealth.Heal(Single, DamageType)
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Heal*
+  name: Heal
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Heal_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.Heal
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Heal
+  nameWithType: NetworkHealth.Heal
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.Killed
+  name: Killed
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_Killed
+  commentId: E:ToolkitEngine.Health.Netcode.NetworkHealth.Killed
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.Killed
+  nameWithType: NetworkHealth.Killed
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership
+  name: OnGainedOwnership()
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnGainedOwnership
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership()
+  nameWithType: NetworkHealth.OnGainedOwnership()
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership*
+  name: OnGainedOwnership
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnGainedOwnership_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnGainedOwnership
+  nameWithType: NetworkHealth.OnGainedOwnership
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership
+  name: OnLostOwnership()
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnLostOwnership
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership()
+  nameWithType: NetworkHealth.OnLostOwnership()
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership*
+  name: OnLostOwnership
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnLostOwnership_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnLostOwnership
+  nameWithType: NetworkHealth.OnLostOwnership
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn
+  name: OnNetworkDespawn()
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnNetworkDespawn
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn()
+  nameWithType: NetworkHealth.OnNetworkDespawn()
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn*
+  name: OnNetworkDespawn
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnNetworkDespawn_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkDespawn
+  nameWithType: NetworkHealth.OnNetworkDespawn
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn
+  name: OnNetworkSpawn()
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnNetworkSpawn
+  commentId: M:ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn()
+  nameWithType: NetworkHealth.OnNetworkSpawn()
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn*
+  name: OnNetworkSpawn
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_OnNetworkSpawn_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.OnNetworkSpawn
+  nameWithType: NetworkHealth.OnNetworkSpawn
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue
+  name: bonusValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_bonusValue
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue
+  nameWithType: NetworkHealth.bonusValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue*
+  name: bonusValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_bonusValue_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.bonusValue
+  nameWithType: NetworkHealth.bonusValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.health
+  name: health
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_health
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.health
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.health
+  nameWithType: NetworkHealth.health
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.health*
+  name: health
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_health_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.health
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.health
+  nameWithType: NetworkHealth.health
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.isDead
+  name: isDead
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_isDead
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.isDead
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.isDead
+  nameWithType: NetworkHealth.isDead
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.isDead*
+  name: isDead
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_isDead_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.isDead
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.isDead
+  nameWithType: NetworkHealth.isDead
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.maxValue
+  name: maxValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_maxValue
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.maxValue
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.maxValue
+  nameWithType: NetworkHealth.maxValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.maxValue*
+  name: maxValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_maxValue_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.maxValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.maxValue
+  nameWithType: NetworkHealth.maxValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue
+  name: normalizedValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_normalizedValue
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue
+  nameWithType: NetworkHealth.normalizedValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue*
+  name: normalizedValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_normalizedValue_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.normalizedValue
+  nameWithType: NetworkHealth.normalizedValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged
+  name: onDamaged
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDamaged
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged
+  nameWithType: NetworkHealth.onDamaged
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged*
+  name: onDamaged
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDamaged_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDamaged
+  nameWithType: NetworkHealth.onDamaged
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDied
+  name: onDied
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDied
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onDied
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDied
+  nameWithType: NetworkHealth.onDied
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDied*
+  name: onDied
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDied_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onDied
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDied
+  nameWithType: NetworkHealth.onDied
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDying
+  name: onDying
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDying
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onDying
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDying
+  nameWithType: NetworkHealth.onDying
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onDying*
+  name: onDying
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onDying_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onDying
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onDying
+  nameWithType: NetworkHealth.onDying
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onHealed
+  name: onHealed
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onHealed
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onHealed
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onHealed
+  nameWithType: NetworkHealth.onHealed
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onHealed*
+  name: onHealed
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onHealed_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onHealed
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onHealed
+  nameWithType: NetworkHealth.onHealed
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected
+  name: onResurrected
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onResurrected
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected
+  nameWithType: NetworkHealth.onResurrected
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected*
+  name: onResurrected
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onResurrected_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onResurrected
+  nameWithType: NetworkHealth.onResurrected
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged
+  name: onValueChanged
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onValueChanged
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged
+  nameWithType: NetworkHealth.onValueChanged
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged*
+  name: onValueChanged
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onValueChanged_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanged
+  nameWithType: NetworkHealth.onValueChanged
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging
+  name: onValueChanging
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onValueChanging
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging
+  nameWithType: NetworkHealth.onValueChanging
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging*
+  name: onValueChanging
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_onValueChanging_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.onValueChanging
+  nameWithType: NetworkHealth.onValueChanging
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue
+  name: rawMaxValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_rawMaxValue
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue
+  nameWithType: NetworkHealth.rawMaxValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue*
+  name: rawMaxValue
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_rawMaxValue_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.rawMaxValue
+  nameWithType: NetworkHealth.rawMaxValue
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.value
+  name: value
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_value
+  commentId: P:ToolkitEngine.Health.Netcode.NetworkHealth.value
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.value
+  nameWithType: NetworkHealth.value
+- uid: ToolkitEngine.Health.Netcode.NetworkHealth.value*
+  name: value
+  href: api/ToolkitEngine.Health.Netcode.NetworkHealth.html#ToolkitEngine_Health_Netcode_NetworkHealth_value_
+  commentId: Overload:ToolkitEngine.Health.Netcode.NetworkHealth.value
+  isSpec: "True"
+  fullName: ToolkitEngine.Health.Netcode.NetworkHealth.value
+  nameWithType: NetworkHealth.value
 - uid: ToolkitEngine.Health.ReflectedValue`1
   name: ReflectedValue<T>
   href: api/ToolkitEngine.Health.ReflectedValue-1.html
@@ -4064,15 +4932,15 @@ references:
   fullName.vb: ToolkitEngine.Health.SplashDamage.New
   nameWithType: SplashDamage.SplashDamage
   nameWithType.vb: SplashDamage.New
-- uid: ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,ToolkitEngine.Health.IDamageDealer)
-  name: Apply(Vector3, GameObject, out DamageHit[], IDamageDealer)
-  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_ToolkitEngine_Health_DamageHit____ToolkitEngine_Health_IDamageDealer_
-  commentId: M:ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,ToolkitEngine.Health.IDamageDealer)
-  name.vb: Apply(Vector3, GameObject, DamageHit(), IDamageDealer)
-  fullName: ToolkitEngine.Health.SplashDamage.Apply(Vector3, GameObject, out ToolkitEngine.Health.DamageHit[], ToolkitEngine.Health.IDamageDealer)
-  fullName.vb: ToolkitEngine.Health.SplashDamage.Apply(Vector3, GameObject, ToolkitEngine.Health.DamageHit(), ToolkitEngine.Health.IDamageDealer)
-  nameWithType: SplashDamage.Apply(Vector3, GameObject, out DamageHit[], IDamageDealer)
-  nameWithType.vb: SplashDamage.Apply(Vector3, GameObject, DamageHit(), IDamageDealer)
+- uid: ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,System.Int32,ToolkitEngine.Health.IDamageDealer)
+  name: Apply(Vector3, GameObject, out DamageHit[], int, IDamageDealer)
+  href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_Apply_Vector3_GameObject_ToolkitEngine_Health_DamageHit____System_Int32_ToolkitEngine_Health_IDamageDealer_
+  commentId: M:ToolkitEngine.Health.SplashDamage.Apply(Vector3,GameObject,ToolkitEngine.Health.DamageHit[]@,System.Int32,ToolkitEngine.Health.IDamageDealer)
+  name.vb: Apply(Vector3, GameObject, DamageHit(), Integer, IDamageDealer)
+  fullName: ToolkitEngine.Health.SplashDamage.Apply(Vector3, GameObject, out ToolkitEngine.Health.DamageHit[], int, ToolkitEngine.Health.IDamageDealer)
+  fullName.vb: ToolkitEngine.Health.SplashDamage.Apply(Vector3, GameObject, ToolkitEngine.Health.DamageHit(), Integer, ToolkitEngine.Health.IDamageDealer)
+  nameWithType: SplashDamage.Apply(Vector3, GameObject, out DamageHit[], int, IDamageDealer)
+  nameWithType.vb: SplashDamage.Apply(Vector3, GameObject, DamageHit(), Integer, IDamageDealer)
 - uid: ToolkitEngine.Health.SplashDamage.Apply*
   name: Apply
   href: api/ToolkitEngine.Health.SplashDamage.html#ToolkitEngine_Health_SplashDamage_Apply_
